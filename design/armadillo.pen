@@ -2249,7 +2249,7 @@
       "y": 706,
       "name": "Button — Dark preview",
       "theme": {
-        "mode": "dark"
+        "Theme": "dark"
       },
       "fill": "$background",
       "layout": "vertical",
@@ -3643,7 +3643,7 @@
       "y": 606,
       "name": "Input — Dark preview",
       "theme": {
-        "mode": "dark"
+        "Theme": "dark"
       },
       "fill": "$background",
       "layout": "vertical",
@@ -3845,12 +3845,1017 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "N3KarR",
+      "x": 2968,
+      "y": 0,
+      "name": "Card",
+      "fill": "$background",
+      "layout": "vertical",
+      "gap": 40,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "nrPXI",
+          "name": "Header",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "type": "text",
+              "id": "rRjSE",
+              "name": "Title",
+              "fill": "$foreground",
+              "content": "Card",
+              "fontFamily": "Geist",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "nRVqP",
+              "name": "Source",
+              "fill": "$muted-foreground",
+              "content": "registry/new-york-v4/ui/card.tsx  ·  Card + 5 subparts",
+              "fontFamily": "Geist Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Qov1Q",
+          "name": "Subparts",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Humc8",
+              "name": "Row title",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Bw34v",
+                  "name": "Part",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "title",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "GQNj5",
+                  "name": "Card/Title",
+                  "reusable": true,
+                  "fill": "$card-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 336,
+                  "content": "Card Title",
+                  "lineHeight": 1,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R9N43",
+              "name": "Row description",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eLue3",
+                  "name": "Part",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "description",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "fIQ36",
+                  "name": "Card/Description",
+                  "reusable": true,
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 336,
+                  "content": "Card description goes here.",
+                  "lineHeight": 1.4286,
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YY99B",
+              "name": "Row header",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lpH51",
+                  "name": "Part",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "header",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "x4da3A",
+                  "name": "Card/Header",
+                  "reusable": true,
+                  "width": 384,
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nABnn",
+                      "name": "Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "TkD0D",
+                          "type": "ref",
+                          "ref": "GQNj5",
+                          "name": "Title",
+                          "width": "fill_container"
+                        },
+                        {
+                          "id": "CPy7U",
+                          "type": "ref",
+                          "ref": "fIQ36",
+                          "name": "Description",
+                          "width": "fill_container"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "amY2L",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Action",
+                      "enabled": false,
+                      "slot": [
+                        "oO0Zh",
+                        "q3qwSR",
+                        "Zt2m3",
+                        "hFIVu"
+                      ],
+                      "children": [
+                        {
+                          "id": "cmStG",
+                          "type": "ref",
+                          "ref": "oO0Zh",
+                          "name": "Action Button",
+                          "descendants": {
+                            "NPDJC": {
+                              "content": "Action"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rg5OU",
+              "name": "Row content",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F1uoWK",
+                  "name": "Part",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "content",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Q7X7P",
+                  "name": "Card/Content",
+                  "reusable": true,
+                  "slot": [
+                    "OJntY"
+                  ],
+                  "width": 384,
+                  "layout": "vertical",
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "u7AZjO",
+                      "name": "Placeholder",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$muted",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IExP9",
+                          "name": "Placeholder Label",
+                          "fill": "$muted-foreground",
+                          "content": "Content",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Q8s78l",
+              "name": "Row footer",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XmSDZ",
+                  "name": "Part",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "footer",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "xN5nq",
+                  "name": "Card/Footer",
+                  "reusable": true,
+                  "slot": [
+                    "q3qwSR",
+                    "Zt2m3",
+                    "FWtAT",
+                    "hFIVu"
+                  ],
+                  "width": 384,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "J67m4",
+                      "name": "Placeholder",
+                      "width": "fill_container",
+                      "height": 36,
+                      "fill": "$muted",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AsObt",
+                          "name": "Placeholder Label",
+                          "fill": "$muted-foreground",
+                          "content": "Footer",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "N7Hhf7",
+          "name": "Composed",
+          "gap": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "JSupO",
+              "name": "Col card",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dLoo3",
+                  "name": "Caption",
+                  "fill": "$muted-foreground",
+                  "content": "card",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "jTTKu",
+                  "name": "Card",
+                  "reusable": true,
+                  "width": 384,
+                  "fill": "$card",
+                  "cornerRadius": 14,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "effect": [
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "$shadow-sm",
+                      "offset": {
+                        "x": 0,
+                        "y": 1
+                      },
+                      "blur": 3
+                    },
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "$shadow-sm",
+                      "offset": {
+                        "x": 0,
+                        "y": 1
+                      },
+                      "blur": 2
+                    }
+                  ],
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    24,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "id": "Eqi41",
+                      "type": "ref",
+                      "ref": "x4da3A",
+                      "name": "Header",
+                      "width": "fill_container"
+                    },
+                    {
+                      "id": "NW6f4",
+                      "type": "ref",
+                      "ref": "Q7X7P",
+                      "name": "Content",
+                      "width": "fill_container"
+                    },
+                    {
+                      "id": "HzGE2",
+                      "type": "ref",
+                      "ref": "xN5nq",
+                      "name": "Footer",
+                      "width": "fill_container"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TaVNK",
+              "name": "Col example · login",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tpUNs",
+                  "name": "Caption",
+                  "fill": "$muted-foreground",
+                  "content": "example · login",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "LAviG",
+                  "type": "ref",
+                  "ref": "jTTKu",
+                  "name": "Card example — Login",
+                  "descendants": {
+                    "Eqi41/TkD0D": {
+                      "content": "Login to your account"
+                    },
+                    "Eqi41/CPy7U": {
+                      "content": "Enter your email below to login to your account"
+                    },
+                    "Eqi41/amY2L": {
+                      "enabled": true
+                    },
+                    "Eqi41/cmStG/NPDJC": {
+                      "content": "Sign Up"
+                    },
+                    "NW6f4": {
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "iLl89",
+                          "name": "Form",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "VeVTD",
+                              "name": "Field Email",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "E4e4C",
+                                  "name": "Label Row",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "wbwt4",
+                                      "name": "Label",
+                                      "fill": "$card-foreground",
+                                      "content": "Email",
+                                      "lineHeight": 1,
+                                      "fontFamily": "Geist",
+                                      "fontSize": 14,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "f56YxT",
+                                  "type": "ref",
+                                  "ref": "OJntY",
+                                  "name": "Input Email",
+                                  "width": "fill_container",
+                                  "descendants": {
+                                    "U9AGfo": {
+                                      "content": "m@example.com"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "S9S91j",
+                              "name": "Field Password",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "a8E50",
+                                  "name": "Label Row",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "L2gOIw",
+                                      "name": "Label",
+                                      "fill": "$card-foreground",
+                                      "content": "Password",
+                                      "lineHeight": 1,
+                                      "fontFamily": "Geist",
+                                      "fontSize": 14,
+                                      "fontWeight": "500"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "nhcQk",
+                                      "name": "Forgot Link",
+                                      "fill": "$card-foreground",
+                                      "content": "Forgot your password?",
+                                      "lineHeight": 1,
+                                      "fontFamily": "Geist",
+                                      "fontSize": 14
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "NrH4z",
+                                  "type": "ref",
+                                  "ref": "OJntY",
+                                  "name": "Input Password",
+                                  "width": "fill_container",
+                                  "descendants": {
+                                    "U9AGfo": {
+                                      "content": ""
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "HzGE2": {
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "IJkec",
+                          "name": "Actions",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "id": "sD1mK",
+                              "type": "ref",
+                              "ref": "q3qwSR",
+                              "name": "Login",
+                              "width": "fill_container",
+                              "descendants": {
+                                "NPDJC": {
+                                  "content": "Login"
+                                }
+                              }
+                            },
+                            {
+                              "id": "JDi8H",
+                              "type": "ref",
+                              "ref": "Zt2m3",
+                              "name": "Login with Google",
+                              "width": "fill_container",
+                              "descendants": {
+                                "NPDJC": {
+                                  "content": "Login with Google"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TLv9U",
+      "x": 2968,
+      "y": 1026,
+      "name": "Card — Dark preview",
+      "theme": {
+        "Theme": "dark"
+      },
+      "fill": "$background",
+      "layout": "vertical",
+      "gap": 40,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "b5hCM",
+          "name": "Header",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "type": "text",
+              "id": "ADuHy",
+              "name": "Title",
+              "fill": "$foreground",
+              "content": "Card",
+              "fontFamily": "Geist",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "l95WRv",
+              "name": "Source",
+              "fill": "$muted-foreground",
+              "content": "registry/new-york-v4/ui/card.tsx  ·  Card + 5 subparts",
+              "fontFamily": "Geist Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "duCYn",
+          "name": "Subparts",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "t4qvlg",
+              "name": "Row title",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FKqZA",
+                  "name": "Part",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "title",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "Z0EIAU",
+                  "type": "ref",
+                  "ref": "GQNj5"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "k9X52i",
+              "name": "Row description",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DtjfU",
+                  "name": "Part",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "description",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "gNRyM",
+                  "type": "ref",
+                  "ref": "fIQ36"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "i1oTa",
+              "name": "Row header",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Y7SKb",
+                  "name": "Part",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "header",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "SbhtS",
+                  "type": "ref",
+                  "ref": "x4da3A"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EUREw",
+              "name": "Row content",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zEqck",
+                  "name": "Part",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "content",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "SWSgs",
+                  "type": "ref",
+                  "ref": "Q7X7P"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xu4Gf",
+              "name": "Row footer",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ycm46",
+                  "name": "Part",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "footer",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "XPce6",
+                  "type": "ref",
+                  "ref": "xN5nq"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lW1Go",
+          "name": "Composed",
+          "gap": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "RBzQO",
+              "name": "Col card",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qGnCF",
+                  "name": "Caption",
+                  "fill": "$muted-foreground",
+                  "content": "card",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "u4X8C",
+                  "type": "ref",
+                  "ref": "jTTKu"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "C4UYad",
+              "name": "Col example · login",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sWuL8",
+                  "name": "Caption",
+                  "fill": "$muted-foreground",
+                  "content": "example · login",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "BSTDr",
+                  "type": "ref",
+                  "ref": "jTTKu",
+                  "name": "Card example — Login",
+                  "descendants": {
+                    "Eqi41/TkD0D": {
+                      "content": "Login to your account"
+                    },
+                    "Eqi41/CPy7U": {
+                      "content": "Enter your email below to login to your account"
+                    },
+                    "Eqi41/amY2L": {
+                      "enabled": true
+                    },
+                    "Eqi41/cmStG/NPDJC": {
+                      "content": "Sign Up"
+                    },
+                    "NW6f4": {
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Rg0Tu",
+                          "name": "Form",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "x2SidG",
+                              "name": "Field Email",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "d0yOQg",
+                                  "name": "Label Row",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "cBbkO",
+                                      "name": "Label",
+                                      "fill": "$card-foreground",
+                                      "content": "Email",
+                                      "lineHeight": 1,
+                                      "fontFamily": "Geist",
+                                      "fontSize": 14,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "B09zXP",
+                                  "type": "ref",
+                                  "ref": "OJntY",
+                                  "name": "Input Email",
+                                  "width": "fill_container",
+                                  "descendants": {
+                                    "U9AGfo": {
+                                      "content": "m@example.com"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Np4ad",
+                              "name": "Field Password",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "ZVrNr",
+                                  "name": "Label Row",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "HuMIO",
+                                      "name": "Label",
+                                      "fill": "$card-foreground",
+                                      "content": "Password",
+                                      "lineHeight": 1,
+                                      "fontFamily": "Geist",
+                                      "fontSize": 14,
+                                      "fontWeight": "500"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "DgCD8",
+                                      "name": "Forgot Link",
+                                      "fill": "$card-foreground",
+                                      "content": "Forgot your password?",
+                                      "lineHeight": 1,
+                                      "fontFamily": "Geist",
+                                      "fontSize": 14
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "EM5i0",
+                                  "type": "ref",
+                                  "ref": "OJntY",
+                                  "name": "Input Password",
+                                  "width": "fill_container",
+                                  "descendants": {
+                                    "U9AGfo": {
+                                      "content": ""
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "HzGE2": {
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ckoWn",
+                          "name": "Actions",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "id": "KqjBX",
+                              "type": "ref",
+                              "ref": "q3qwSR",
+                              "name": "Login",
+                              "width": "fill_container",
+                              "descendants": {
+                                "NPDJC": {
+                                  "content": "Login"
+                                }
+                              }
+                            },
+                            {
+                              "id": "n9GWp6",
+                              "type": "ref",
+                              "ref": "Zt2m3",
+                              "name": "Login with Google",
+                              "width": "fill_container",
+                              "descendants": {
+                                "NPDJC": {
+                                  "content": "Login with Google"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {
-    "mode": [
+    "Theme": [
       "light",
       "dark"
+    ],
+    "Radius": [
+      "Default"
     ]
   },
   "variables": {
@@ -3864,13 +4869,13 @@
         {
           "value": "#FFFFFF",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#0A0A0A",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -3881,13 +4886,13 @@
         {
           "value": "#000000",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FAFAFA",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -3898,13 +4903,13 @@
         {
           "value": "#FFFFFF",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#171717",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -3915,13 +4920,13 @@
         {
           "value": "#000000",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FAFAFA",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -3932,13 +4937,13 @@
         {
           "value": "#FFFFFF",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#171717",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -3949,13 +4954,13 @@
         {
           "value": "#000000",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FAFAFA",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -3966,13 +4971,13 @@
         {
           "value": "#000000",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#E5E5E5",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -3983,13 +4988,13 @@
         {
           "value": "#FAFAFA",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#171717",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4000,13 +5005,13 @@
         {
           "value": "#F5F5F5",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#262626",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4017,13 +5022,13 @@
         {
           "value": "#171717",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FAFAFA",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4034,13 +5039,13 @@
         {
           "value": "#F5F5F5",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#262626",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4051,13 +5056,13 @@
         {
           "value": "#737373",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#A1A1A1",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4068,13 +5073,13 @@
         {
           "value": "#F5F5F5",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#404040",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4085,13 +5090,13 @@
         {
           "value": "#171717",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FAFAFA",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4102,13 +5107,13 @@
         {
           "value": "#E7000B",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FF6467",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4119,13 +5124,13 @@
         {
           "value": "#FCF3F3",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#DF2225",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4136,13 +5141,13 @@
         {
           "value": "#E5E5E5",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FFFFFF1A",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4153,13 +5158,13 @@
         {
           "value": "#E5E5E5",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FFFFFF26",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4170,13 +5175,13 @@
         {
           "value": "#A1A1A1",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#737373",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4207,13 +5212,13 @@
         {
           "value": "#FAFAFA",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#171717",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4224,13 +5229,13 @@
         {
           "value": "#000000",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FAFAFA",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4241,13 +5246,13 @@
         {
           "value": "#171717",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#1447E6",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4262,13 +5267,13 @@
         {
           "value": "#F5F5F5",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#262626",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4279,13 +5284,13 @@
         {
           "value": "#171717",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FAFAFA",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4296,13 +5301,13 @@
         {
           "value": "#E5E5E5",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FFFFFF1A",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4313,13 +5318,13 @@
         {
           "value": "#A1A1A1",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#525252",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4330,13 +5335,13 @@
         {
           "value": "#F8F8F8",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#161616",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4347,13 +5352,13 @@
         {
           "value": "$foreground",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#A1A1A1",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4372,13 +5377,13 @@
         {
           "value": "#F2F2F2",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#262626",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4389,13 +5394,13 @@
         {
           "value": "#747474",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#A4A4A4",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4406,13 +5411,13 @@
         {
           "value": "#000000",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#E5E5E5",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4423,13 +5428,13 @@
         {
           "value": "#FFFFFF",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#171717",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4440,13 +5445,13 @@
         {
           "value": "$destructive",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FF646799",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4461,13 +5466,13 @@
         {
           "value": "$background",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FFFFFF0B",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4478,13 +5483,13 @@
         {
           "value": "$border",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "$input",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4499,13 +5504,13 @@
         {
           "value": "#FFFFFF00",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FFFFFF0B",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4516,13 +5521,13 @@
         {
           "value": "#A1A1A180",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#73737380",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
@@ -4533,16 +5538,20 @@
         {
           "value": "#E7000B33",
           "theme": {
-            "mode": "light"
+            "Theme": "light"
           }
         },
         {
           "value": "#FF646766",
           "theme": {
-            "mode": "dark"
+            "Theme": "dark"
           }
         }
       ]
+    },
+    "shadow-sm": {
+      "type": "color",
+      "value": "#0000001A"
     }
   },
   "fileToken": "775a9111-c51e-4ccc-b354-765c83441425"
