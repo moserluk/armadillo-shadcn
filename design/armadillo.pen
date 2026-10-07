@@ -632,7 +632,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/default",
-                      "fill": "$destructive",
+                      "fill": "$button-destructive-bg",
                       "height": 36,
                       "padding": [
                         "$spacing/0",
@@ -668,7 +668,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/xs",
-                      "fill": "$destructive",
+                      "fill": "$button-destructive-bg",
                       "height": 24,
                       "padding": [
                         "$spacing/0",
@@ -705,7 +705,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/sm",
-                      "fill": "$destructive",
+                      "fill": "$button-destructive-bg",
                       "height": 32,
                       "padding": [
                         "$spacing/0",
@@ -741,7 +741,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/lg",
-                      "fill": "$destructive",
+                      "fill": "$button-destructive-bg",
                       "height": 40,
                       "padding": [
                         "$spacing/0",
@@ -777,7 +777,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon",
-                      "fill": "$destructive",
+                      "fill": "$button-destructive-bg",
                       "width": 36,
                       "height": 36,
                       "padding": "$spacing/0",
@@ -812,7 +812,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon-xs",
-                      "fill": "$destructive",
+                      "fill": "$button-destructive-bg",
                       "width": 24,
                       "height": 24,
                       "padding": "$spacing/0",
@@ -848,7 +848,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon-sm",
-                      "fill": "$destructive",
+                      "fill": "$button-destructive-bg",
                       "width": 32,
                       "height": 32,
                       "padding": "$spacing/0",
@@ -883,7 +883,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon-lg",
-                      "fill": "$destructive",
+                      "fill": "$button-destructive-bg",
                       "width": 40,
                       "height": 40,
                       "padding": "$spacing/0",
@@ -939,7 +939,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/default",
-                      "fill": "$background",
+                      "fill": "$button-outline-bg",
                       "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
@@ -988,7 +988,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/xs",
-                      "fill": "$background",
+                      "fill": "$button-outline-bg",
                       "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
@@ -1038,7 +1038,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/sm",
-                      "fill": "$background",
+                      "fill": "$button-outline-bg",
                       "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
@@ -1087,7 +1087,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/lg",
-                      "fill": "$background",
+                      "fill": "$button-outline-bg",
                       "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
@@ -1136,7 +1136,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon",
-                      "fill": "$background",
+                      "fill": "$button-outline-bg",
                       "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
@@ -1184,7 +1184,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon-xs",
-                      "fill": "$background",
+                      "fill": "$button-outline-bg",
                       "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
@@ -1233,7 +1233,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon-sm",
-                      "fill": "$background",
+                      "fill": "$button-outline-bg",
                       "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
@@ -1281,7 +1281,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon-lg",
-                      "fill": "$background",
+                      "fill": "$button-outline-bg",
                       "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
@@ -3430,7 +3430,7 @@
                       "name": "Field",
                       "width": "fill_container",
                       "height": "fill_container",
-                      "fill": "#FFFFFF00",
+                      "fill": "$input-bg",
                       "cornerRadius": "$radius/lg",
                       "stroke": "$input",
                       "strokeWidth": 1,
@@ -3522,7 +3522,7 @@
                   "reusable": true,
                   "ref": "kgDqm",
                   "name": "Input/focus",
-                  "stroke": "#A1A1A180",
+                  "stroke": "$ring-50",
                   "strokeWidth": 3,
                   "strokeAlignment": "outer",
                   "descendants": {
@@ -3620,7 +3620,7 @@
                   "reusable": true,
                   "ref": "kgDqm",
                   "name": "Input/invalid-focus",
-                  "stroke": "#E7000B33",
+                  "stroke": "$ring-destructive",
                   "strokeWidth": 3,
                   "strokeAlignment": "outer",
                   "descendants": {
@@ -9131,6 +9131,212 @@
           "value": "#FFFFFF26",
           "theme": {
             "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/red-600-60": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7000B99",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/red-400-60": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF646799",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/red-600-20": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7000B33",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/red-400-20": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF646733",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/red-600-40": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7000B66",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/red-400-40": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF646766",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/neutral-200-30": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E5E5E54D",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/white-4.5": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF0B",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/neutral-400-50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A1A1A180",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/neutral-500-50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#73737380",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/transparent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00000000",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "ring-50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$alpha/neutral-400-50",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$alpha/neutral-500-50",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "ring-destructive": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$alpha/red-600-20",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$alpha/red-400-40",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "button-destructive-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$destructive",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$alpha/red-400-60",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "button-outline-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$background",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$alpha/white-4.5",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "input-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$alpha/transparent",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$alpha/white-4.5",
+          "theme": {
+            "Theme": "dark"
           }
         }
       ]
