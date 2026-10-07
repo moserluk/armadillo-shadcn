@@ -2248,7 +2248,9 @@
       "x": 880,
       "y": 706,
       "name": "Button — Dark preview",
-      "theme": {},
+      "theme": {
+        "Theme": "dark"
+      },
       "fill": "#0A0A0A",
       "layout": "vertical",
       "gap": 40,
@@ -3639,7 +3641,9 @@
       "x": 2328,
       "y": 606,
       "name": "Input — Dark preview",
-      "theme": {},
+      "theme": {
+        "Theme": "dark"
+      },
       "fill": "#0A0A0A",
       "layout": "vertical",
       "gap": 40,
@@ -4448,7 +4452,9 @@
       "x": 2968,
       "y": 1026,
       "name": "Card — Dark preview",
-      "theme": {},
+      "theme": {
+        "Theme": "dark"
+      },
       "fill": "#0A0A0A",
       "layout": "vertical",
       "gap": 40,
@@ -4841,11 +4847,11 @@
   ],
   "themes": {
     "Primitives": [
-      "Default"
+      "default"
     ],
     "Theme": [
-      "Light",
-      "Dark"
+      "light",
+      "dark"
     ]
   },
   "variables": {
@@ -4855,7 +4861,7 @@
         {
           "value": "#FEF2F2",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4866,7 +4872,7 @@
         {
           "value": "#FFE2E2",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4877,7 +4883,7 @@
         {
           "value": "#FFC9C9",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4888,7 +4894,7 @@
         {
           "value": "#FFA2A2",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4899,7 +4905,7 @@
         {
           "value": "#FF6467",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4910,7 +4916,7 @@
         {
           "value": "#FB2C36",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4921,7 +4927,7 @@
         {
           "value": "#E7000B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4932,7 +4938,7 @@
         {
           "value": "#C10007",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4943,7 +4949,7 @@
         {
           "value": "#9F0712",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4954,7 +4960,7 @@
         {
           "value": "#82181A",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4965,7 +4971,7 @@
         {
           "value": "#460809",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4976,7 +4982,7 @@
         {
           "value": "#FFF7ED",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4987,7 +4993,7 @@
         {
           "value": "#FFEDD4",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -4998,7 +5004,7 @@
         {
           "value": "#FFD6A7",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5009,7 +5015,7 @@
         {
           "value": "#FFB86A",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5020,7 +5026,7 @@
         {
           "value": "#FF8904",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5031,7 +5037,7 @@
         {
           "value": "#FF6900",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5042,7 +5048,7 @@
         {
           "value": "#F54900",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5053,7 +5059,7 @@
         {
           "value": "#CA3500",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5064,7 +5070,7 @@
         {
           "value": "#9F2D00",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5075,7 +5081,7 @@
         {
           "value": "#7E2A0C",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5086,7 +5092,7 @@
         {
           "value": "#441306",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5097,7 +5103,7 @@
         {
           "value": "#FFFBEB",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5108,7 +5114,7 @@
         {
           "value": "#FEF3C6",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5119,7 +5125,7 @@
         {
           "value": "#FEE685",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5130,7 +5136,7 @@
         {
           "value": "#FFD230",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5141,7 +5147,7 @@
         {
           "value": "#FFB900",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5152,7 +5158,7 @@
         {
           "value": "#FE9A00",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5163,7 +5169,7 @@
         {
           "value": "#E17100",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5174,7 +5180,7 @@
         {
           "value": "#BB4D00",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5185,7 +5191,7 @@
         {
           "value": "#973C00",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5196,7 +5202,7 @@
         {
           "value": "#7B3306",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5207,7 +5213,7 @@
         {
           "value": "#461901",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5218,7 +5224,7 @@
         {
           "value": "#FEFCE8",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5229,7 +5235,7 @@
         {
           "value": "#FEF9C2",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5240,7 +5246,7 @@
         {
           "value": "#FFF085",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5251,7 +5257,7 @@
         {
           "value": "#FFDF20",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5262,7 +5268,7 @@
         {
           "value": "#FDC700",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5273,7 +5279,7 @@
         {
           "value": "#F0B100",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5284,7 +5290,7 @@
         {
           "value": "#D08700",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5295,7 +5301,7 @@
         {
           "value": "#A65F00",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5306,7 +5312,7 @@
         {
           "value": "#894B00",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5317,7 +5323,7 @@
         {
           "value": "#733E0A",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5328,7 +5334,7 @@
         {
           "value": "#432004",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5339,7 +5345,7 @@
         {
           "value": "#F7FEE7",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5350,7 +5356,7 @@
         {
           "value": "#ECFCCA",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5361,7 +5367,7 @@
         {
           "value": "#D8F999",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5372,7 +5378,7 @@
         {
           "value": "#BBF451",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5383,7 +5389,7 @@
         {
           "value": "#9AE600",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5394,7 +5400,7 @@
         {
           "value": "#7CCF00",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5405,7 +5411,7 @@
         {
           "value": "#5EA500",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5416,7 +5422,7 @@
         {
           "value": "#497D00",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5427,7 +5433,7 @@
         {
           "value": "#3C6300",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5438,7 +5444,7 @@
         {
           "value": "#35530E",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5449,7 +5455,7 @@
         {
           "value": "#192E03",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5460,7 +5466,7 @@
         {
           "value": "#F0FDF4",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5471,7 +5477,7 @@
         {
           "value": "#DCFCE7",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5482,7 +5488,7 @@
         {
           "value": "#B9F8CF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5493,7 +5499,7 @@
         {
           "value": "#7BF1A8",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5504,7 +5510,7 @@
         {
           "value": "#05DF72",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5515,7 +5521,7 @@
         {
           "value": "#00C950",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5526,7 +5532,7 @@
         {
           "value": "#00A63E",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5537,7 +5543,7 @@
         {
           "value": "#008236",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5548,7 +5554,7 @@
         {
           "value": "#016630",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5559,7 +5565,7 @@
         {
           "value": "#0D542B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5570,7 +5576,7 @@
         {
           "value": "#032E15",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5581,7 +5587,7 @@
         {
           "value": "#ECFDF5",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5592,7 +5598,7 @@
         {
           "value": "#D0FAE5",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5603,7 +5609,7 @@
         {
           "value": "#A4F4CF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5614,7 +5620,7 @@
         {
           "value": "#5EE9B5",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5625,7 +5631,7 @@
         {
           "value": "#00D492",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5636,7 +5642,7 @@
         {
           "value": "#00BC7D",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5647,7 +5653,7 @@
         {
           "value": "#009966",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5658,7 +5664,7 @@
         {
           "value": "#007A55",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5669,7 +5675,7 @@
         {
           "value": "#006045",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5680,7 +5686,7 @@
         {
           "value": "#004F3B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5691,7 +5697,7 @@
         {
           "value": "#002C22",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5702,7 +5708,7 @@
         {
           "value": "#F0FDFA",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5713,7 +5719,7 @@
         {
           "value": "#CBFBF1",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5724,7 +5730,7 @@
         {
           "value": "#96F7E4",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5735,7 +5741,7 @@
         {
           "value": "#46ECD5",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5746,7 +5752,7 @@
         {
           "value": "#00D5BE",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5757,7 +5763,7 @@
         {
           "value": "#00BBA7",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5768,7 +5774,7 @@
         {
           "value": "#009689",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5779,7 +5785,7 @@
         {
           "value": "#00786F",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5790,7 +5796,7 @@
         {
           "value": "#005F5A",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5801,7 +5807,7 @@
         {
           "value": "#0B4F4A",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5812,7 +5818,7 @@
         {
           "value": "#022F2E",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5823,7 +5829,7 @@
         {
           "value": "#ECFEFF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5834,7 +5840,7 @@
         {
           "value": "#CEFAFE",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5845,7 +5851,7 @@
         {
           "value": "#A2F4FD",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5856,7 +5862,7 @@
         {
           "value": "#53EAFD",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5867,7 +5873,7 @@
         {
           "value": "#00D3F2",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5878,7 +5884,7 @@
         {
           "value": "#00B8DB",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5889,7 +5895,7 @@
         {
           "value": "#0092B8",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5900,7 +5906,7 @@
         {
           "value": "#007595",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5911,7 +5917,7 @@
         {
           "value": "#005F78",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5922,7 +5928,7 @@
         {
           "value": "#104E64",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5933,7 +5939,7 @@
         {
           "value": "#053345",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5944,7 +5950,7 @@
         {
           "value": "#F0F9FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5955,7 +5961,7 @@
         {
           "value": "#DFF2FE",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5966,7 +5972,7 @@
         {
           "value": "#B8E6FE",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5977,7 +5983,7 @@
         {
           "value": "#74D4FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5988,7 +5994,7 @@
         {
           "value": "#00BCFF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -5999,7 +6005,7 @@
         {
           "value": "#00A6F4",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6010,7 +6016,7 @@
         {
           "value": "#0084D1",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6021,7 +6027,7 @@
         {
           "value": "#0069A8",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6032,7 +6038,7 @@
         {
           "value": "#00598A",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6043,7 +6049,7 @@
         {
           "value": "#024A70",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6054,7 +6060,7 @@
         {
           "value": "#052F4A",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6065,7 +6071,7 @@
         {
           "value": "#EFF6FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6076,7 +6082,7 @@
         {
           "value": "#DBEAFE",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6087,7 +6093,7 @@
         {
           "value": "#BEDBFF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6098,7 +6104,7 @@
         {
           "value": "#8EC5FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6109,7 +6115,7 @@
         {
           "value": "#51A2FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6120,7 +6126,7 @@
         {
           "value": "#2B7FFF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6131,7 +6137,7 @@
         {
           "value": "#155DFC",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6142,7 +6148,7 @@
         {
           "value": "#1447E6",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6153,7 +6159,7 @@
         {
           "value": "#193CB8",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6164,7 +6170,7 @@
         {
           "value": "#1C398E",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6175,7 +6181,7 @@
         {
           "value": "#162456",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6186,7 +6192,7 @@
         {
           "value": "#EEF2FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6197,7 +6203,7 @@
         {
           "value": "#E0E7FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6208,7 +6214,7 @@
         {
           "value": "#C6D2FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6219,7 +6225,7 @@
         {
           "value": "#A3B3FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6230,7 +6236,7 @@
         {
           "value": "#7C86FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6241,7 +6247,7 @@
         {
           "value": "#615FFF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6252,7 +6258,7 @@
         {
           "value": "#4F39F6",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6263,7 +6269,7 @@
         {
           "value": "#432DD7",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6274,7 +6280,7 @@
         {
           "value": "#372AAC",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6285,7 +6291,7 @@
         {
           "value": "#312C85",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6296,7 +6302,7 @@
         {
           "value": "#1E1A4D",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6307,7 +6313,7 @@
         {
           "value": "#F5F3FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6318,7 +6324,7 @@
         {
           "value": "#EDE9FE",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6329,7 +6335,7 @@
         {
           "value": "#DDD6FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6340,7 +6346,7 @@
         {
           "value": "#C4B4FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6351,7 +6357,7 @@
         {
           "value": "#A684FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6362,7 +6368,7 @@
         {
           "value": "#8E51FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6373,7 +6379,7 @@
         {
           "value": "#7F22FE",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6384,7 +6390,7 @@
         {
           "value": "#7008E7",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6395,7 +6401,7 @@
         {
           "value": "#5D0EC0",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6406,7 +6412,7 @@
         {
           "value": "#4D179A",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6417,7 +6423,7 @@
         {
           "value": "#2F0D68",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6428,7 +6434,7 @@
         {
           "value": "#FAF5FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6439,7 +6445,7 @@
         {
           "value": "#F3E8FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6450,7 +6456,7 @@
         {
           "value": "#E9D4FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6461,7 +6467,7 @@
         {
           "value": "#DAB2FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6472,7 +6478,7 @@
         {
           "value": "#C27AFF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6483,7 +6489,7 @@
         {
           "value": "#AD46FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6494,7 +6500,7 @@
         {
           "value": "#9810FA",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6505,7 +6511,7 @@
         {
           "value": "#8200DB",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6516,7 +6522,7 @@
         {
           "value": "#6E11B0",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6527,7 +6533,7 @@
         {
           "value": "#59168B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6538,7 +6544,7 @@
         {
           "value": "#3C0366",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6549,7 +6555,7 @@
         {
           "value": "#FDF4FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6560,7 +6566,7 @@
         {
           "value": "#FAE8FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6571,7 +6577,7 @@
         {
           "value": "#F6CFFF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6582,7 +6588,7 @@
         {
           "value": "#F4A8FF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6593,7 +6599,7 @@
         {
           "value": "#ED6AFF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6604,7 +6610,7 @@
         {
           "value": "#E12AFB",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6615,7 +6621,7 @@
         {
           "value": "#C800DE",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6626,7 +6632,7 @@
         {
           "value": "#A800B7",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6637,7 +6643,7 @@
         {
           "value": "#8A0194",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6648,7 +6654,7 @@
         {
           "value": "#721378",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6659,7 +6665,7 @@
         {
           "value": "#4B004F",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6670,7 +6676,7 @@
         {
           "value": "#FDF2F8",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6681,7 +6687,7 @@
         {
           "value": "#FCE7F3",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6692,7 +6698,7 @@
         {
           "value": "#FCCEE8",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6703,7 +6709,7 @@
         {
           "value": "#FDA5D5",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6714,7 +6720,7 @@
         {
           "value": "#FB64B6",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6725,7 +6731,7 @@
         {
           "value": "#F6339A",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6736,7 +6742,7 @@
         {
           "value": "#E60076",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6747,7 +6753,7 @@
         {
           "value": "#C6005C",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6758,7 +6764,7 @@
         {
           "value": "#A3004C",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6769,7 +6775,7 @@
         {
           "value": "#861043",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6780,7 +6786,7 @@
         {
           "value": "#510424",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6791,7 +6797,7 @@
         {
           "value": "#FFF1F2",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6802,7 +6808,7 @@
         {
           "value": "#FFE4E6",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6813,7 +6819,7 @@
         {
           "value": "#FFCCD3",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6824,7 +6830,7 @@
         {
           "value": "#FFA1AD",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6835,7 +6841,7 @@
         {
           "value": "#FF637E",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6846,7 +6852,7 @@
         {
           "value": "#FF2056",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6857,7 +6863,7 @@
         {
           "value": "#EC003F",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6868,7 +6874,7 @@
         {
           "value": "#C70036",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6879,7 +6885,7 @@
         {
           "value": "#A50036",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6890,7 +6896,7 @@
         {
           "value": "#8B0836",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6901,7 +6907,7 @@
         {
           "value": "#4D0218",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6912,7 +6918,7 @@
         {
           "value": "#F8FAFC",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6923,7 +6929,7 @@
         {
           "value": "#F1F5F9",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6934,7 +6940,7 @@
         {
           "value": "#E2E8F0",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6945,7 +6951,7 @@
         {
           "value": "#CAD5E2",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6956,7 +6962,7 @@
         {
           "value": "#90A1B9",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6967,7 +6973,7 @@
         {
           "value": "#62748E",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6978,7 +6984,7 @@
         {
           "value": "#45556C",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -6989,7 +6995,7 @@
         {
           "value": "#314158",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7000,7 +7006,7 @@
         {
           "value": "#1D293D",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7011,7 +7017,7 @@
         {
           "value": "#0F172B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7022,7 +7028,7 @@
         {
           "value": "#020618",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7033,7 +7039,7 @@
         {
           "value": "#F9FAFB",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7044,7 +7050,7 @@
         {
           "value": "#F3F4F6",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7055,7 +7061,7 @@
         {
           "value": "#E5E7EB",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7066,7 +7072,7 @@
         {
           "value": "#D1D5DC",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7077,7 +7083,7 @@
         {
           "value": "#99A1AF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7088,7 +7094,7 @@
         {
           "value": "#6A7282",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7099,7 +7105,7 @@
         {
           "value": "#4A5565",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7110,7 +7116,7 @@
         {
           "value": "#364153",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7121,7 +7127,7 @@
         {
           "value": "#1E2939",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7132,7 +7138,7 @@
         {
           "value": "#101828",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7143,7 +7149,7 @@
         {
           "value": "#030712",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7154,7 +7160,7 @@
         {
           "value": "#FAFAFA",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7165,7 +7171,7 @@
         {
           "value": "#F4F4F5",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7176,7 +7182,7 @@
         {
           "value": "#E4E4E7",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7187,7 +7193,7 @@
         {
           "value": "#D4D4D8",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7198,7 +7204,7 @@
         {
           "value": "#9F9FA9",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7209,7 +7215,7 @@
         {
           "value": "#71717B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7220,7 +7226,7 @@
         {
           "value": "#52525C",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7231,7 +7237,7 @@
         {
           "value": "#3F3F46",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7242,7 +7248,7 @@
         {
           "value": "#27272A",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7253,7 +7259,7 @@
         {
           "value": "#18181B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7264,7 +7270,7 @@
         {
           "value": "#09090B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7275,7 +7281,7 @@
         {
           "value": "#FAFAFA",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7286,7 +7292,7 @@
         {
           "value": "#F5F5F5",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7297,7 +7303,7 @@
         {
           "value": "#E5E5E5",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7308,7 +7314,7 @@
         {
           "value": "#D4D4D4",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7319,7 +7325,7 @@
         {
           "value": "#A1A1A1",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7330,7 +7336,7 @@
         {
           "value": "#737373",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7341,7 +7347,7 @@
         {
           "value": "#525252",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7352,7 +7358,7 @@
         {
           "value": "#404040",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7363,7 +7369,7 @@
         {
           "value": "#262626",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7374,7 +7380,7 @@
         {
           "value": "#171717",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7385,7 +7391,7 @@
         {
           "value": "#0A0A0A",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7396,7 +7402,7 @@
         {
           "value": "#FAFAF9",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7407,7 +7413,7 @@
         {
           "value": "#F5F5F4",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7418,7 +7424,7 @@
         {
           "value": "#E7E5E4",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7429,7 +7435,7 @@
         {
           "value": "#D6D3D1",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7440,7 +7446,7 @@
         {
           "value": "#A6A09B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7451,7 +7457,7 @@
         {
           "value": "#79716B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7462,7 +7468,7 @@
         {
           "value": "#57534D",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7473,7 +7479,7 @@
         {
           "value": "#44403B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7484,7 +7490,7 @@
         {
           "value": "#292524",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7495,7 +7501,7 @@
         {
           "value": "#1C1917",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7506,7 +7512,7 @@
         {
           "value": "#0C0A09",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7517,7 +7523,7 @@
         {
           "value": "#FAFAFA",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7528,7 +7534,7 @@
         {
           "value": "#F3F1F3",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7539,7 +7545,7 @@
         {
           "value": "#E7E4E7",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7550,7 +7556,7 @@
         {
           "value": "#D7D0D7",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7561,7 +7567,7 @@
         {
           "value": "#A89EA9",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7572,7 +7578,7 @@
         {
           "value": "#79697B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7583,7 +7589,7 @@
         {
           "value": "#594C5B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7594,7 +7600,7 @@
         {
           "value": "#463947",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7605,7 +7611,7 @@
         {
           "value": "#2A212C",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7616,7 +7622,7 @@
         {
           "value": "#1D161E",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7627,7 +7633,7 @@
         {
           "value": "#0C090C",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7638,7 +7644,7 @@
         {
           "value": "#FBFBF9",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7649,7 +7655,7 @@
         {
           "value": "#F4F4F0",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7660,7 +7666,7 @@
         {
           "value": "#E8E8E3",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7671,7 +7677,7 @@
         {
           "value": "#D8D8D0",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7682,7 +7688,7 @@
         {
           "value": "#ABAB9C",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7693,7 +7699,7 @@
         {
           "value": "#7C7C67",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7704,7 +7710,7 @@
         {
           "value": "#5B5B4B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7715,7 +7721,7 @@
         {
           "value": "#474739",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7726,7 +7732,7 @@
         {
           "value": "#2B2B22",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7737,7 +7743,7 @@
         {
           "value": "#1D1D16",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7748,7 +7754,7 @@
         {
           "value": "#0C0C09",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7759,7 +7765,7 @@
         {
           "value": "#F9FBFB",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7770,7 +7776,7 @@
         {
           "value": "#F1F3F3",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7781,7 +7787,7 @@
         {
           "value": "#E3E7E8",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7792,7 +7798,7 @@
         {
           "value": "#D0D6D8",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7803,7 +7809,7 @@
         {
           "value": "#9CA8AB",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7814,7 +7820,7 @@
         {
           "value": "#67787C",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7825,7 +7831,7 @@
         {
           "value": "#4B585B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7836,7 +7842,7 @@
         {
           "value": "#394447",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7847,7 +7853,7 @@
         {
           "value": "#22292B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7858,7 +7864,7 @@
         {
           "value": "#161B1D",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7869,7 +7875,7 @@
         {
           "value": "#090B0C",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7880,7 +7886,7 @@
         {
           "value": "#FBFAF9",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7891,7 +7897,7 @@
         {
           "value": "#F3F1F1",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7902,7 +7908,7 @@
         {
           "value": "#E8E4E3",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7913,7 +7919,7 @@
         {
           "value": "#D8D2D0",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7924,7 +7930,7 @@
         {
           "value": "#ABA09C",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7935,7 +7941,7 @@
         {
           "value": "#7C6D67",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7946,7 +7952,7 @@
         {
           "value": "#5B4F4B",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7957,7 +7963,7 @@
         {
           "value": "#473C39",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7968,7 +7974,7 @@
         {
           "value": "#2B2422",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7979,7 +7985,7 @@
         {
           "value": "#1D1816",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -7990,7 +7996,7 @@
         {
           "value": "#0C0A09",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8001,7 +8007,7 @@
         {
           "value": "#000000",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8012,7 +8018,7 @@
         {
           "value": "#FFFFFF",
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8023,7 +8029,7 @@
         {
           "value": 1,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8034,7 +8040,7 @@
         {
           "value": 0,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8045,7 +8051,7 @@
         {
           "value": 2,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8056,7 +8062,7 @@
         {
           "value": 4,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8067,7 +8073,7 @@
         {
           "value": 6,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8078,7 +8084,7 @@
         {
           "value": 8,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8089,7 +8095,7 @@
         {
           "value": 10,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8100,7 +8106,7 @@
         {
           "value": 12,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8111,7 +8117,7 @@
         {
           "value": 14,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8122,7 +8128,7 @@
         {
           "value": 16,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8133,7 +8139,7 @@
         {
           "value": 20,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8144,7 +8150,7 @@
         {
           "value": 24,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8155,7 +8161,7 @@
         {
           "value": 28,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8166,7 +8172,7 @@
         {
           "value": 32,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8177,7 +8183,7 @@
         {
           "value": 36,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8188,7 +8194,7 @@
         {
           "value": 40,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8199,7 +8205,7 @@
         {
           "value": 44,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8210,7 +8216,7 @@
         {
           "value": 48,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8221,7 +8227,7 @@
         {
           "value": 56,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8232,7 +8238,7 @@
         {
           "value": 64,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8243,7 +8249,7 @@
         {
           "value": 80,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8254,7 +8260,7 @@
         {
           "value": 96,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8265,7 +8271,7 @@
         {
           "value": 112,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8276,7 +8282,7 @@
         {
           "value": 128,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8287,7 +8293,7 @@
         {
           "value": 144,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8298,7 +8304,7 @@
         {
           "value": 160,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8309,7 +8315,7 @@
         {
           "value": 176,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8320,7 +8326,7 @@
         {
           "value": 192,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8331,7 +8337,7 @@
         {
           "value": 208,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8342,7 +8348,7 @@
         {
           "value": 224,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8353,7 +8359,7 @@
         {
           "value": 240,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8364,7 +8370,7 @@
         {
           "value": 256,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8375,7 +8381,7 @@
         {
           "value": 288,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8386,7 +8392,7 @@
         {
           "value": 320,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8397,7 +8403,7 @@
         {
           "value": 384,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8408,7 +8414,7 @@
         {
           "value": 0,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8419,7 +8425,7 @@
         {
           "value": 2,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8430,7 +8436,7 @@
         {
           "value": 4,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8441,7 +8447,7 @@
         {
           "value": 6,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8452,7 +8458,7 @@
         {
           "value": 8,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8463,7 +8469,7 @@
         {
           "value": 12,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8474,7 +8480,7 @@
         {
           "value": 16,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8485,7 +8491,7 @@
         {
           "value": 24,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8496,7 +8502,7 @@
         {
           "value": 32,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
           }
         }
       ]
@@ -8507,7 +8513,624 @@
         {
           "value": 9999,
           "theme": {
-            "Primitives": "Default"
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "background": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$white",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/950",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$black",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/50",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "card": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$white",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/900",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "card-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$black",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/50",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "popover": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$white",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/900",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "popover-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$black",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/50",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$black",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/200",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/50",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/900",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/100",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/800",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "secondary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/900",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/50",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/100",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/800",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "muted-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/500",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/400",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/100",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/700",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/900",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/50",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "destructive": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$red/600",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$red/400",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/200",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$alpha/white-10",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "input": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/200",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$alpha/white-15",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/400",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/500",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "chart-1": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$blue/300",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$blue/300",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "chart-2": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$blue/500",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$blue/500",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "chart-3": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$blue/600",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$blue/600",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "chart-4": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$blue/700",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$blue/700",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "chart-5": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$blue/800",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$blue/800",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "sidebar": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/50",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/900",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "sidebar-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$black",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/50",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "sidebar-primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/900",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$blue/700",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "sidebar-primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/50",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/50",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "sidebar-accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/100",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/800",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "sidebar-accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/900",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/50",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "sidebar-border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/200",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$alpha/white-10",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "sidebar-ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$neutral/400",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/600",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "surface-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$black",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/400",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "code-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$black",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/400",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "selection": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$black",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/200",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "selection-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "$white",
+          "theme": {
+            "Theme": "light"
+          }
+        },
+        {
+          "value": "$neutral/900",
+          "theme": {
+            "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "alpha/white-10": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF1A",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
+    "alpha/white-15": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF26",
+          "theme": {
+            "Primitives": "default"
           }
         }
       ]
