@@ -7,7 +7,7 @@
       "x": 880,
       "y": 0,
       "name": "Button",
-      "fill": "$background",
+      "fill": "#FFFFFF",
       "layout": "vertical",
       "gap": 40,
       "padding": 48,
@@ -23,7 +23,7 @@
               "type": "text",
               "id": "UJX8k",
               "name": "Title",
-              "fill": "$foreground",
+              "fill": "#000000",
               "content": "Button",
               "fontFamily": "Geist",
               "fontSize": 24,
@@ -33,7 +33,7 @@
               "type": "text",
               "id": "NfRt7",
               "name": "Source",
-              "fill": "$muted-foreground",
+              "fill": "#737373",
               "content": "registry/new-york-v4/ui/button.tsx  ·  6 variants × 8 sizes",
               "fontFamily": "Geist Mono",
               "fontSize": 13,
@@ -52,7 +52,7 @@
               "type": "text",
               "id": "pk06A",
               "name": "Base Label",
-              "fill": "$muted-foreground",
+              "fill": "#737373",
               "textGrowth": "fixed-width",
               "width": 120,
               "content": "base",
@@ -66,7 +66,7 @@
               "name": "Button/Base",
               "reusable": true,
               "height": 36,
-              "fill": "$primary",
+              "fill": "#000000",
               "cornerRadius": 8,
               "gap": 8,
               "padding": [
@@ -87,15 +87,15 @@
                   "height": 16,
                   "icon": "plus",
                   "library": "lucide",
-                  "fill": "$primary-foreground"
+                  "fill": "#FAFAFA"
                 },
                 {
                   "type": "text",
                   "id": "NPDJC",
                   "name": "Label",
-                  "fill": "$primary-foreground",
+                  "fill": "#FAFAFA",
                   "content": "Button",
-                  "lineHeight": 1.4286,
+                  "lineHeight": 1.428571,
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "500"
@@ -122,7 +122,7 @@
                   "type": "text",
                   "id": "j2PQw9",
                   "name": "Corner",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "variant / size",
@@ -142,7 +142,7 @@
                       "type": "text",
                       "id": "TEdDb",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#737373",
                       "content": "default",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -162,7 +162,7 @@
                       "type": "text",
                       "id": "OUZRB",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#737373",
                       "content": "xs",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -182,7 +182,7 @@
                       "type": "text",
                       "id": "j61RHX",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#737373",
                       "content": "sm",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -202,7 +202,7 @@
                       "type": "text",
                       "id": "eo7mD",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#737373",
                       "content": "lg",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -222,7 +222,7 @@
                       "type": "text",
                       "id": "OWnen",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#737373",
                       "content": "icon",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -242,7 +242,7 @@
                       "type": "text",
                       "id": "EtTyw",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#737373",
                       "content": "icon-xs",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -262,7 +262,7 @@
                       "type": "text",
                       "id": "b9Tgf",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#737373",
                       "content": "icon-sm",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -282,7 +282,7 @@
                       "type": "text",
                       "id": "D2MpJD",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#737373",
                       "content": "icon-lg",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -303,7 +303,7 @@
                   "type": "text",
                   "id": "pJTW4",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "default",
@@ -325,7 +325,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/default",
-                      "fill": "$primary",
+                      "fill": "#000000",
                       "height": 36,
                       "padding": [
                         0,
@@ -335,12 +335,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "fontSize": 14
                         }
                       }
@@ -361,7 +361,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/xs",
-                      "fill": "$primary",
+                      "fill": "#000000",
                       "height": 24,
                       "padding": [
                         0,
@@ -371,14 +371,14 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "width": 12,
                           "height": 12
                         },
                         "NPDJC": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "fontSize": 12,
-                          "lineHeight": 1.3333
+                          "lineHeight": 1.333333
                         }
                       }
                     }
@@ -398,7 +398,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/sm",
-                      "fill": "$primary",
+                      "fill": "#000000",
                       "height": 32,
                       "padding": [
                         0,
@@ -408,12 +408,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "fontSize": 14
                         }
                       }
@@ -434,7 +434,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/lg",
-                      "fill": "$primary",
+                      "fill": "#000000",
                       "height": 40,
                       "padding": [
                         0,
@@ -444,12 +444,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "fontSize": 14
                         }
                       }
@@ -470,20 +470,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/icon",
-                      "fill": "$primary",
+                      "fill": "#000000",
                       "width": 36,
                       "height": 36,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -505,22 +505,22 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/icon-xs",
-                      "fill": "$primary",
+                      "fill": "#000000",
                       "width": 24,
                       "height": 24,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "width": 12,
                           "height": 12,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "fontSize": 12,
-                          "lineHeight": 1.3333,
+                          "lineHeight": 1.333333,
                           "enabled": false
                         }
                       }
@@ -541,20 +541,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/icon-sm",
-                      "fill": "$primary",
+                      "fill": "#000000",
                       "width": 32,
                       "height": 32,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -576,20 +576,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/icon-lg",
-                      "fill": "$primary",
+                      "fill": "#000000",
                       "width": 40,
                       "height": 40,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$primary-foreground",
+                          "fill": "#FAFAFA",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -610,7 +610,7 @@
                   "type": "text",
                   "id": "Y37fk",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "destructive",
@@ -632,7 +632,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/default",
-                      "fill": "$button-destructive-bg",
+                      "fill": "#E7000B",
                       "height": 36,
                       "padding": [
                         0,
@@ -642,12 +642,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "fontSize": 14
                         }
                       }
@@ -668,7 +668,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/xs",
-                      "fill": "$button-destructive-bg",
+                      "fill": "#E7000B",
                       "height": 24,
                       "padding": [
                         0,
@@ -678,14 +678,14 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "width": 12,
                           "height": 12
                         },
                         "NPDJC": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "fontSize": 12,
-                          "lineHeight": 1.3333
+                          "lineHeight": 1.333333
                         }
                       }
                     }
@@ -705,7 +705,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/sm",
-                      "fill": "$button-destructive-bg",
+                      "fill": "#E7000B",
                       "height": 32,
                       "padding": [
                         0,
@@ -715,12 +715,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "fontSize": 14
                         }
                       }
@@ -741,7 +741,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/lg",
-                      "fill": "$button-destructive-bg",
+                      "fill": "#E7000B",
                       "height": 40,
                       "padding": [
                         0,
@@ -751,12 +751,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "fontSize": 14
                         }
                       }
@@ -777,20 +777,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon",
-                      "fill": "$button-destructive-bg",
+                      "fill": "#E7000B",
                       "width": 36,
                       "height": 36,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -812,22 +812,22 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon-xs",
-                      "fill": "$button-destructive-bg",
+                      "fill": "#E7000B",
                       "width": 24,
                       "height": 24,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "width": 12,
                           "height": 12,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "fontSize": 12,
-                          "lineHeight": 1.3333,
+                          "lineHeight": 1.333333,
                           "enabled": false
                         }
                       }
@@ -848,20 +848,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon-sm",
-                      "fill": "$button-destructive-bg",
+                      "fill": "#E7000B",
                       "width": 32,
                       "height": 32,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -883,20 +883,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon-lg",
-                      "fill": "$button-destructive-bg",
+                      "fill": "#E7000B",
                       "width": 40,
                       "height": 40,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$button-destructive-fg",
+                          "fill": "#FFFFFF",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -917,7 +917,7 @@
                   "type": "text",
                   "id": "GZxaj",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "outline",
@@ -939,14 +939,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/default",
-                      "fill": "$button-outline-bg",
-                      "stroke": "$button-outline-border",
+                      "fill": "#FFFFFF",
+                      "stroke": "#E5E5E5",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
-                        "color": "$shadow-xs",
+                        "color": "#0000000D",
                         "offset": {
                           "x": 0,
                           "y": 1
@@ -962,12 +962,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14
                         }
                       }
@@ -988,14 +988,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/xs",
-                      "fill": "$button-outline-bg",
-                      "stroke": "$button-outline-border",
+                      "fill": "#FFFFFF",
+                      "stroke": "#E5E5E5",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
-                        "color": "$shadow-xs",
+                        "color": "#0000000D",
                         "offset": {
                           "x": 0,
                           "y": 1
@@ -1011,14 +1011,14 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 12,
                           "height": 12
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 12,
-                          "lineHeight": 1.3333
+                          "lineHeight": 1.333333
                         }
                       }
                     }
@@ -1038,14 +1038,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/sm",
-                      "fill": "$button-outline-bg",
-                      "stroke": "$button-outline-border",
+                      "fill": "#FFFFFF",
+                      "stroke": "#E5E5E5",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
-                        "color": "$shadow-xs",
+                        "color": "#0000000D",
                         "offset": {
                           "x": 0,
                           "y": 1
@@ -1061,12 +1061,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14
                         }
                       }
@@ -1087,14 +1087,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/lg",
-                      "fill": "$button-outline-bg",
-                      "stroke": "$button-outline-border",
+                      "fill": "#FFFFFF",
+                      "stroke": "#E5E5E5",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
-                        "color": "$shadow-xs",
+                        "color": "#0000000D",
                         "offset": {
                           "x": 0,
                           "y": 1
@@ -1110,12 +1110,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14
                         }
                       }
@@ -1136,14 +1136,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon",
-                      "fill": "$button-outline-bg",
-                      "stroke": "$button-outline-border",
+                      "fill": "#FFFFFF",
+                      "stroke": "#E5E5E5",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
-                        "color": "$shadow-xs",
+                        "color": "#0000000D",
                         "offset": {
                           "x": 0,
                           "y": 1
@@ -1156,13 +1156,13 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1184,14 +1184,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon-xs",
-                      "fill": "$button-outline-bg",
-                      "stroke": "$button-outline-border",
+                      "fill": "#FFFFFF",
+                      "stroke": "#E5E5E5",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
-                        "color": "$shadow-xs",
+                        "color": "#0000000D",
                         "offset": {
                           "x": 0,
                           "y": 1
@@ -1204,15 +1204,15 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 12,
                           "height": 12,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 12,
-                          "lineHeight": 1.3333,
+                          "lineHeight": 1.333333,
                           "enabled": false
                         }
                       }
@@ -1233,14 +1233,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon-sm",
-                      "fill": "$button-outline-bg",
-                      "stroke": "$button-outline-border",
+                      "fill": "#FFFFFF",
+                      "stroke": "#E5E5E5",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
-                        "color": "$shadow-xs",
+                        "color": "#0000000D",
                         "offset": {
                           "x": 0,
                           "y": 1
@@ -1253,13 +1253,13 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1281,14 +1281,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon-lg",
-                      "fill": "$button-outline-bg",
-                      "stroke": "$button-outline-border",
+                      "fill": "#FFFFFF",
+                      "stroke": "#E5E5E5",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
-                        "color": "$shadow-xs",
+                        "color": "#0000000D",
                         "offset": {
                           "x": 0,
                           "y": 1
@@ -1301,13 +1301,13 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1328,7 +1328,7 @@
                   "type": "text",
                   "id": "sCDO7",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "secondary",
@@ -1350,7 +1350,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/default",
-                      "fill": "$secondary",
+                      "fill": "#F5F5F5",
                       "height": 36,
                       "padding": [
                         0,
@@ -1360,12 +1360,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "fontSize": 14
                         }
                       }
@@ -1386,7 +1386,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/xs",
-                      "fill": "$secondary",
+                      "fill": "#F5F5F5",
                       "height": 24,
                       "padding": [
                         0,
@@ -1396,14 +1396,14 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "width": 12,
                           "height": 12
                         },
                         "NPDJC": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "fontSize": 12,
-                          "lineHeight": 1.3333
+                          "lineHeight": 1.333333
                         }
                       }
                     }
@@ -1423,7 +1423,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/sm",
-                      "fill": "$secondary",
+                      "fill": "#F5F5F5",
                       "height": 32,
                       "padding": [
                         0,
@@ -1433,12 +1433,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "fontSize": 14
                         }
                       }
@@ -1459,7 +1459,7 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/lg",
-                      "fill": "$secondary",
+                      "fill": "#F5F5F5",
                       "height": 40,
                       "padding": [
                         0,
@@ -1469,12 +1469,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "fontSize": 14
                         }
                       }
@@ -1495,20 +1495,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/icon",
-                      "fill": "$secondary",
+                      "fill": "#F5F5F5",
                       "width": 36,
                       "height": 36,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1530,22 +1530,22 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/icon-xs",
-                      "fill": "$secondary",
+                      "fill": "#F5F5F5",
                       "width": 24,
                       "height": 24,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "width": 12,
                           "height": 12,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "fontSize": 12,
-                          "lineHeight": 1.3333,
+                          "lineHeight": 1.333333,
                           "enabled": false
                         }
                       }
@@ -1566,20 +1566,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/icon-sm",
-                      "fill": "$secondary",
+                      "fill": "#F5F5F5",
                       "width": 32,
                       "height": 32,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1601,20 +1601,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/icon-lg",
-                      "fill": "$secondary",
+                      "fill": "#F5F5F5",
                       "width": 40,
                       "height": 40,
                       "padding": 0,
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$secondary-foreground",
+                          "fill": "#171717",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1635,7 +1635,7 @@
                   "type": "text",
                   "id": "mvrnz",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "ghost",
@@ -1667,12 +1667,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14
                         }
                       }
@@ -1703,14 +1703,14 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 12,
                           "height": 12
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 12,
-                          "lineHeight": 1.3333
+                          "lineHeight": 1.333333
                         }
                       }
                     }
@@ -1740,12 +1740,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14
                         }
                       }
@@ -1776,12 +1776,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14
                         }
                       }
@@ -1809,13 +1809,13 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1844,15 +1844,15 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 12,
                           "height": 12,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 12,
-                          "lineHeight": 1.3333,
+                          "lineHeight": 1.333333,
                           "enabled": false
                         }
                       }
@@ -1880,13 +1880,13 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1915,13 +1915,13 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$foreground",
+                          "fill": "#000000",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1942,7 +1942,7 @@
                   "type": "text",
                   "id": "PEevZ",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "link",
@@ -1974,12 +1974,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "fontSize": 14
                         }
                       }
@@ -2010,14 +2010,14 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "width": 12,
                           "height": 12
                         },
                         "NPDJC": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "fontSize": 12,
-                          "lineHeight": 1.3333
+                          "lineHeight": 1.333333
                         }
                       }
                     }
@@ -2047,12 +2047,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "fontSize": 14
                         }
                       }
@@ -2083,12 +2083,12 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "fontSize": 14
                         }
                       }
@@ -2116,13 +2116,13 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -2151,15 +2151,15 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "width": 12,
                           "height": 12,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "fontSize": 12,
-                          "lineHeight": 1.3333,
+                          "lineHeight": 1.333333,
                           "enabled": false
                         }
                       }
@@ -2187,13 +2187,13 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -2222,13 +2222,13 @@
                       "cornerRadius": 8,
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "$primary",
+                          "fill": "#000000",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -2248,10 +2248,8 @@
       "x": 880,
       "y": 706,
       "name": "Button — Dark preview",
-      "theme": {
-        "Theme": "dark"
-      },
-      "fill": "$background",
+      "theme": {},
+      "fill": "#0A0A0A",
       "layout": "vertical",
       "gap": 40,
       "padding": 48,
@@ -2267,7 +2265,7 @@
               "type": "text",
               "id": "FgDaS",
               "name": "Title",
-              "fill": "$foreground",
+              "fill": "#FAFAFA",
               "content": "Button",
               "fontFamily": "Geist",
               "fontSize": 24,
@@ -2277,7 +2275,7 @@
               "type": "text",
               "id": "h7Aqr",
               "name": "Source",
-              "fill": "$muted-foreground",
+              "fill": "#A1A1A1",
               "content": "registry/new-york-v4/ui/button.tsx  ·  6 variants × 8 sizes",
               "fontFamily": "Geist Mono",
               "fontSize": 13,
@@ -2296,7 +2294,7 @@
               "type": "text",
               "id": "foKWn",
               "name": "Base Label",
-              "fill": "$muted-foreground",
+              "fill": "#A1A1A1",
               "textGrowth": "fixed-width",
               "width": 120,
               "content": "base",
@@ -2329,7 +2327,7 @@
                   "type": "text",
                   "id": "IstTY",
                   "name": "Corner",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "variant / size",
@@ -2349,7 +2347,7 @@
                       "type": "text",
                       "id": "IgY23",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#A1A1A1",
                       "content": "default",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -2369,7 +2367,7 @@
                       "type": "text",
                       "id": "lyWgc",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#A1A1A1",
                       "content": "xs",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -2389,7 +2387,7 @@
                       "type": "text",
                       "id": "gTv7D",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#A1A1A1",
                       "content": "sm",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -2409,7 +2407,7 @@
                       "type": "text",
                       "id": "yRgb8",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#A1A1A1",
                       "content": "lg",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -2429,7 +2427,7 @@
                       "type": "text",
                       "id": "N39ko",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#A1A1A1",
                       "content": "icon",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -2449,7 +2447,7 @@
                       "type": "text",
                       "id": "rYSMX",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#A1A1A1",
                       "content": "icon-xs",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -2469,7 +2467,7 @@
                       "type": "text",
                       "id": "n0jj85",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#A1A1A1",
                       "content": "icon-sm",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -2489,7 +2487,7 @@
                       "type": "text",
                       "id": "o3979J",
                       "name": "Size",
-                      "fill": "$muted-foreground",
+                      "fill": "#A1A1A1",
                       "content": "icon-lg",
                       "fontFamily": "Geist Mono",
                       "fontSize": 12,
@@ -2510,7 +2508,7 @@
                   "type": "text",
                   "id": "jkRiF",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "default",
@@ -2651,7 +2649,7 @@
                   "type": "text",
                   "id": "JFi5p",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "destructive",
@@ -2792,7 +2790,7 @@
                   "type": "text",
                   "id": "AZtrk",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "outline",
@@ -2933,7 +2931,7 @@
                   "type": "text",
                   "id": "yKQI3",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "secondary",
@@ -3074,7 +3072,7 @@
                   "type": "text",
                   "id": "z9NtVI",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "ghost",
@@ -3215,7 +3213,7 @@
                   "type": "text",
                   "id": "P7YWPA",
                   "name": "Variant",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "link",
@@ -3355,7 +3353,7 @@
       "x": 2328,
       "y": 0,
       "name": "Input",
-      "fill": "$background",
+      "fill": "#FFFFFF",
       "layout": "vertical",
       "gap": 40,
       "padding": 48,
@@ -3371,7 +3369,7 @@
               "type": "text",
               "id": "lICtL",
               "name": "Title",
-              "fill": "$foreground",
+              "fill": "#000000",
               "content": "Input",
               "fontFamily": "Geist",
               "fontSize": 24,
@@ -3381,7 +3379,7 @@
               "type": "text",
               "id": "bjih0",
               "name": "Source",
-              "fill": "$muted-foreground",
+              "fill": "#737373",
               "content": "registry/new-york-v4/ui/input.tsx  ·  5 states",
               "fontFamily": "Geist Mono",
               "fontSize": 13,
@@ -3407,7 +3405,7 @@
                   "type": "text",
                   "id": "LmF8Z",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "base",
@@ -3430,15 +3428,15 @@
                       "name": "Field",
                       "width": "fill_container",
                       "height": "fill_container",
-                      "fill": "$input-bg",
+                      "fill": "#FFFFFF00",
                       "cornerRadius": 8,
-                      "stroke": "$input",
+                      "stroke": "#E5E5E5",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
-                        "color": "$shadow-xs",
+                        "color": "#0000000D",
                         "offset": {
                           "x": 0,
                           "y": 1
@@ -3455,14 +3453,13 @@
                           "type": "text",
                           "id": "U9AGfo",
                           "name": "Text",
-                          "fill": "$muted-foreground",
+                          "fill": "#737373",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "Email",
-                          "lineHeight": 1.4286,
+                          "lineHeight": 1.428571,
                           "fontFamily": "Geist",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontSize": 14
                         }
                       ]
                     }
@@ -3481,7 +3478,7 @@
                   "type": "text",
                   "id": "fCxl5",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "default",
@@ -3509,7 +3506,7 @@
                   "type": "text",
                   "id": "qCBmP",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "focus",
@@ -3523,12 +3520,12 @@
                   "reusable": true,
                   "ref": "kgDqm",
                   "name": "Input/focus",
-                  "stroke": "$focus-ring",
+                  "stroke": "#A1A1A180",
                   "strokeWidth": 3,
                   "strokeAlignment": "outer",
                   "descendants": {
                     "gE7rG": {
-                      "stroke": "$ring"
+                      "stroke": "#A1A1A1"
                     }
                   }
                 }
@@ -3545,7 +3542,7 @@
                   "type": "text",
                   "id": "bsXmo",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "disabled",
@@ -3574,7 +3571,7 @@
                   "type": "text",
                   "id": "Sz6T1",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "invalid",
@@ -3590,7 +3587,7 @@
                   "name": "Input/invalid",
                   "descendants": {
                     "gE7rG": {
-                      "stroke": "$destructive"
+                      "stroke": "#E7000B"
                     }
                   }
                 }
@@ -3607,7 +3604,7 @@
                   "type": "text",
                   "id": "A9ZJu",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "invalid-focus",
@@ -3621,12 +3618,12 @@
                   "reusable": true,
                   "ref": "kgDqm",
                   "name": "Input/invalid-focus",
-                  "stroke": "$focus-ring-destructive",
+                  "stroke": "#E7000B33",
                   "strokeWidth": 3,
                   "strokeAlignment": "outer",
                   "descendants": {
                     "gE7rG": {
-                      "stroke": "$destructive"
+                      "stroke": "#E7000B"
                     }
                   }
                 }
@@ -3642,10 +3639,8 @@
       "x": 2328,
       "y": 606,
       "name": "Input — Dark preview",
-      "theme": {
-        "Theme": "dark"
-      },
-      "fill": "$background",
+      "theme": {},
+      "fill": "#0A0A0A",
       "layout": "vertical",
       "gap": 40,
       "padding": 48,
@@ -3661,7 +3656,7 @@
               "type": "text",
               "id": "bOFHs",
               "name": "Title",
-              "fill": "$foreground",
+              "fill": "#FAFAFA",
               "content": "Input",
               "fontFamily": "Geist",
               "fontSize": 24,
@@ -3671,7 +3666,7 @@
               "type": "text",
               "id": "V8Dx48",
               "name": "Source",
-              "fill": "$muted-foreground",
+              "fill": "#A1A1A1",
               "content": "registry/new-york-v4/ui/input.tsx  ·  5 states",
               "fontFamily": "Geist Mono",
               "fontSize": 13,
@@ -3697,7 +3692,7 @@
                   "type": "text",
                   "id": "piv87",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "base",
@@ -3723,7 +3718,7 @@
                   "type": "text",
                   "id": "t5Zhwt",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "default",
@@ -3749,7 +3744,7 @@
                   "type": "text",
                   "id": "sVaPo",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "focus",
@@ -3775,7 +3770,7 @@
                   "type": "text",
                   "id": "xIVtH",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "disabled",
@@ -3801,7 +3796,7 @@
                   "type": "text",
                   "id": "HMlfH",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "invalid",
@@ -3827,7 +3822,7 @@
                   "type": "text",
                   "id": "Pyf7L",
                   "name": "State",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "invalid-focus",
@@ -3852,7 +3847,7 @@
       "x": 2968,
       "y": 0,
       "name": "Card",
-      "fill": "$background",
+      "fill": "#FFFFFF",
       "layout": "vertical",
       "gap": 40,
       "padding": 48,
@@ -3868,7 +3863,7 @@
               "type": "text",
               "id": "rRjSE",
               "name": "Title",
-              "fill": "$foreground",
+              "fill": "#000000",
               "content": "Card",
               "fontFamily": "Geist",
               "fontSize": 24,
@@ -3878,7 +3873,7 @@
               "type": "text",
               "id": "nRVqP",
               "name": "Source",
-              "fill": "$muted-foreground",
+              "fill": "#737373",
               "content": "registry/new-york-v4/ui/card.tsx  ·  Card + 5 subparts",
               "fontFamily": "Geist Mono",
               "fontSize": 13,
@@ -3903,7 +3898,7 @@
                   "type": "text",
                   "id": "Bw34v",
                   "name": "Part",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "title",
@@ -3916,7 +3911,7 @@
                   "id": "GQNj5",
                   "name": "Card/Title",
                   "reusable": true,
-                  "fill": "$card-foreground",
+                  "fill": "#000000",
                   "textGrowth": "fixed-width",
                   "width": 336,
                   "content": "Card Title",
@@ -3937,7 +3932,7 @@
                   "type": "text",
                   "id": "eLue3",
                   "name": "Part",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "description",
@@ -3950,14 +3945,13 @@
                   "id": "fIQ36",
                   "name": "Card/Description",
                   "reusable": true,
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 336,
                   "content": "Card description goes here.",
-                  "lineHeight": 1.4286,
+                  "lineHeight": 1.428571,
                   "fontFamily": "Geist",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
+                  "fontSize": 14
                 }
               ]
             },
@@ -3971,7 +3965,7 @@
                   "type": "text",
                   "id": "lpH51",
                   "name": "Part",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "header",
@@ -4056,7 +4050,7 @@
                   "type": "text",
                   "id": "F1uoWK",
                   "name": "Part",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "content",
@@ -4085,7 +4079,7 @@
                       "name": "Placeholder",
                       "width": "fill_container",
                       "height": 96,
-                      "fill": "$muted",
+                      "fill": "#F5F5F5",
                       "cornerRadius": 8,
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -4094,11 +4088,10 @@
                           "type": "text",
                           "id": "IExP9",
                           "name": "Placeholder Label",
-                          "fill": "$muted-foreground",
+                          "fill": "#737373",
                           "content": "Content",
                           "fontFamily": "Geist Mono",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
+                          "fontSize": 12
                         }
                       ]
                     }
@@ -4116,7 +4109,7 @@
                   "type": "text",
                   "id": "XmSDZ",
                   "name": "Part",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "footer",
@@ -4148,7 +4141,7 @@
                       "name": "Placeholder",
                       "width": "fill_container",
                       "height": 36,
-                      "fill": "$muted",
+                      "fill": "#F5F5F5",
                       "cornerRadius": 8,
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -4157,11 +4150,10 @@
                           "type": "text",
                           "id": "AsObt",
                           "name": "Placeholder Label",
-                          "fill": "$muted-foreground",
+                          "fill": "#737373",
                           "content": "Footer",
                           "fontFamily": "Geist Mono",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
+                          "fontSize": 12
                         }
                       ]
                     }
@@ -4188,7 +4180,7 @@
                   "type": "text",
                   "id": "dLoo3",
                   "name": "Caption",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "content": "card",
                   "fontFamily": "Geist Mono",
                   "fontSize": 12,
@@ -4200,16 +4192,16 @@
                   "name": "Card",
                   "reusable": true,
                   "width": 384,
-                  "fill": "$card",
+                  "fill": "#FFFFFF",
                   "cornerRadius": 14,
-                  "stroke": "$border",
+                  "stroke": "#E5E5E5",
                   "strokeWidth": 1,
                   "strokeAlignment": "inner",
                   "effect": [
                     {
                       "type": "shadow",
                       "shadowType": "outer",
-                      "color": "$shadow-sm",
+                      "color": "#0000001A",
                       "offset": {
                         "x": 0,
                         "y": 1
@@ -4219,7 +4211,7 @@
                     {
                       "type": "shadow",
                       "shadowType": "outer",
-                      "color": "$shadow-sm",
+                      "color": "#0000001A",
                       "offset": {
                         "x": 0,
                         "y": 1
@@ -4270,7 +4262,7 @@
                   "type": "text",
                   "id": "tpUNs",
                   "name": "Caption",
-                  "fill": "$muted-foreground",
+                  "fill": "#737373",
                   "content": "example · login",
                   "fontFamily": "Geist Mono",
                   "fontSize": 12,
@@ -4324,7 +4316,7 @@
                                       "type": "text",
                                       "id": "wbwt4",
                                       "name": "Label",
-                                      "fill": "$card-foreground",
+                                      "fill": "#000000",
                                       "content": "Email",
                                       "lineHeight": 1,
                                       "fontFamily": "Geist",
@@ -4367,7 +4359,7 @@
                                       "type": "text",
                                       "id": "L2gOIw",
                                       "name": "Label",
-                                      "fill": "$card-foreground",
+                                      "fill": "#000000",
                                       "content": "Password",
                                       "lineHeight": 1,
                                       "fontFamily": "Geist",
@@ -4378,7 +4370,7 @@
                                       "type": "text",
                                       "id": "nhcQk",
                                       "name": "Forgot Link",
-                                      "fill": "$card-foreground",
+                                      "fill": "#000000",
                                       "content": "Forgot your password?",
                                       "lineHeight": 1,
                                       "fontFamily": "Geist",
@@ -4456,10 +4448,8 @@
       "x": 2968,
       "y": 1026,
       "name": "Card — Dark preview",
-      "theme": {
-        "Theme": "dark"
-      },
-      "fill": "$background",
+      "theme": {},
+      "fill": "#0A0A0A",
       "layout": "vertical",
       "gap": 40,
       "padding": 48,
@@ -4475,7 +4465,7 @@
               "type": "text",
               "id": "ADuHy",
               "name": "Title",
-              "fill": "$foreground",
+              "fill": "#FAFAFA",
               "content": "Card",
               "fontFamily": "Geist",
               "fontSize": 24,
@@ -4485,7 +4475,7 @@
               "type": "text",
               "id": "l95WRv",
               "name": "Source",
-              "fill": "$muted-foreground",
+              "fill": "#A1A1A1",
               "content": "registry/new-york-v4/ui/card.tsx  ·  Card + 5 subparts",
               "fontFamily": "Geist Mono",
               "fontSize": 13,
@@ -4510,7 +4500,7 @@
                   "type": "text",
                   "id": "FKqZA",
                   "name": "Part",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "title",
@@ -4535,7 +4525,7 @@
                   "type": "text",
                   "id": "DtjfU",
                   "name": "Part",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "description",
@@ -4560,7 +4550,7 @@
                   "type": "text",
                   "id": "Y7SKb",
                   "name": "Part",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "header",
@@ -4585,7 +4575,7 @@
                   "type": "text",
                   "id": "zEqck",
                   "name": "Part",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "content",
@@ -4610,7 +4600,7 @@
                   "type": "text",
                   "id": "ycm46",
                   "name": "Part",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "textGrowth": "fixed-width",
                   "width": 120,
                   "content": "footer",
@@ -4644,7 +4634,7 @@
                   "type": "text",
                   "id": "qGnCF",
                   "name": "Caption",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "content": "card",
                   "fontFamily": "Geist Mono",
                   "fontSize": 12,
@@ -4668,7 +4658,7 @@
                   "type": "text",
                   "id": "sWuL8",
                   "name": "Caption",
-                  "fill": "$muted-foreground",
+                  "fill": "#A1A1A1",
                   "content": "example · login",
                   "fontFamily": "Geist Mono",
                   "fontSize": 12,
@@ -4722,7 +4712,7 @@
                                       "type": "text",
                                       "id": "cBbkO",
                                       "name": "Label",
-                                      "fill": "$card-foreground",
+                                      "fill": "#FAFAFA",
                                       "content": "Email",
                                       "lineHeight": 1,
                                       "fontFamily": "Geist",
@@ -4765,7 +4755,7 @@
                                       "type": "text",
                                       "id": "HuMIO",
                                       "name": "Label",
-                                      "fill": "$card-foreground",
+                                      "fill": "#FAFAFA",
                                       "content": "Password",
                                       "lineHeight": 1,
                                       "fontFamily": "Geist",
@@ -4776,7 +4766,7 @@
                                       "type": "text",
                                       "id": "DgCD8",
                                       "name": "Forgot Link",
-                                      "fill": "$card-foreground",
+                                      "fill": "#FAFAFA",
                                       "content": "Forgot your password?",
                                       "lineHeight": 1,
                                       "fontFamily": "Geist",
@@ -4850,708 +4840,3677 @@
     }
   ],
   "themes": {
-    "Theme": [
-      "light",
-      "dark"
-    ],
-    "Radius": [
+    "Primitives": [
       "Default"
+    ],
+    "Theme": [
+      "Light",
+      "Dark"
     ]
   },
   "variables": {
-    "radius": {
-      "type": "number",
-      "value": 10
-    },
-    "background": {
+    "red/50": {
       "type": "color",
       "value": [
         {
-          "value": "#FFFFFF",
+          "value": "#FEF2F2",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#0A0A0A",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "foreground": {
+    "red/100": {
       "type": "color",
       "value": [
         {
-          "value": "#000000",
+          "value": "#FFE2E2",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FAFAFA",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "card": {
+    "red/200": {
       "type": "color",
       "value": [
         {
-          "value": "#FFFFFF",
+          "value": "#FFC9C9",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#171717",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "card-foreground": {
+    "red/300": {
       "type": "color",
       "value": [
         {
-          "value": "#000000",
+          "value": "#FFA2A2",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FAFAFA",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "popover": {
+    "red/400": {
       "type": "color",
       "value": [
         {
-          "value": "#FFFFFF",
+          "value": "#FF6467",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#171717",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "popover-foreground": {
+    "red/500": {
       "type": "color",
       "value": [
         {
-          "value": "#000000",
+          "value": "#FB2C36",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FAFAFA",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "primary": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#000000",
-          "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#E5E5E5",
-          "theme": {
-            "Theme": "dark"
-          }
-        }
-      ]
-    },
-    "primary-foreground": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#FAFAFA",
-          "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#171717",
-          "theme": {
-            "Theme": "dark"
-          }
-        }
-      ]
-    },
-    "secondary": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#F5F5F5",
-          "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#262626",
-          "theme": {
-            "Theme": "dark"
-          }
-        }
-      ]
-    },
-    "secondary-foreground": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#171717",
-          "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FAFAFA",
-          "theme": {
-            "Theme": "dark"
-          }
-        }
-      ]
-    },
-    "muted": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#F5F5F5",
-          "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#262626",
-          "theme": {
-            "Theme": "dark"
-          }
-        }
-      ]
-    },
-    "muted-foreground": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#737373",
-          "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#A1A1A1",
-          "theme": {
-            "Theme": "dark"
-          }
-        }
-      ]
-    },
-    "accent": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#F5F5F5",
-          "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#404040",
-          "theme": {
-            "Theme": "dark"
-          }
-        }
-      ]
-    },
-    "accent-foreground": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#171717",
-          "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FAFAFA",
-          "theme": {
-            "Theme": "dark"
-          }
-        }
-      ]
-    },
-    "destructive": {
+    "red/600": {
       "type": "color",
       "value": [
         {
           "value": "#E7000B",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FF6467",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "destructive-foreground": {
+    "red/700": {
       "type": "color",
       "value": [
         {
-          "value": "#FCF3F3",
+          "value": "#C10007",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#DF2225",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "border": {
+    "red/800": {
       "type": "color",
       "value": [
         {
-          "value": "#E5E5E5",
+          "value": "#9F0712",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FFFFFF1A",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "input": {
+    "red/900": {
       "type": "color",
       "value": [
         {
-          "value": "#E5E5E5",
+          "value": "#82181A",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FFFFFF26",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "ring": {
+    "red/950": {
       "type": "color",
       "value": [
         {
-          "value": "#A1A1A1",
+          "value": "#460809",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#737373",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "chart-1": {
-      "type": "color",
-      "value": "#8EC5FF"
-    },
-    "chart-2": {
-      "type": "color",
-      "value": "#2B7FFF"
-    },
-    "chart-3": {
-      "type": "color",
-      "value": "#155DFC"
-    },
-    "chart-4": {
-      "type": "color",
-      "value": "#1447E6"
-    },
-    "chart-5": {
-      "type": "color",
-      "value": "#193CB8"
-    },
-    "sidebar": {
+    "orange/50": {
       "type": "color",
       "value": [
         {
-          "value": "#FAFAFA",
+          "value": "#FFF7ED",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#171717",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "sidebar-foreground": {
+    "orange/100": {
       "type": "color",
       "value": [
         {
-          "value": "#000000",
+          "value": "#FFEDD4",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FAFAFA",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "sidebar-primary": {
+    "orange/200": {
       "type": "color",
       "value": [
         {
-          "value": "#171717",
+          "value": "#FFD6A7",
           "theme": {
-            "Theme": "light"
+            "Primitives": "Default"
           }
-        },
+        }
+      ]
+    },
+    "orange/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFB86A",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "orange/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF8904",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "orange/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF6900",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "orange/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F54900",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "orange/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CA3500",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "orange/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#9F2D00",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "orange/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7E2A0C",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "orange/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#441306",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "amber/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFBEB",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "amber/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FEF3C6",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "amber/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FEE685",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "amber/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFD230",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "amber/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFB900",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "amber/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FE9A00",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "amber/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E17100",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "amber/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#BB4D00",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "amber/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#973C00",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "amber/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7B3306",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "amber/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#461901",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "yellow/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FEFCE8",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "yellow/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FEF9C2",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "yellow/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFF085",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "yellow/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFDF20",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "yellow/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FDC700",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "yellow/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F0B100",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "yellow/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D08700",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "yellow/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A65F00",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "yellow/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#894B00",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "yellow/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#733E0A",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "yellow/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#432004",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "lime/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F7FEE7",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "lime/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#ECFCCA",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "lime/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D8F999",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "lime/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#BBF451",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "lime/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#9AE600",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "lime/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7CCF00",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "lime/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#5EA500",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "lime/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#497D00",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "lime/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#3C6300",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "lime/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#35530E",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "lime/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#192E03",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "green/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F0FDF4",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "green/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DCFCE7",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "green/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#B9F8CF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "green/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7BF1A8",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "green/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#05DF72",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "green/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00C950",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "green/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00A63E",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "green/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#008236",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "green/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#016630",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "green/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0D542B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "green/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#032E15",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "emerald/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#ECFDF5",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "emerald/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D0FAE5",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "emerald/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A4F4CF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "emerald/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#5EE9B5",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "emerald/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00D492",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "emerald/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00BC7D",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "emerald/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#009966",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "emerald/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#007A55",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "emerald/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#006045",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "emerald/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#004F3B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "emerald/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#002C22",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "teal/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F0FDFA",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "teal/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBFBF1",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "teal/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#96F7E4",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "teal/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#46ECD5",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "teal/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00D5BE",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "teal/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00BBA7",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "teal/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#009689",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "teal/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00786F",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "teal/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#005F5A",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "teal/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0B4F4A",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "teal/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#022F2E",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "cyan/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#ECFEFF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "cyan/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CEFAFE",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "cyan/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A2F4FD",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "cyan/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#53EAFD",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "cyan/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00D3F2",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "cyan/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00B8DB",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "cyan/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0092B8",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "cyan/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#007595",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "cyan/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#005F78",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "cyan/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#104E64",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "cyan/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#053345",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "sky/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F0F9FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "sky/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DFF2FE",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "sky/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#B8E6FE",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "sky/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#74D4FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "sky/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00BCFF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "sky/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00A6F4",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "sky/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0084D1",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "sky/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0069A8",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "sky/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00598A",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "sky/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#024A70",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "sky/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#052F4A",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "blue/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#EFF6FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "blue/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DBEAFE",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "blue/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#BEDBFF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "blue/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#8EC5FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "blue/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#51A2FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "blue/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#2B7FFF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "blue/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#155DFC",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "blue/700": {
+      "type": "color",
+      "value": [
         {
           "value": "#1447E6",
           "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "sidebar-primary-foreground": {
+    "blue/800": {
       "type": "color",
-      "value": "#FAFAFA"
+      "value": [
+        {
+          "value": "#193CB8",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
     },
-    "sidebar-accent": {
+    "blue/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1C398E",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "blue/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#162456",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "indigo/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#EEF2FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "indigo/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E0E7FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "indigo/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#C6D2FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "indigo/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A3B3FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "indigo/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7C86FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "indigo/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#615FFF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "indigo/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#4F39F6",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "indigo/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#432DD7",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "indigo/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#372AAC",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "indigo/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#312C85",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "indigo/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1E1A4D",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "violet/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F5F3FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "violet/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#EDE9FE",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "violet/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DDD6FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "violet/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#C4B4FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "violet/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A684FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "violet/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#8E51FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "violet/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7F22FE",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "violet/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7008E7",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "violet/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#5D0EC0",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "violet/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#4D179A",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "violet/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#2F0D68",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "purple/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FAF5FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "purple/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F3E8FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "purple/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E9D4FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "purple/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DAB2FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "purple/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#C27AFF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "purple/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#AD46FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "purple/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#9810FA",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "purple/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#8200DB",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "purple/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#6E11B0",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "purple/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#59168B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "purple/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#3C0366",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "fuchsia/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FDF4FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "fuchsia/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FAE8FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "fuchsia/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F6CFFF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "fuchsia/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F4A8FF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "fuchsia/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#ED6AFF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "fuchsia/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E12AFB",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "fuchsia/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#C800DE",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "fuchsia/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A800B7",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "fuchsia/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#8A0194",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "fuchsia/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#721378",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "fuchsia/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#4B004F",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "pink/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FDF2F8",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "pink/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FCE7F3",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "pink/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FCCEE8",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "pink/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FDA5D5",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "pink/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FB64B6",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "pink/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F6339A",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "pink/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E60076",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "pink/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#C6005C",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "pink/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A3004C",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "pink/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#861043",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "pink/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#510424",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "rose/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFF1F2",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "rose/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFE4E6",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "rose/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFCCD3",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "rose/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFA1AD",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "rose/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF637E",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "rose/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF2056",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "rose/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#EC003F",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "rose/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#C70036",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "rose/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A50036",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "rose/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#8B0836",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "rose/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#4D0218",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "slate/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F8FAFC",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "slate/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F1F5F9",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "slate/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E2E8F0",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "slate/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CAD5E2",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "slate/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#90A1B9",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "slate/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#62748E",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "slate/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#45556C",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "slate/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#314158",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "slate/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1D293D",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "slate/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0F172B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "slate/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#020618",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "gray/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F9FAFB",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "gray/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F3F4F6",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "gray/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E5E7EB",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "gray/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D1D5DC",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "gray/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#99A1AF",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "gray/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#6A7282",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "gray/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#4A5565",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "gray/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#364153",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "gray/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1E2939",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "gray/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#101828",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "gray/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#030712",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "zinc/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FAFAFA",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "zinc/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F4F4F5",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "zinc/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E4E4E7",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "zinc/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D4D4D8",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "zinc/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#9F9FA9",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "zinc/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#71717B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "zinc/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#52525C",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "zinc/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#3F3F46",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "zinc/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#27272A",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "zinc/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#18181B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "zinc/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#09090B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "neutral/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FAFAFA",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "neutral/100": {
       "type": "color",
       "value": [
         {
           "value": "#F5F5F5",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#262626",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "sidebar-accent-foreground": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#171717",
-          "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FAFAFA",
-          "theme": {
-            "Theme": "dark"
-          }
-        }
-      ]
-    },
-    "sidebar-border": {
+    "neutral/200": {
       "type": "color",
       "value": [
         {
           "value": "#E5E5E5",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FFFFFF1A",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "sidebar-ring": {
+    "neutral/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D4D4D4",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "neutral/400": {
       "type": "color",
       "value": [
         {
           "value": "#A1A1A1",
           "theme": {
-            "Theme": "light"
+            "Primitives": "Default"
           }
-        },
+        }
+      ]
+    },
+    "neutral/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#737373",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "neutral/600": {
+      "type": "color",
+      "value": [
         {
           "value": "#525252",
           "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "surface": {
+    "neutral/700": {
       "type": "color",
       "value": [
         {
-          "value": "#F8F8F8",
+          "value": "#404040",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#161616",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "surface-foreground": {
+    "neutral/800": {
       "type": "color",
       "value": [
-        {
-          "value": "$foreground",
-          "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#A1A1A1",
-          "theme": {
-            "Theme": "dark"
-          }
-        }
-      ]
-    },
-    "code": {
-      "type": "color",
-      "value": "$surface"
-    },
-    "code-foreground": {
-      "type": "color",
-      "value": "$surface-foreground"
-    },
-    "code-highlight": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#F2F2F2",
-          "theme": {
-            "Theme": "light"
-          }
-        },
         {
           "value": "#262626",
           "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "code-number": {
+    "neutral/900": {
       "type": "color",
       "value": [
         {
-          "value": "#747474",
+          "value": "#171717",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#A4A4A4",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "selection": {
+    "neutral/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0A0A0A",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "stone/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FAFAF9",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "stone/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F5F5F4",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "stone/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E5E4",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "stone/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D6D3D1",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "stone/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A6A09B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "stone/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#79716B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "stone/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#57534D",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "stone/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#44403B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "stone/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#292524",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "stone/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1C1917",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "stone/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0C0A09",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mauve/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FAFAFA",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mauve/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F3F1F3",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mauve/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E4E7",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mauve/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D7D0D7",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mauve/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A89EA9",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mauve/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#79697B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mauve/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#594C5B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mauve/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#463947",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mauve/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#2A212C",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mauve/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1D161E",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mauve/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0C090C",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "olive/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FBFBF9",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "olive/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F4F4F0",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "olive/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E8E8E3",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "olive/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D8D8D0",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "olive/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#ABAB9C",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "olive/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7C7C67",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "olive/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#5B5B4B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "olive/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#474739",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "olive/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#2B2B22",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "olive/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1D1D16",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "olive/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0C0C09",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mist/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F9FBFB",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mist/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F1F3F3",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mist/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E3E7E8",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mist/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D0D6D8",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mist/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#9CA8AB",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mist/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#67787C",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mist/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#4B585B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mist/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#394447",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mist/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#22292B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mist/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#161B1D",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "mist/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#090B0C",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "taupe/50": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FBFAF9",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "taupe/100": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F3F1F1",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "taupe/200": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E8E4E3",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "taupe/300": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D8D2D0",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "taupe/400": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#ABA09C",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "taupe/500": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7C6D67",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "taupe/600": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#5B4F4B",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "taupe/700": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#473C39",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "taupe/800": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#2B2422",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "taupe/900": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1D1816",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "taupe/950": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0C0A09",
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "black": {
       "type": "color",
       "value": [
         {
           "value": "#000000",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#E5E5E5",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "selection-foreground": {
+    "white": {
       "type": "color",
       "value": [
         {
           "value": "#FFFFFF",
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#171717",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "button-destructive-bg": {
-      "type": "color",
+    "spacing/px": {
+      "type": "number",
       "value": [
         {
-          "value": "$destructive",
+          "value": 1,
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FF646799",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "button-destructive-fg": {
-      "type": "color",
-      "value": "#FFFFFF"
-    },
-    "button-outline-bg": {
-      "type": "color",
+    "spacing/0": {
+      "type": "number",
       "value": [
         {
-          "value": "$background",
+          "value": 0,
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FFFFFF0B",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "button-outline-border": {
-      "type": "color",
+    "spacing/0.5": {
+      "type": "number",
       "value": [
         {
-          "value": "$border",
+          "value": 2,
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "$input",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "shadow-xs": {
-      "type": "color",
-      "value": "#0000000D"
-    },
-    "input-bg": {
-      "type": "color",
+    "spacing/1": {
+      "type": "number",
       "value": [
         {
-          "value": "#FFFFFF00",
+          "value": 4,
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FFFFFF0B",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "focus-ring": {
-      "type": "color",
+    "spacing/1.5": {
+      "type": "number",
       "value": [
         {
-          "value": "#A1A1A180",
+          "value": 6,
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#73737380",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "focus-ring-destructive": {
-      "type": "color",
+    "spacing/2": {
+      "type": "number",
       "value": [
         {
-          "value": "#E7000B33",
+          "value": 8,
           "theme": {
-            "Theme": "light"
-          }
-        },
-        {
-          "value": "#FF646766",
-          "theme": {
-            "Theme": "dark"
+            "Primitives": "Default"
           }
         }
       ]
     },
-    "shadow-sm": {
-      "type": "color",
-      "value": "#0000001A"
+    "spacing/2.5": {
+      "type": "number",
+      "value": [
+        {
+          "value": 10,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/3": {
+      "type": "number",
+      "value": [
+        {
+          "value": 12,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/3.5": {
+      "type": "number",
+      "value": [
+        {
+          "value": 14,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/4": {
+      "type": "number",
+      "value": [
+        {
+          "value": 16,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/5": {
+      "type": "number",
+      "value": [
+        {
+          "value": 20,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/6": {
+      "type": "number",
+      "value": [
+        {
+          "value": 24,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/7": {
+      "type": "number",
+      "value": [
+        {
+          "value": 28,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/8": {
+      "type": "number",
+      "value": [
+        {
+          "value": 32,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/9": {
+      "type": "number",
+      "value": [
+        {
+          "value": 36,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/10": {
+      "type": "number",
+      "value": [
+        {
+          "value": 40,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/11": {
+      "type": "number",
+      "value": [
+        {
+          "value": 44,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/12": {
+      "type": "number",
+      "value": [
+        {
+          "value": 48,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/14": {
+      "type": "number",
+      "value": [
+        {
+          "value": 56,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/16": {
+      "type": "number",
+      "value": [
+        {
+          "value": 64,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/20": {
+      "type": "number",
+      "value": [
+        {
+          "value": 80,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/24": {
+      "type": "number",
+      "value": [
+        {
+          "value": 96,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/28": {
+      "type": "number",
+      "value": [
+        {
+          "value": 112,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/32": {
+      "type": "number",
+      "value": [
+        {
+          "value": 128,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/36": {
+      "type": "number",
+      "value": [
+        {
+          "value": 144,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/40": {
+      "type": "number",
+      "value": [
+        {
+          "value": 160,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/44": {
+      "type": "number",
+      "value": [
+        {
+          "value": 176,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/48": {
+      "type": "number",
+      "value": [
+        {
+          "value": 192,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/52": {
+      "type": "number",
+      "value": [
+        {
+          "value": 208,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/56": {
+      "type": "number",
+      "value": [
+        {
+          "value": 224,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/60": {
+      "type": "number",
+      "value": [
+        {
+          "value": 240,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/64": {
+      "type": "number",
+      "value": [
+        {
+          "value": 256,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/72": {
+      "type": "number",
+      "value": [
+        {
+          "value": 288,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/80": {
+      "type": "number",
+      "value": [
+        {
+          "value": 320,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "spacing/96": {
+      "type": "number",
+      "value": [
+        {
+          "value": 384,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "radius/none": {
+      "type": "number",
+      "value": [
+        {
+          "value": 0,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "radius/xs": {
+      "type": "number",
+      "value": [
+        {
+          "value": 2,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "radius/sm": {
+      "type": "number",
+      "value": [
+        {
+          "value": 4,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "radius/md": {
+      "type": "number",
+      "value": [
+        {
+          "value": 6,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "radius/lg": {
+      "type": "number",
+      "value": [
+        {
+          "value": 8,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "radius/xl": {
+      "type": "number",
+      "value": [
+        {
+          "value": 12,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "radius/2xl": {
+      "type": "number",
+      "value": [
+        {
+          "value": 16,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "radius/3xl": {
+      "type": "number",
+      "value": [
+        {
+          "value": 24,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "radius/4xl": {
+      "type": "number",
+      "value": [
+        {
+          "value": 32,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
+    },
+    "radius/full": {
+      "type": "number",
+      "value": [
+        {
+          "value": 9999,
+          "theme": {
+            "Primitives": "Default"
+          }
+        }
+      ]
     }
   },
   "fileToken": "775a9111-c51e-4ccc-b354-765c83441425"
