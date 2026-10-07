@@ -66,12 +66,12 @@
               "name": "Button/Base",
               "reusable": true,
               "height": 36,
-              "fill": "#000000",
-              "cornerRadius": 8,
-              "gap": 8,
+              "fill": "$primary",
+              "cornerRadius": "$radius/lg",
+              "gap": "$spacing/2",
               "padding": [
-                0,
-                16
+                "$spacing/0",
+                "$spacing/4"
               ],
               "justifyContent": "center",
               "alignItems": "center",
@@ -87,13 +87,13 @@
                   "height": 16,
                   "icon": "plus",
                   "library": "lucide",
-                  "fill": "#FAFAFA"
+                  "fill": "$primary-foreground"
                 },
                 {
                   "type": "text",
                   "id": "NPDJC",
                   "name": "Label",
-                  "fill": "#FAFAFA",
+                  "fill": "$primary-foreground",
                   "content": "Button",
                   "lineHeight": 1.428571,
                   "fontFamily": "Geist",
@@ -325,22 +325,22 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/default",
-                      "fill": "#000000",
+                      "fill": "$primary",
                       "height": 36,
                       "padding": [
-                        0,
-                        16
+                        "$spacing/0",
+                        "$spacing/4"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "fontSize": 14
                         }
                       }
@@ -361,22 +361,22 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/xs",
-                      "fill": "#000000",
+                      "fill": "$primary",
                       "height": 24,
                       "padding": [
-                        0,
-                        8
+                        "$spacing/0",
+                        "$spacing/2"
                       ],
-                      "gap": 4,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "width": 12,
                           "height": 12
                         },
                         "NPDJC": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "fontSize": 12,
                           "lineHeight": 1.333333
                         }
@@ -398,22 +398,22 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/sm",
-                      "fill": "#000000",
+                      "fill": "$primary",
                       "height": 32,
                       "padding": [
-                        0,
-                        12
+                        "$spacing/0",
+                        "$spacing/3"
                       ],
-                      "gap": 6,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1.5",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "fontSize": 14
                         }
                       }
@@ -434,22 +434,22 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/lg",
-                      "fill": "#000000",
+                      "fill": "$primary",
                       "height": 40,
                       "padding": [
-                        0,
-                        24
+                        "$spacing/0",
+                        "$spacing/6"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "fontSize": 14
                         }
                       }
@@ -470,20 +470,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/icon",
-                      "fill": "#000000",
+                      "fill": "$primary",
                       "width": 36,
                       "height": 36,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -505,20 +505,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/icon-xs",
-                      "fill": "#000000",
+                      "fill": "$primary",
                       "width": 24,
                       "height": 24,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "width": 12,
                           "height": 12,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "fontSize": 12,
                           "lineHeight": 1.333333,
                           "enabled": false
@@ -541,20 +541,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/icon-sm",
-                      "fill": "#000000",
+                      "fill": "$primary",
                       "width": 32,
                       "height": 32,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -576,20 +576,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/default/icon-lg",
-                      "fill": "#000000",
+                      "fill": "$primary",
                       "width": 40,
                       "height": 40,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#FAFAFA",
+                          "fill": "$primary-foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -632,14 +632,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/default",
-                      "fill": "#E7000B",
+                      "fill": "$destructive",
                       "height": 36,
                       "padding": [
-                        0,
-                        16
+                        "$spacing/0",
+                        "$spacing/4"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
                           "fill": "#FFFFFF",
@@ -668,14 +668,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/xs",
-                      "fill": "#E7000B",
+                      "fill": "$destructive",
                       "height": 24,
                       "padding": [
-                        0,
-                        8
+                        "$spacing/0",
+                        "$spacing/2"
                       ],
-                      "gap": 4,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
                           "fill": "#FFFFFF",
@@ -705,14 +705,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/sm",
-                      "fill": "#E7000B",
+                      "fill": "$destructive",
                       "height": 32,
                       "padding": [
-                        0,
-                        12
+                        "$spacing/0",
+                        "$spacing/3"
                       ],
-                      "gap": 6,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1.5",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
                           "fill": "#FFFFFF",
@@ -741,14 +741,14 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/lg",
-                      "fill": "#E7000B",
+                      "fill": "$destructive",
                       "height": 40,
                       "padding": [
-                        0,
-                        24
+                        "$spacing/0",
+                        "$spacing/6"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
                           "fill": "#FFFFFF",
@@ -777,11 +777,11 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon",
-                      "fill": "#E7000B",
+                      "fill": "$destructive",
                       "width": 36,
                       "height": 36,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
                           "fill": "#FFFFFF",
@@ -812,11 +812,11 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon-xs",
-                      "fill": "#E7000B",
+                      "fill": "$destructive",
                       "width": 24,
                       "height": 24,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
                           "fill": "#FFFFFF",
@@ -848,11 +848,11 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon-sm",
-                      "fill": "#E7000B",
+                      "fill": "$destructive",
                       "width": 32,
                       "height": 32,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
                           "fill": "#FFFFFF",
@@ -883,11 +883,11 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/destructive/icon-lg",
-                      "fill": "#E7000B",
+                      "fill": "$destructive",
                       "width": 40,
                       "height": 40,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
                           "fill": "#FFFFFF",
@@ -939,8 +939,8 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/default",
-                      "fill": "#FFFFFF",
-                      "stroke": "#E5E5E5",
+                      "fill": "$background",
+                      "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
@@ -955,19 +955,19 @@
                       },
                       "height": 36,
                       "padding": [
-                        0,
-                        16
+                        "$spacing/0",
+                        "$spacing/4"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14
                         }
                       }
@@ -988,8 +988,8 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/xs",
-                      "fill": "#FFFFFF",
-                      "stroke": "#E5E5E5",
+                      "fill": "$background",
+                      "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
@@ -1004,19 +1004,19 @@
                       },
                       "height": 24,
                       "padding": [
-                        0,
-                        8
+                        "$spacing/0",
+                        "$spacing/2"
                       ],
-                      "gap": 4,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 12,
                           "height": 12
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 12,
                           "lineHeight": 1.333333
                         }
@@ -1038,8 +1038,8 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/sm",
-                      "fill": "#FFFFFF",
-                      "stroke": "#E5E5E5",
+                      "fill": "$background",
+                      "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
@@ -1054,19 +1054,19 @@
                       },
                       "height": 32,
                       "padding": [
-                        0,
-                        12
+                        "$spacing/0",
+                        "$spacing/3"
                       ],
-                      "gap": 6,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1.5",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14
                         }
                       }
@@ -1087,8 +1087,8 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/lg",
-                      "fill": "#FFFFFF",
-                      "stroke": "#E5E5E5",
+                      "fill": "$background",
+                      "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
@@ -1103,19 +1103,19 @@
                       },
                       "height": 40,
                       "padding": [
-                        0,
-                        24
+                        "$spacing/0",
+                        "$spacing/6"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14
                         }
                       }
@@ -1136,8 +1136,8 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon",
-                      "fill": "#FFFFFF",
-                      "stroke": "#E5E5E5",
+                      "fill": "$background",
+                      "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
@@ -1152,17 +1152,17 @@
                       },
                       "width": 36,
                       "height": 36,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1184,8 +1184,8 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon-xs",
-                      "fill": "#FFFFFF",
-                      "stroke": "#E5E5E5",
+                      "fill": "$background",
+                      "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
@@ -1200,17 +1200,17 @@
                       },
                       "width": 24,
                       "height": 24,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 12,
                           "height": 12,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 12,
                           "lineHeight": 1.333333,
                           "enabled": false
@@ -1233,8 +1233,8 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon-sm",
-                      "fill": "#FFFFFF",
-                      "stroke": "#E5E5E5",
+                      "fill": "$background",
+                      "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
@@ -1249,17 +1249,17 @@
                       },
                       "width": 32,
                       "height": 32,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1281,8 +1281,8 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/outline/icon-lg",
-                      "fill": "#FFFFFF",
-                      "stroke": "#E5E5E5",
+                      "fill": "$background",
+                      "stroke": "$border",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
@@ -1297,17 +1297,17 @@
                       },
                       "width": 40,
                       "height": 40,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1350,22 +1350,22 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/default",
-                      "fill": "#F5F5F5",
+                      "fill": "$secondary",
                       "height": 36,
                       "padding": [
-                        0,
-                        16
+                        "$spacing/0",
+                        "$spacing/4"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "fontSize": 14
                         }
                       }
@@ -1386,22 +1386,22 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/xs",
-                      "fill": "#F5F5F5",
+                      "fill": "$secondary",
                       "height": 24,
                       "padding": [
-                        0,
-                        8
+                        "$spacing/0",
+                        "$spacing/2"
                       ],
-                      "gap": 4,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "width": 12,
                           "height": 12
                         },
                         "NPDJC": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "fontSize": 12,
                           "lineHeight": 1.333333
                         }
@@ -1423,22 +1423,22 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/sm",
-                      "fill": "#F5F5F5",
+                      "fill": "$secondary",
                       "height": 32,
                       "padding": [
-                        0,
-                        12
+                        "$spacing/0",
+                        "$spacing/3"
                       ],
-                      "gap": 6,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1.5",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "fontSize": 14
                         }
                       }
@@ -1459,22 +1459,22 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/lg",
-                      "fill": "#F5F5F5",
+                      "fill": "$secondary",
                       "height": 40,
                       "padding": [
-                        0,
-                        24
+                        "$spacing/0",
+                        "$spacing/6"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "fontSize": 14
                         }
                       }
@@ -1495,20 +1495,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/icon",
-                      "fill": "#F5F5F5",
+                      "fill": "$secondary",
                       "width": 36,
                       "height": 36,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1530,20 +1530,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/icon-xs",
-                      "fill": "#F5F5F5",
+                      "fill": "$secondary",
                       "width": 24,
                       "height": 24,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "width": 12,
                           "height": 12,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "fontSize": 12,
                           "lineHeight": 1.333333,
                           "enabled": false
@@ -1566,20 +1566,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/icon-sm",
-                      "fill": "#F5F5F5",
+                      "fill": "$secondary",
                       "width": 32,
                       "height": 32,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1601,20 +1601,20 @@
                       "reusable": true,
                       "ref": "IFzfk",
                       "name": "Button/secondary/icon-lg",
-                      "fill": "#F5F5F5",
+                      "fill": "$secondary",
                       "width": 40,
                       "height": 40,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#171717",
+                          "fill": "$secondary-foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1660,19 +1660,19 @@
                       "fill": [],
                       "height": 36,
                       "padding": [
-                        0,
-                        16
+                        "$spacing/0",
+                        "$spacing/4"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14
                         }
                       }
@@ -1696,19 +1696,19 @@
                       "fill": [],
                       "height": 24,
                       "padding": [
-                        0,
-                        8
+                        "$spacing/0",
+                        "$spacing/2"
                       ],
-                      "gap": 4,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 12,
                           "height": 12
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 12,
                           "lineHeight": 1.333333
                         }
@@ -1733,19 +1733,19 @@
                       "fill": [],
                       "height": 32,
                       "padding": [
-                        0,
-                        12
+                        "$spacing/0",
+                        "$spacing/3"
                       ],
-                      "gap": 6,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1.5",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14
                         }
                       }
@@ -1769,19 +1769,19 @@
                       "fill": [],
                       "height": 40,
                       "padding": [
-                        0,
-                        24
+                        "$spacing/0",
+                        "$spacing/6"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14
                         }
                       }
@@ -1805,17 +1805,17 @@
                       "fill": [],
                       "width": 36,
                       "height": 36,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1840,17 +1840,17 @@
                       "fill": [],
                       "width": 24,
                       "height": 24,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 12,
                           "height": 12,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 12,
                           "lineHeight": 1.333333,
                           "enabled": false
@@ -1876,17 +1876,17 @@
                       "fill": [],
                       "width": 32,
                       "height": 32,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1911,17 +1911,17 @@
                       "fill": [],
                       "width": 40,
                       "height": 40,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$foreground",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -1967,19 +1967,19 @@
                       "fill": [],
                       "height": 36,
                       "padding": [
-                        0,
-                        16
+                        "$spacing/0",
+                        "$spacing/4"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "fontSize": 14
                         }
                       }
@@ -2003,19 +2003,19 @@
                       "fill": [],
                       "height": 24,
                       "padding": [
-                        0,
-                        8
+                        "$spacing/0",
+                        "$spacing/2"
                       ],
-                      "gap": 4,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "width": 12,
                           "height": 12
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "fontSize": 12,
                           "lineHeight": 1.333333
                         }
@@ -2040,19 +2040,19 @@
                       "fill": [],
                       "height": 32,
                       "padding": [
-                        0,
-                        12
+                        "$spacing/0",
+                        "$spacing/3"
                       ],
-                      "gap": 6,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/1.5",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "fontSize": 14
                         }
                       }
@@ -2076,19 +2076,19 @@
                       "fill": [],
                       "height": 40,
                       "padding": [
-                        0,
-                        24
+                        "$spacing/0",
+                        "$spacing/6"
                       ],
-                      "gap": 8,
-                      "cornerRadius": 8,
+                      "gap": "$spacing/2",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "width": 16,
                           "height": 16
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "fontSize": 14
                         }
                       }
@@ -2112,17 +2112,17 @@
                       "fill": [],
                       "width": 36,
                       "height": 36,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -2147,17 +2147,17 @@
                       "fill": [],
                       "width": 24,
                       "height": 24,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "width": 12,
                           "height": 12,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "fontSize": 12,
                           "lineHeight": 1.333333,
                           "enabled": false
@@ -2183,17 +2183,17 @@
                       "fill": [],
                       "width": 32,
                       "height": 32,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -2218,17 +2218,17 @@
                       "fill": [],
                       "width": 40,
                       "height": 40,
-                      "padding": 0,
-                      "cornerRadius": 8,
+                      "padding": "$spacing/0",
+                      "cornerRadius": "$radius/lg",
                       "descendants": {
                         "Mrxj6": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "width": 16,
                           "height": 16,
                           "enabled": true
                         },
                         "NPDJC": {
-                          "fill": "#000000",
+                          "fill": "$primary",
                           "fontSize": 14,
                           "enabled": false
                         }
@@ -3422,7 +3422,7 @@
                   "reusable": true,
                   "width": 320,
                   "height": 36,
-                  "cornerRadius": 8,
+                  "cornerRadius": "$radius/lg",
                   "children": [
                     {
                       "type": "frame",
@@ -3431,8 +3431,8 @@
                       "width": "fill_container",
                       "height": "fill_container",
                       "fill": "#FFFFFF00",
-                      "cornerRadius": 8,
-                      "stroke": "#E5E5E5",
+                      "cornerRadius": "$radius/lg",
+                      "stroke": "$input",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "effect": {
@@ -3446,8 +3446,8 @@
                         "blur": 2
                       },
                       "padding": [
-                        4,
-                        12
+                        "$spacing/1",
+                        "$spacing/3"
                       ],
                       "alignItems": "center",
                       "children": [
@@ -3455,7 +3455,7 @@
                           "type": "text",
                           "id": "U9AGfo",
                           "name": "Text",
-                          "fill": "#737373",
+                          "fill": "$muted-foreground",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "Email",
@@ -3527,7 +3527,7 @@
                   "strokeAlignment": "outer",
                   "descendants": {
                     "gE7rG": {
-                      "stroke": "#A1A1A1"
+                      "stroke": "$ring"
                     }
                   }
                 }
@@ -3589,7 +3589,7 @@
                   "name": "Input/invalid",
                   "descendants": {
                     "gE7rG": {
-                      "stroke": "#E7000B"
+                      "stroke": "$destructive"
                     }
                   }
                 }
@@ -3625,7 +3625,7 @@
                   "strokeAlignment": "outer",
                   "descendants": {
                     "gE7rG": {
-                      "stroke": "#E7000B"
+                      "stroke": "$destructive"
                     }
                   }
                 }
@@ -3915,7 +3915,7 @@
                   "id": "GQNj5",
                   "name": "Card/Title",
                   "reusable": true,
-                  "fill": "#000000",
+                  "fill": "$card-foreground",
                   "textGrowth": "fixed-width",
                   "width": 336,
                   "content": "Card Title",
@@ -3949,7 +3949,7 @@
                   "id": "fIQ36",
                   "name": "Card/Description",
                   "reusable": true,
-                  "fill": "#737373",
+                  "fill": "$muted-foreground",
                   "textGrowth": "fixed-width",
                   "width": 336,
                   "content": "Card description goes here.",
@@ -3983,10 +3983,10 @@
                   "name": "Card/Header",
                   "reusable": true,
                   "width": 384,
-                  "gap": 8,
+                  "gap": "$spacing/2",
                   "padding": [
-                    0,
-                    24
+                    "$spacing/0",
+                    "$spacing/6"
                   ],
                   "children": [
                     {
@@ -3995,7 +3995,7 @@
                       "name": "Text",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 8,
+                      "gap": "$spacing/2",
                       "children": [
                         {
                           "id": "TkD0D",
@@ -4073,8 +4073,8 @@
                   "width": 384,
                   "layout": "vertical",
                   "padding": [
-                    0,
-                    24
+                    "$spacing/0",
+                    "$spacing/6"
                   ],
                   "children": [
                     {
@@ -4083,8 +4083,8 @@
                       "name": "Placeholder",
                       "width": "fill_container",
                       "height": 96,
-                      "fill": "#F5F5F5",
-                      "cornerRadius": 8,
+                      "fill": "$muted",
+                      "cornerRadius": "$radius/lg",
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -4092,7 +4092,7 @@
                           "type": "text",
                           "id": "IExP9",
                           "name": "Placeholder Label",
-                          "fill": "#737373",
+                          "fill": "$muted-foreground",
                           "content": "Content",
                           "fontFamily": "Geist Mono",
                           "fontSize": 12
@@ -4134,8 +4134,8 @@
                   ],
                   "width": 384,
                   "padding": [
-                    0,
-                    24
+                    "$spacing/0",
+                    "$spacing/6"
                   ],
                   "alignItems": "center",
                   "children": [
@@ -4145,8 +4145,8 @@
                       "name": "Placeholder",
                       "width": "fill_container",
                       "height": 36,
-                      "fill": "#F5F5F5",
-                      "cornerRadius": 8,
+                      "fill": "$muted",
+                      "cornerRadius": "$radius/lg",
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -4154,7 +4154,7 @@
                           "type": "text",
                           "id": "AsObt",
                           "name": "Placeholder Label",
-                          "fill": "#737373",
+                          "fill": "$muted-foreground",
                           "content": "Footer",
                           "fontFamily": "Geist Mono",
                           "fontSize": 12
@@ -4196,9 +4196,9 @@
                   "name": "Card",
                   "reusable": true,
                   "width": 384,
-                  "fill": "#FFFFFF",
+                  "fill": "$card",
                   "cornerRadius": 14,
-                  "stroke": "#E5E5E5",
+                  "stroke": "$border",
                   "strokeWidth": 1,
                   "strokeAlignment": "inner",
                   "effect": [
@@ -4224,10 +4224,10 @@
                     }
                   ],
                   "layout": "vertical",
-                  "gap": 24,
+                  "gap": "$spacing/6",
                   "padding": [
-                    24,
-                    0
+                    "$spacing/6",
+                    "$spacing/0"
                   ],
                   "children": [
                     {
