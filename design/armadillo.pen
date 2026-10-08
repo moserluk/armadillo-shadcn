@@ -3461,7 +3461,8 @@
                           "content": "Email",
                           "lineHeight": 1.428571,
                           "fontFamily": "Geist",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -3955,7 +3956,8 @@
                   "content": "Card description goes here.",
                   "lineHeight": 1.428571,
                   "fontFamily": "Geist",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -4095,7 +4097,8 @@
                           "fill": "$muted-foreground",
                           "content": "Content",
                           "fontFamily": "Geist Mono",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -4157,7 +4160,8 @@
                           "fill": "$muted-foreground",
                           "content": "Footer",
                           "fontFamily": "Geist Mono",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -4378,7 +4382,8 @@
                                       "content": "Forgot your password?",
                                       "lineHeight": 1,
                                       "fontFamily": "Geist",
-                                      "fontSize": 14
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -4776,7 +4781,8 @@
                                       "content": "Forgot your password?",
                                       "lineHeight": 1,
                                       "fontFamily": "Geist",
-                                      "fontSize": 14
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -4837,6 +4843,288 @@
                       ]
                     }
                   }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pqdH6",
+      "x": 3960,
+      "y": 0,
+      "name": "Label",
+      "fill": "$background",
+      "layout": "vertical",
+      "gap": 40,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "r0WiL",
+          "name": "Header",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "type": "text",
+              "id": "r5tEAZ",
+              "name": "Title",
+              "fill": "$foreground",
+              "content": "Label",
+              "fontFamily": "Geist",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "krOyW",
+              "name": "Source",
+              "fill": "$muted-foreground",
+              "content": "registry/new-york-v4/ui/label.tsx  ·  2 states",
+              "fontFamily": "Geist Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ki3hR",
+          "name": "States",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "c92b6",
+              "name": "Row base",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KYM4q",
+                  "name": "State",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "base",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "iHJuQ",
+                  "name": "Label/Base",
+                  "reusable": true,
+                  "gap": "$spacing/2",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ADMc1",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "content": "Email address",
+                      "lineHeight": 1,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CvjoE",
+              "name": "Row default",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "p6TYAz",
+                  "name": "State",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "default",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "Gib5e",
+                  "type": "ref",
+                  "reusable": true,
+                  "ref": "iHJuQ",
+                  "name": "Label/default"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uYhFY",
+              "name": "Row disabled",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "o65p0Z",
+                  "name": "State",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "disabled",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "V5qJ7f",
+                  "type": "ref",
+                  "reusable": true,
+                  "ref": "iHJuQ",
+                  "name": "Label/disabled",
+                  "opacity": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "z705e1",
+      "x": 3960,
+      "y": 366,
+      "name": "Label — Dark preview",
+      "theme": {
+        "Theme": "dark"
+      },
+      "fill": "$background",
+      "layout": "vertical",
+      "gap": 40,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "Vl92a",
+          "name": "Header",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "type": "text",
+              "id": "w6DNqt",
+              "name": "Title",
+              "fill": "$foreground",
+              "content": "Label",
+              "fontFamily": "Geist",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "ofbdo",
+              "name": "Source",
+              "fill": "$muted-foreground",
+              "content": "registry/new-york-v4/ui/label.tsx  ·  2 states",
+              "fontFamily": "Geist Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t8yKn",
+          "name": "States",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "FRnq3",
+              "name": "Row base",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vk2oi",
+                  "name": "State",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "base",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "NYycI",
+                  "type": "ref",
+                  "ref": "iHJuQ"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Xzei0",
+              "name": "Row default",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GhiEQ",
+                  "name": "State",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "default",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "Sk5BF",
+                  "type": "ref",
+                  "ref": "Gib5e"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pW9Ey",
+              "name": "Row disabled",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "V989E",
+                  "name": "State",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "disabled",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "nP5WL",
+                  "type": "ref",
+                  "ref": "V5qJ7f"
                 }
               ]
             }
@@ -8790,6 +9078,17 @@
         }
       ]
     },
+    "alpha/white-10": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF1A",
+          "theme": {
+            "Primitives": "default"
+          }
+        }
+      ]
+    },
     "input": {
       "type": "color",
       "value": [
@@ -8803,6 +9102,17 @@
           "value": "$alpha/white-15",
           "theme": {
             "Theme": "dark"
+          }
+        }
+      ]
+    },
+    "alpha/white-15": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF26",
+          "theme": {
+            "Primitives": "default"
           }
         }
       ]
@@ -9109,28 +9419,6 @@
           "value": "$neutral/900",
           "theme": {
             "Theme": "dark"
-          }
-        }
-      ]
-    },
-    "alpha/white-10": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#FFFFFF1A",
-          "theme": {
-            "Primitives": "default"
-          }
-        }
-      ]
-    },
-    "alpha/white-15": {
-      "type": "color",
-      "value": [
-        {
-          "value": "#FFFFFF26",
-          "theme": {
-            "Primitives": "default"
           }
         }
       ]

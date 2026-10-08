@@ -43,7 +43,7 @@ Each prompt below follows this pattern. Paste it as written.
 
 ## Tier 1: basics and forms (most used)
 
-- [ ] Label
+- [x] Label
   > Recreate `label.tsx` following the rules in `designs/components-checklist.md`. Include the disabled state.
 
 - [ ] Textarea
