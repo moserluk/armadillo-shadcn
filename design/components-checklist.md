@@ -39,6 +39,7 @@ Components finished in `design/armadillo.pen`. Frames sit in one row from left t
 | Radio Group | `NFIMo` / `ZiaDY` | `RadioGroup/Item/Base` + 10, `RadioGroup` | none | Indicator drawn as an 8 px ellipse instead of lucide `CircleIcon` |
 | Switch | `AfDUZ` / `oyO2V` | `Switch/Base` + 12 (2 sizes × off/on × 3 states) | `alpha/white-12`, `switch-track-off`, `switch-thumb-off`, `switch-thumb-on` | No invalid state in source |
 | Badge | `N7pLyj` / `JgeHn` | `Badge/Base` + 18 (6 variants × default/focus/invalid) | `destructive-foreground` | Reuses `button-destructive-bg` |
+| Field | `wqpom` / `krV6b` | Parts: `Field/Label`, `Field/Title`, `Field/Description`, `Field/Error`, `Field/Legend/{legend,label}`, `Field/Separator` (+`/plain`). Layouts: `Field/vertical/{default,description-first,textarea,invalid,disabled}`, `Field/horizontal/{checkbox,checkbox-content,switch,invalid,disabled}`, `Field/Set`, `Field/Choice/{unchecked,checked}` | `alpha/black-5`, `alpha/neutral-200-10`, `field-choice-checked-bg` | Built from Label, Input, Textarea, Checkbox, Switch and RadioGroup item instances. Negative margins (`-mt-1`, `-mt-1.5`, `-my-2`) emulated with nested gaps or ignored; `responsive` orientation not shown (container query) |
 
 Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled opacity `0.5`, font size, weight and line height (no typography primitives exist), and width/height (pen.dev can't bind them to variables).
 
@@ -47,6 +48,8 @@ Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled 
 - [ ] Badge: link hovers (`[a&]:hover` primary/90, secondary/90, destructive/90, outline/ghost accent, link underline). Waiting on the Tier 0 hover variables.
 - [ ] Button: rebind `Button/destructive/*` text and icon from hardcoded `#FFFFFF` to `$destructive-foreground`.
 - [ ] Badge: consider renaming `button-destructive-bg` to `destructive-bg` now that Badge shares it.
+- [ ] Field: replace the drawn `$border` lines in `Field/Separator` with Separator instances once Separator is built.
+- [ ] Field: `FieldError` list mode (several errors as a bulleted `ul`) not drawn; only the single-message version exists.
 
 ---
 
@@ -87,7 +90,7 @@ Each prompt below follows this pattern. Paste it as written.
 - [ ] Select
   > Recreate `select.tsx` following the rules in `designs/components-checklist.md`. Include the trigger (placeholder, filled, focus, disabled, invalid), the open content with items, a selected item, a group label and a separator.
 
-- [ ] Field
+- [x] Field
   > Recreate `field.tsx` following the rules in `designs/components-checklist.md`. Build it from Label, Input, Textarea, Checkbox and Switch instances. Include description and error message, and vertical and horizontal orientation.
 
 - [x] Badge
