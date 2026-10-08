@@ -46,10 +46,10 @@ Each prompt below follows this pattern. Paste it as written.
 - [x] Label
   > Recreate `label.tsx` following the rules in `designs/components-checklist.md`. Include the disabled state.
 
-- [ ] Textarea
+- [x] Textarea
   > Recreate `textarea.tsx` following the rules in `designs/components-checklist.md`. Reuse the variables Input uses. Include focus, disabled and invalid states.
 
-- [ ] Checkbox
+- [x] Checkbox
   > Recreate `checkbox.tsx` following the rules in `designs/components-checklist.md`. Include unchecked, checked, focus, disabled and invalid states.
 
 - [ ] Radio Group
