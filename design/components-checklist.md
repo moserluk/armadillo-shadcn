@@ -52,10 +52,10 @@ Each prompt below follows this pattern. Paste it as written.
 - [x] Checkbox
   > Recreate `checkbox.tsx` following the rules in `designs/components-checklist.md`. Include unchecked, checked, focus, disabled and invalid states.
 
-- [ ] Radio Group
+- [x] Radio Group
   > Recreate `radio-group.tsx` following the rules in `designs/components-checklist.md`. Include the group and the item, unchecked, checked, focus and disabled states.
 
-- [ ] Switch
+- [x] Switch
   > Recreate `switch.tsx` following the rules in `designs/components-checklist.md`. Include off, on, focus and disabled states, and every size.
 
 - [ ] Select
@@ -64,7 +64,7 @@ Each prompt below follows this pattern. Paste it as written.
 - [ ] Field
   > Recreate `field.tsx` following the rules in `designs/components-checklist.md`. Build it from Label, Input, Textarea, Checkbox and Switch instances. Include description and error message, and vertical and horizontal orientation.
 
-- [ ] Badge
+- [x] Badge
   > Recreate `badge.tsx` following the rules in `designs/components-checklist.md`. Include every variant.
 
 - [ ] Separator
