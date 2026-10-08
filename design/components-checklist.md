@@ -20,7 +20,33 @@ Product: desktop app
 7. If the component uses another component that already exists in the library (Button, Input, Separator...), use an instance of it. Don't redraw it.
 8. Place the component with all variants and states in a light frame and a dark preview frame (`{Theme: "dark"}`).
 9. Don't change any other component or existing variable.
-10. When done, report: variables created, values still hardcoded, anything skipped and why. Then tick the component in this checklist.
+10. When done, report: variables created, values still hardcoded, anything skipped and why. Then tick the component in this checklist, add a row to **Design progress** below, and add anything deferred to **Open follow-ups**.
+
+---
+
+## Design progress
+
+Components finished in `design/armadillo.pen`. Frames sit in one row from left to right; each dark preview sits under its light frame.
+
+| Component | Light / dark frame | Components | Variables added | Notes |
+|---|---|---|---|---|
+| Button | `usjgH` / `aMfzE` | `Button/Base` + 48 (6 variants × 8 sizes) | (before this log) | Hover states still missing |
+| Input | `S4hHF` / `TgVtn` | `Input/Base` + default, focus, disabled, invalid, invalid-focus | (before this log) | Hover state still missing |
+| Card | `N3KarR` / `TLv9U` | `Card` + Title, Description, Header, Content, Footer | (before this log) | |
+| Label | `pqdH6` / `z705e1` | `Label/Base` + default, disabled | none | Text 14 / 500 / lh 1 hardcoded (no type primitives) |
+| Textarea | `MznRt` / `P74Uy` | `Textarea/Base` + default, focus, disabled, invalid, invalid-focus | none (reuses Input's) | Fixed 64 px height (`min-h-16`); `rounded-md` drawn as `radius/lg` like Input |
+| Checkbox | `AKmhn` / `jEv8R` | `Checkbox/Base` + 10 (unchecked/checked × 5 states) | none | Checked keeps `primary` border when invalid (Tailwind order: `data-*` > `aria-*`), unverified against the running app |
+| Radio Group | `NFIMo` / `ZiaDY` | `RadioGroup/Item/Base` + 10, `RadioGroup` | none | Indicator drawn as an 8 px ellipse instead of lucide `CircleIcon` |
+| Switch | `AfDUZ` / `oyO2V` | `Switch/Base` + 12 (2 sizes × off/on × 3 states) | `alpha/white-12`, `switch-track-off`, `switch-thumb-off`, `switch-thumb-on` | No invalid state in source |
+| Badge | `N7pLyj` / `JgeHn` | `Badge/Base` + 18 (6 variants × default/focus/invalid) | `destructive-foreground` | Reuses `button-destructive-bg` |
+
+Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled opacity `0.5`, font size, weight and line height (no typography primitives exist), and width/height (pen.dev can't bind them to variables).
+
+## Open follow-ups
+
+- [ ] Badge: link hovers (`[a&]:hover` primary/90, secondary/90, destructive/90, outline/ghost accent, link underline). Waiting on the Tier 0 hover variables.
+- [ ] Button: rebind `Button/destructive/*` text and icon from hardcoded `#FFFFFF` to `$destructive-foreground`.
+- [ ] Badge: consider renaming `button-destructive-bg` to `destructive-bg` now that Badge shares it.
 
 ---
 
