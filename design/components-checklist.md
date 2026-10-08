@@ -1,7 +1,7 @@
 # Component library checklist
 
 Source components: `apps/v4/registry/new-york-v4/ui/`
-Target: the library `.pen` file
+Target: `armadillo.lib.pen` (the library). Never create or edit components in `armadillo-design.pen` or any other `.pen` file.
 Product: desktop app
 
 ---
