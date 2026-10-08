@@ -40,6 +40,8 @@ Components finished in `design/armadillo.pen`. Frames sit in one row from left t
 | Switch | `AfDUZ` / `oyO2V` | `Switch/Base` + 12 (2 sizes × off/on × 3 states) | `alpha/white-12`, `switch-track-off`, `switch-thumb-off`, `switch-thumb-on` | No invalid state in source |
 | Badge | `N7pLyj` / `JgeHn` | `Badge/Base` + 18 (6 variants × default/focus/invalid) | `destructive-foreground` | Reuses `button-destructive-bg` |
 | Field | `wqpom` / `krV6b` | Parts: `Field/Label`, `Field/Title`, `Field/Description`, `Field/Error`, `Field/Legend/{legend,label}`, `Field/Separator` (+`/plain`). Layouts: `Field/vertical/{default,description-first,textarea,invalid,disabled}`, `Field/horizontal/{checkbox,checkbox-content,switch,invalid,disabled}`, `Field/Set`, `Field/Choice/{unchecked,checked}` | `alpha/black-5`, `alpha/neutral-200-10`, `field-choice-checked-bg` | Built from Label, Input, Textarea, Checkbox, Switch and RadioGroup item instances. Negative margins (`-mt-1`, `-mt-1.5`, `-my-2`) emulated with nested gaps or ignored; `responsive` orientation not shown (container query) |
+| Kbd | `IFxxj` / `KN7ZU` | `Kbd/Base` + `Kbd/key`, `Kbd/word`, `Kbd/icon`, `Kbd/icon-text`, `Kbd/Group`, `Kbd/Group/with-plus` | none | `rounded-sm` (6 px) drawn as `radius/md`. Single keys are fixed at 20 px wide (`min-w-5`; pen.dev has no min-width). Geist has no `⌃` glyph, so Control uses `Kbd/icon` with lucide `chevron-up` |
+| Tooltip | `Vb8tE` / `sCGQh` | `Tooltip/Content` (text + hidden KbdGroup), `Tooltip/{top,bottom,left,right}`, `Tooltip/with-kbd` | `alpha/white-20`, `alpha/neutral-950-10`, `kbd-tooltip-bg` | Arrow = 10 px square rotated 45° (`radius/xs`) in a clipped 14×6 / 6×14 slot, centered 2 px inside the content edge, so ~5 px shows (matches `translate-y(-50%-2px)`). Kbd in-tooltip overrides (`$kbd-tooltip-bg`, `$background` text) are set once inside `Tooltip/Content`. Trigger examples use `Button/outline/default`; `sideOffset` 0. Enter/exit animations not shown |
 
 Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled opacity `0.5`, font size, weight and line height (no typography primitives exist), and width/height (pen.dev can't bind them to variables).
 
@@ -50,6 +52,7 @@ Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled 
 - [ ] Badge: consider renaming `button-destructive-bg` to `destructive-bg` now that Badge shares it.
 - [ ] Field: replace the drawn `$border` lines in `Field/Separator` with Separator instances once Separator is built.
 - [ ] Field: `FieldError` list mode (several errors as a bulleted `ul`) not drawn; only the single-message version exists.
+- [x] Kbd: in-tooltip styling (`[[data-slot=tooltip-content]_&]`). Done in Tooltip with the approved `kbd-tooltip-bg`.
 
 ---
 
@@ -99,10 +102,10 @@ Each prompt below follows this pattern. Paste it as written.
 - [ ] Separator
   > Recreate `separator.tsx` following the rules in `designs/components-checklist.md`. Include horizontal and vertical.
 
-- [ ] Kbd
+- [x] Kbd
   > Recreate `kbd.tsx` following the rules in `designs/components-checklist.md`. Include a single key and a key group (e.g. Cmd + K).
 
-- [ ] Tooltip
+- [x] Tooltip
   > Recreate `tooltip.tsx` following the rules in `designs/components-checklist.md`. Include the content with arrow on all four sides, and a version with a Kbd instance.
 
 - [ ] Dropdown Menu
