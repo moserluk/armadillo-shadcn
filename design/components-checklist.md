@@ -28,6 +28,8 @@ Product: desktop app
 
 Components finished in `design/armadillo.pen`. Frames sit in one row from left to right; each dark preview sits under its light frame.
 
+**Done: 14 / 52** (Tier 0: 3/3 · Tier 1: 11/18 · Tier 2: 0/22 · Tier 3: 0/9; "Unknown origin" and "Skip" not counted). Next in Tier 1: Select, Separator, Dropdown Menu, Alert Dialog, Avatar, Skeleton, Spinner.
+
 | Component | Light / dark frame | Components | Variables added | Notes |
 |---|---|---|---|---|
 | Button | `usjgH` / `aMfzE` | `Button/Base` + 48 (6 variants × 8 sizes) | (before this log) | Hover states still missing |
@@ -42,6 +44,8 @@ Components finished in `design/armadillo.pen`. Frames sit in one row from left t
 | Field | `wqpom` / `krV6b` | Parts: `Field/Label`, `Field/Title`, `Field/Description`, `Field/Error`, `Field/Legend/{legend,label}`, `Field/Separator` (+`/plain`). Layouts: `Field/vertical/{default,description-first,textarea,invalid,disabled}`, `Field/horizontal/{checkbox,checkbox-content,switch,invalid,disabled}`, `Field/Set`, `Field/Choice/{unchecked,checked}` | `alpha/black-5`, `alpha/neutral-200-10`, `field-choice-checked-bg` | Built from Label, Input, Textarea, Checkbox, Switch and RadioGroup item instances. Negative margins (`-mt-1`, `-mt-1.5`, `-my-2`) emulated with nested gaps or ignored; `responsive` orientation not shown (container query) |
 | Kbd | `IFxxj` / `KN7ZU` | `Kbd/Base` + `Kbd/key`, `Kbd/word`, `Kbd/icon`, `Kbd/icon-text`, `Kbd/Group`, `Kbd/Group/with-plus` | none | `rounded-sm` (6 px) drawn as `radius/md`. Single keys are fixed at 20 px wide (`min-w-5`; pen.dev has no min-width). Geist has no `⌃` glyph, so Control uses `Kbd/icon` with lucide `chevron-up` |
 | Tooltip | `Vb8tE` / `sCGQh` | `Tooltip/Content` (text + hidden KbdGroup), `Tooltip/{top,bottom,left,right}`, `Tooltip/with-kbd` | `alpha/white-20`, `alpha/neutral-950-10`, `kbd-tooltip-bg` | Arrow = 10 px square rotated 45° (`radius/xs`) in a clipped 14×6 / 6×14 slot, centered 2 px inside the content edge, so ~5 px shows (matches `translate-y(-50%-2px)`). Kbd in-tooltip overrides (`$kbd-tooltip-bg`, `$background` text) are set once inside `Tooltip/Content`. Trigger examples use `Button/outline/default`; `sideOffset` 0. Enter/exit animations not shown |
+| Dialog | `Ynpjp` / `Jo7vA` | `Dialog/Overlay`, `Dialog/Content` (+`/with-body`, `/no-close-button`), `Dialog/Header`, `Dialog/Title`, `Dialog/Description`, `Dialog/Footer` (+`/with-close`), `Dialog/Close/{default,hover,focus}` (`DvMJz`, `vcAcB`, `fJULA`; rebuilt after a reverted swap to `Button/ghost/icon-xs`) | `alpha/black-50`, `overlay` | Footer uses `Button/outline` + `Button/default` instances; body example uses `Field/vertical/default` instances. Content 512 px (`sm:max-w-lg`, desktop layout). `rounded-lg` = 10 px hardcoded (no primitive); `shadow-lg` approximated with 2 shadows `#0000001A` (no spread). Close is a 20 px box (16 px icon + 2 px ring offset) placed absolute at 478,14 = `top-4 right-4`; focus = 2 px `$ring` outer stroke. `data-[state=open]:bg-accent` on Close skipped (never applies). "Dialog open" scene shows trigger page + overlay + centered content |
+| Tabs | `v30QoK` / `sNFvZ` | `Tabs/Trigger/Base` + 20 (`Tabs/Trigger/{default,line}/{horizontal,vertical}/{inactive,hover,focus,active,disabled}`), `Tabs/List/{default,line}/{horizontal,vertical}`, `Tabs/Content`, `Tabs/{default,line}/{horizontal,vertical}` | `alpha/black-60`, `tabs-trigger-fg`, `tabs-trigger-active-bg`, `tabs-trigger-active-border` | Border emulated with `spacing/px` padding (pen.dev ignores `layoutIncludeStroke`). Line indicator is an in-layout 2 px bar (3 px gap below / 2 px gap right), so it doesn't need absolute positioning. Vertical lists use a fixed width (widest trigger + padding) to mimic `w-fit` + `w-full` triggers. Horizontal triggers are `fit_content`, not `flex-1` equal widths. `outline-1 outline-ring` merged into the 1 px `ring` border + 3 px `ring-50` ring. `TabsContent` has no styling of its own, so it's drawn as a slot holding a Card instance |
 
 Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled opacity `0.5`, font size, weight and line height (no typography primitives exist), and width/height (pen.dev can't bind them to variables).
 
@@ -53,6 +57,11 @@ Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled 
 - [ ] Field: replace the drawn `$border` lines in `Field/Separator` with Separator instances once Separator is built.
 - [ ] Field: `FieldError` list mode (several errors as a bulleted `ul`) not drawn; only the single-message version exists.
 - [x] Kbd: in-tooltip styling (`[[data-slot=tooltip-content]_&]`). Done in Tooltip with the approved `kbd-tooltip-bg`.
+- [ ] Tabs: equal-width triggers (`flex-1` inside a `w-fit` list) are not the default. Instances are `fit_content`; set the trigger, Ring, Body and Content to `fill_container` in a fixed-width list to get them.
+- [ ] Tabs: no hover state for the active trigger (same visuals as active) and no disabled-active combination.
+- [ ] Tabs: `line` horizontal triggers overflow their 36 px Surface/List by 1 px (trigger is 34 px = 29 body + 3 gap + 2 indicator, placed at y 3). The indicator renders 1 px below the list; it isn't visibly clipped. Fix by trimming the gap to 2 px or letting the list height fit content.
+- [ ] Alert Dialog, Sheet, Drawer: reuse `$overlay` and `Dialog/Overlay` (same `bg-black/50`).
+- [ ] Radius: `rounded-lg` (10 px, Dialog) and `rounded-xl` (14 px, Card) have no primitive. Consider adding `radius/2.5` / `radius/3.5` or a shadcn-scale radius set.
 
 ---
 
@@ -111,13 +120,13 @@ Each prompt below follows this pattern. Paste it as written.
 - [ ] Dropdown Menu
   > Recreate `dropdown-menu.tsx` following the rules in `designs/components-checklist.md`. Include items (default, hover/focus, disabled, destructive), checkbox items, radio items, label, separator, shortcut, submenu and icons.
 
-- [ ] Dialog
+- [x] Dialog
   > Recreate `dialog.tsx` following the rules in `designs/components-checklist.md`. Include the overlay, header, title, description, footer with Button instances, and the close button.
 
 - [ ] Alert Dialog
   > Recreate `alert-dialog.tsx` following the rules in `designs/components-checklist.md`. Reuse Dialog's variables. Include header, footer with action and cancel Button instances, and every size it defines.
 
-- [ ] Tabs
+- [x] Tabs
   > Recreate `tabs.tsx` following the rules in `designs/components-checklist.md`. Include the list, triggers (active, inactive, hover, disabled) and content, in every variant and orientation.
 
 - [ ] Avatar
