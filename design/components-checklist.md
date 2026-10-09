@@ -28,7 +28,7 @@ Product: desktop app
 
 Components finished in `design/armadillo.pen`. Frames sit in one row from left to right; each dark preview sits under its light frame.
 
-**Done: 35 / 52** (Tier 0: 3/3 · Tier 1: 15/18 · Tier 2: 17/22 · Tier 3: 0/9; "Unknown origin" and "Skip" not counted). Next in Tier 1: Select, Separator, Skeleton.
+**Done: 37 / 52** (Tier 0: 3/3 · Tier 1: 15/18 · Tier 2: 17/22 · Tier 3: 2/9; "Unknown origin" and "Skip" not counted). Next in Tier 1: Select, Separator, Skeleton.
 
 | Component | Light / dark frame | Components | Variables added | Notes |
 |---|---|---|---|---|
@@ -68,6 +68,9 @@ Components finished in `design/armadillo.pen`. Frames sit in one row from left t
 | Slider | `D7JT9` / `udmmw` | `Slider/Thumb/{default,focus}`, `Slider/{default,range,focus,disabled,vertical}` | `slider-thumb-bg` (light `$white`, dark `$white`) | Track `h-1.5` (6) `rounded-full $muted`, Range `$primary`, 320 wide (demo `w-[60%]`). Thumb `size-4 rounded-full`, `border-primary`, `bg-white` → `$slider-thumb-bg`, `shadow-sm` (2 shadows); hover/focus = 4 px outer `$ring-50` (`ring-4 ring-ring/50`) on a wrapper. Thumb x = value × (width − 16) (Radix keeps thumbs inside the track). Range = 25–75 with two thumbs; disabled = opacity 0.5; vertical = `min-h-44` (176), range from the bottom |
 | Item | `i2diPr` / `gCuBA` | `Item/Media/{default,icon,image}`, `Item/{default,outline,muted}/{default,sm}`, `Item/hover`, `Item/focus`, `Item/Group`, `Item/header-footer` | `alpha/neutral-700-50`, `accent-50` | Root `rounded-md` (radius/lg) transparent border; outline = `$border`, muted = `$muted-50`; size default `gap-4 p-4`, sm `gap-2.5 px-4 py-3`; 420 wide. Media: default (plain 20 px icon), icon (`size-8` `radius/md` border `$muted`, 16 px icon), image (`size-10`, Avatar stock photo). With a description, media is `self-start` + `translate-y-0.5`: drawn as a start-aligned row (2 px media nudge) with the actions vertically centered via computed top padding (pen.dev has no per-child align). Title 14/500 `leading-snug`, description 14 muted `leading-normal`. Actions = Button instances. Link hover = `$accent-50` (`[a]:hover:bg-accent/50`); focus = `$ring` border + 3 px `$ring-50`. Group = items with 1 px `$border` ItemSeparators (drawn) and Avatar instances; header/footer example uses Badge + Button instances |
 | Sidebar (phase 1 of 2, not ticked) | `J0VJq` / `U7IigI` | `Sidebar/MenuButton/{default,hover,active,disabled,focus,icon,lg}`, `Sidebar/MenuBadge`, `Sidebar/GroupLabel`, `Sidebar/MenuSubButton/{default,active}`, `Sidebar/MenuSub`, `Sidebar/expanded` (w-64, 256), `Sidebar/collapsed` (icon, w-12, 48) | `alpha/black-70`, `alpha/neutral-50-70`, `sidebar-foreground-70` | MenuButton `h-8 p-2 gap-2 rounded-md` (radius/lg), 16 px lucide icons; hover/active = `$sidebar-accent` / `$sidebar-accent-foreground` (active also 500), disabled 0.5, focus = 2 px `$sidebar-ring`. MenuBadge `h-5 min-w-5 px-1` 12/500 (kept in the row instead of absolute right-1). GroupLabel `h-8 px-2` 12/500 `$sidebar-foreground-70`. MenuSub `mx-3.5 border-l $sidebar-border px-2.5 py-0.5 gap-1`, sub buttons `h-7 px-2`. Header/Footer `p-2 gap-2` with `lg` (h-12) team switcher (`$sidebar-primary` logo) and nav user (Avatar instance). Container `$sidebar` + right `$sidebar-border`, 720 tall. Collapsed: 32 px icon buttons, labels/badges/sub hidden, hover shows a `Tooltip/right` instance |
+| Pagination | `kfQrU` / `hXRfO` | `Pagination/Link/{default,hover,active}`, `Pagination/Previous`, `Pagination/Next`, `Pagination/Ellipsis`, `Pagination/{demo,first,last}` | none | Built entirely from Button instances: Link = `Button/ghost/icon` (36) with the label shown and icon hidden, active = `Button/outline/icon` (`isActive`), hover = `$accent` override (Button hover still pending in Tier 0). Previous / Next = `Button/ghost/default` with `gap-1 px-2.5` and chevron; Next swaps the icon and label slots to put the chevron after the text. Ellipsis `size-9` with 16 px `ellipsis`. Buttons are `rounded-full` (library rule), so active page is a circle. `PaginationContent gap-1` |
+| Navigation Menu | `ETKDn` / `gJKVK` | `NavigationMenu/Trigger/{default,hover,focus,open,disabled,link}`, `NavigationMenu/Link/{default,hover,active}`, `NavigationMenu/List`, `NavigationMenu/Content/{home,components}` | none (reuses `accent-50`, `muted-50`) | Trigger = `navigationMenuTriggerStyle` `h-9 px-4 py-2 rounded-md bg-background` 14/500, chevron 12 (`ml-1 top-px`); hover/focus `$accent`, open `$accent-50` with chevron rotated (drawn as chevron-up), focus 3 px `$ring-50` + 1 px `$ring` outline, disabled 0.5. Link `p-2 gap-1 rounded-sm` (radius/md), title 14/500 lh 1, description 14 muted `leading-snug` (`line-clamp-2` shown by truncating the Tabs text). Content (viewport={false}): `mt-1.5 rounded-md border bg-popover shadow p-2 pr-2.5`. Demo: Home open with gradient feature tile (`from-muted/50 to-muted` → `$muted-50` → `$muted`, `p-6`, row-span-3) + 3 links; Components 2-column panel (600). Indicator / viewport mode not drawn |
+| Accordion (built by a parallel designer agent, not reviewed) | `Tnb5g` / `s9Bhj` | see frame | none expected (agent instructed not to create variables) | Built in parallel by a spawned designer agent from `accordion.tsx`; this session did not verify it. Review, then tick and replace this row with the details |
 
 Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled opacity `0.5`, font size, weight and line height (no typography primitives exist), and width/height (pen.dev can't bind them to variables).
 
@@ -86,6 +89,7 @@ Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled 
 - [ ] Radius: `rounded-lg` (10 px, Dialog) and `rounded-xl` (14 px, Card) have no primitive. Consider adding `radius/2.5` / `radius/3.5` or a shadcn-scale radius set.
 - [ ] Avatar: new-york-v4 `Avatar` root has `overflow-hidden rounded-full`, which in the browser clips `AvatarBadge` (absolute bottom-right) to the circle. The design shows the badge unclipped, matching the radix base (no `overflow-hidden`) and the shared example. Check the running app and either drop `overflow-hidden` from the root in code or clip the badge in design.
 - [ ] Sidebar phase 2 (after review): SidebarInput (Input instance), SidebarSeparator, SidebarGroupAction, SidebarMenuAction, SidebarMenuSkeleton (needs Skeleton), SidebarTrigger + Rail, SidebarInset, variants floating / inset, side right, offcanvas, mobile Sheet.
+- [ ] Accordion: built by a parallel designer agent in `Tnb5g` / `s9Bhj`; review the frames, then tick it and fill in its Design progress row.
 - [x] Menubar: reuses the `DropdownMenu/*` parts and `$menu-item-destructive-focus-bg`. Done.
 - [x] Combobox: built after Input Group from `ui/combobox.tsx`.
 - [ ] Context Menu: `ContextMenuTrigger` demo area uses `border-dashed`; pen.dev strokes can't be dashed, so it's drawn solid.
@@ -245,10 +249,10 @@ Each prompt below follows this pattern. Paste it as written.
 - [ ] Calendar
   > Recreate `calendar.tsx` following the rules in `designs/components-checklist.md`. Include one month with today, selected day, range selection, outside days and disabled days.
 
-- [ ] Pagination
+- [x] Pagination
   > Recreate `pagination.tsx` following the rules in `designs/components-checklist.md`. Use Button instances if it's built from them. Include previous, next, active page and ellipsis.
 
-- [ ] Navigation Menu
+- [x] Navigation Menu
   > Recreate `navigation-menu.tsx` following the rules in `designs/components-checklist.md`. Include triggers (default, open) and an open content panel with links.
 
 - [ ] Input OTP
