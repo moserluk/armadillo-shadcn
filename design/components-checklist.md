@@ -28,7 +28,7 @@ Product: desktop app
 
 Components finished in `design/armadillo.pen`. Frames sit in one row from left to right; each dark preview sits under its light frame.
 
-**Done: 34 / 52** (Tier 0: 3/3 · Tier 1: 15/18 · Tier 2: 16/22 · Tier 3: 0/9; "Unknown origin" and "Skip" not counted). Next in Tier 1: Select, Separator, Skeleton.
+**Done: 35 / 52** (Tier 0: 3/3 · Tier 1: 15/18 · Tier 2: 17/22 · Tier 3: 0/9; "Unknown origin" and "Skip" not counted). Next in Tier 1: Select, Separator, Skeleton.
 
 | Component | Light / dark frame | Components | Variables added | Notes |
 |---|---|---|---|---|
@@ -66,6 +66,8 @@ Components finished in `design/armadillo.pen`. Frames sit in one row from left t
 | Sonner (toast) | `fSFmp` / `H4Vej` | `Sonner/Toast/{default,success,info,warning,error,loading,action}` + stacked Toaster preview | none | `sonner.tsx` only maps `--normal-bg` → `$popover`, `--normal-text` → `$popover-foreground`, `--normal-border` → `$border`, `--border-radius` → radius (10, hardcoded); no `richColors`, so every type is neutral and differs only by its lucide icon (circle-check, info, triangle-alert, octagon-x; loading = Spinner instance). Rest follows Sonner's default CSS (hardcoded): 356 wide, 16 px padding (13 left for the icon's -3 px margin), icon gap 10, 13 px title 500/1.5, description 400/1.4, shadow `0 4px 12px #0000001A`; action button 24 tall, 12/500, radius 4, inverted (`$popover-foreground` bg, `$popover` text). Stack preview is approximate (scaled 0.95 / 0.9 behind) |
 | Progress | `ul2y5` / `j99jfn` | `Progress/{0,25,50,75,100}` | `alpha/black-20`, `alpha/neutral-200-20`, `primary-20` | Track `h-2` (8) `rounded-full` `$primary-20` (`bg-primary/20`), clipped; indicator `$primary` with width = value % of the 320 px track (code uses `translateX(-(100-value)%)` on a full-width bar; same visual). 0% hides the indicator. Width 320 stands in for the demo's `w-[60%]` |
 | Slider | `D7JT9` / `udmmw` | `Slider/Thumb/{default,focus}`, `Slider/{default,range,focus,disabled,vertical}` | `slider-thumb-bg` (light `$white`, dark `$white`) | Track `h-1.5` (6) `rounded-full $muted`, Range `$primary`, 320 wide (demo `w-[60%]`). Thumb `size-4 rounded-full`, `border-primary`, `bg-white` → `$slider-thumb-bg`, `shadow-sm` (2 shadows); hover/focus = 4 px outer `$ring-50` (`ring-4 ring-ring/50`) on a wrapper. Thumb x = value × (width − 16) (Radix keeps thumbs inside the track). Range = 25–75 with two thumbs; disabled = opacity 0.5; vertical = `min-h-44` (176), range from the bottom |
+| Item | `i2diPr` / `gCuBA` | `Item/Media/{default,icon,image}`, `Item/{default,outline,muted}/{default,sm}`, `Item/hover`, `Item/focus`, `Item/Group`, `Item/header-footer` | `alpha/neutral-700-50`, `accent-50` | Root `rounded-md` (radius/lg) transparent border; outline = `$border`, muted = `$muted-50`; size default `gap-4 p-4`, sm `gap-2.5 px-4 py-3`; 420 wide. Media: default (plain 20 px icon), icon (`size-8` `radius/md` border `$muted`, 16 px icon), image (`size-10`, Avatar stock photo). With a description, media is `self-start` + `translate-y-0.5`: drawn as a start-aligned row (2 px media nudge) with the actions vertically centered via computed top padding (pen.dev has no per-child align). Title 14/500 `leading-snug`, description 14 muted `leading-normal`. Actions = Button instances. Link hover = `$accent-50` (`[a]:hover:bg-accent/50`); focus = `$ring` border + 3 px `$ring-50`. Group = items with 1 px `$border` ItemSeparators (drawn) and Avatar instances; header/footer example uses Badge + Button instances |
+| Sidebar (phase 1 of 2, not ticked) | `J0VJq` / `U7IigI` | `Sidebar/MenuButton/{default,hover,active,disabled,focus,icon,lg}`, `Sidebar/MenuBadge`, `Sidebar/GroupLabel`, `Sidebar/MenuSubButton/{default,active}`, `Sidebar/MenuSub`, `Sidebar/expanded` (w-64, 256), `Sidebar/collapsed` (icon, w-12, 48) | `alpha/black-70`, `alpha/neutral-50-70`, `sidebar-foreground-70` | MenuButton `h-8 p-2 gap-2 rounded-md` (radius/lg), 16 px lucide icons; hover/active = `$sidebar-accent` / `$sidebar-accent-foreground` (active also 500), disabled 0.5, focus = 2 px `$sidebar-ring`. MenuBadge `h-5 min-w-5 px-1` 12/500 (kept in the row instead of absolute right-1). GroupLabel `h-8 px-2` 12/500 `$sidebar-foreground-70`. MenuSub `mx-3.5 border-l $sidebar-border px-2.5 py-0.5 gap-1`, sub buttons `h-7 px-2`. Header/Footer `p-2 gap-2` with `lg` (h-12) team switcher (`$sidebar-primary` logo) and nav user (Avatar instance). Container `$sidebar` + right `$sidebar-border`, 720 tall. Collapsed: 32 px icon buttons, labels/badges/sub hidden, hover shows a `Tooltip/right` instance |
 
 Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled opacity `0.5`, font size, weight and line height (no typography primitives exist), and width/height (pen.dev can't bind them to variables).
 
@@ -83,6 +85,7 @@ Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled 
 - [ ] Sheet, Drawer: reuse `$overlay` and `Dialog/Overlay` (same `bg-black/50`). Alert Dialog already does.
 - [ ] Radius: `rounded-lg` (10 px, Dialog) and `rounded-xl` (14 px, Card) have no primitive. Consider adding `radius/2.5` / `radius/3.5` or a shadcn-scale radius set.
 - [ ] Avatar: new-york-v4 `Avatar` root has `overflow-hidden rounded-full`, which in the browser clips `AvatarBadge` (absolute bottom-right) to the circle. The design shows the badge unclipped, matching the radix base (no `overflow-hidden`) and the shared example. Check the running app and either drop `overflow-hidden` from the root in code or clip the badge in design.
+- [ ] Sidebar phase 2 (after review): SidebarInput (Input instance), SidebarSeparator, SidebarGroupAction, SidebarMenuAction, SidebarMenuSkeleton (needs Skeleton), SidebarTrigger + Rail, SidebarInset, variants floating / inset, side right, offcanvas, mobile Sheet.
 - [x] Menubar: reuses the `DropdownMenu/*` parts and `$menu-item-destructive-focus-bg`. Done.
 - [x] Combobox: built after Input Group from `ui/combobox.tsx`.
 - [ ] Context Menu: `ContextMenuTrigger` demo area uses `border-dashed`; pen.dev strokes can't be dashed, so it's drawn solid.
@@ -217,7 +220,7 @@ Each prompt below follows this pattern. Paste it as written.
 - [ ] Empty
   > Recreate `empty.tsx` following the rules in `designs/components-checklist.md`. Include media (icon), title, description and actions with Button instances.
 
-- [ ] Item
+- [x] Item
   > Recreate `item.tsx` following the rules in `designs/components-checklist.md`. Include every variant and size, with media, content, actions and as a group.
 
 - [ ] Hover Card
