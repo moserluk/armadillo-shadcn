@@ -28,7 +28,7 @@ Product: desktop app
 
 Components finished in `design/armadillo.pen`. Frames sit in one row from left to right; each dark preview sits under its light frame.
 
-**Done: 44 / 52** (Tier 0: 3/3 · Tier 1: 15/18 · Tier 2: 17/22 · Tier 3: 9/9; "Unknown origin" and "Skip" not counted). Next in Tier 1: Select, Separator, Skeleton.
+**Done: 47 / 52** (Tier 0: 3/3 · Tier 1: 18/18 · Tier 2: 17/22 · Tier 3: 9/9; "Unknown origin" and "Skip" not counted). Tier 1 complete. Next: Tier 2 (Empty, Hover Card, Sheet, Resizable, Sidebar phase 2) and the Tier 0 hover states.
 
 | Component | Light / dark frame | Components | Variables added | Notes |
 |---|---|---|---|---|
@@ -78,6 +78,9 @@ Components finished in `design/armadillo.pen`. Frames sit in one row from left t
 | Carousel | `CPh5W` / `iIf8V` | `Carousel/{Previous,Next}` (+`/disabled`, `/vertical`), `Carousel/Slide` (+`/sm`, `/vertical`), `Carousel/horizontal` (+`/middle`), `Carousel/multiple`, `Carousel/vertical` | none | Previous / Next = `Button/outline/icon-sm` instances (`size-8 rounded-full`) with lucide `arrow-left` / `arrow-right`; vertical `rotate-90` drawn as `arrow-up` / `arrow-down`; disabled (`!canScrollPrev/Next`) = 0.5. Placed absolutely 48 px outside the root (`-left-12` / `-right-12`, vertical `-top-12` / `-bottom-12`), centered on the other axis. CarouselContent = clipped viewport with the track offset `-ml-4` (horizontal) or `-mt-1` (vertical demo); CarouselItem `pl-4` / `pt-1`. Slides = `p-1` + Card instance (Header/Footer hidden, CardContent `p-6` centered, number 36/600 or 30/600 `$card-foreground`). Demos: carousel-demo (`max-w-xs` 320, square content → 320 × 368, at slide 1 and slide 3), carousel-size (`max-w-sm` 384, `basis-1/3` → 112 × 160 slides), carousel-orientation (viewport 196 tall, items grow to content height 144, so slide 2 is cut off at the bottom, as in code) |
 | Drawer | `dk96X` / `I6YLYi` | `Drawer/Handle`, `Drawer/Title`, `Drawer/Description`, `Drawer/Header` (+`/mobile`), `Drawer/Footer`, `Drawer/Demo Body`, `Drawer/Content/{bottom,top,right,left}`, `Drawer/demo` | none (reuses `overlay` via a `Dialog/Overlay` instance) | Content `$background`; bottom `rounded-t-lg` / top `rounded-b-lg` (10 hardcoded) with a 1 px `$border` top / bottom (per-side stroke); right / left `sm:max-w-sm` (384) with `border-l` / `border-r`, drawn 480 tall, footer pushed down (`mt-auto` → space_between). Handle (bottom only) `mt-4 h-2 w-[100px] rounded-full $muted`. Header `p-4`, desktop `md:gap-1.5 md:text-left`; `/mobile` = `gap-0.5 text-center` (bottom/top below md). Title 16/600 (no size class), Description 14 muted. Footer `p-4 gap-2` with full-width `Button/default` + `Button/outline` instances. drawer-demo: inner `max-w-sm`, goal row with `Button/outline/icon-sm` −/+ (`h-8 w-8 rounded-full`), 350 at 72/700 `tracking-tighter` (−3.6), `CALORIES/DAY` 11.2 muted, 13-bar chart 120 tall (`$foreground` at 0.9, domain 0–400) → 454 tall. Open scene: 960 × 640 page + `Dialog/Overlay` instance + demo drawer at the bottom. Drag / snap points not drawn |
 | Accordion | `Tnb5g` / `s9Bhj` | `Accordion/Trigger/{closed,open,hover,focus,disabled}`, `Accordion/Content`, `Accordion/Item/{closed,open,last}`, `Accordion/demo` | none | Built by a parallel designer agent, reviewed 2026-10-15. Trigger `py-4 gap-4 rounded-md` (`radius/lg`) 14/500 `$foreground`, `items-start`, chevron 16 `$muted-foreground` with `translate-y-0.5` (2 px top padding); open = chevron `flipY` (`rotate-180`). Focus = 3 px `$ring-50` (`border-ring` has no border to color). Disabled 0.5. Item `border-b $border` via `spacing/px` padding + bottom stroke, `last:border-b-0`. Content `pb-4` 14 text, demo paragraphs `gap-4`. 384 wide. Hover (`hover:underline`) is drawn identical to closed: pen.dev drops the `underline` text property (even on plain text nodes), see Open follow-ups |
+| Separator | `GOve5` / `Haxoq` | `Separator/horizontal`, `Separator/vertical`, `Separator/demo`; rebuilt `ButtonGroup/Separator` (`Bb3uz`) as a Separator instance | none | `bg-border` 1 px; horizontal `w-full` → `fill_container(240)`, vertical `h-full` → `fill_container(20)` (fallbacks for use outside a layout). Demo = separator-demo (`my-4`, `h-5` row with `space-x-4`). Swapped drawn lines for instances in `Field/Separator` (both lines), `Item/Group` (2 ItemSeparators), `ScrollArea/vertical` (10 tag separators, `my-2` wrappers kept), `InputGroup/textarea` (vertical, `!h-4` = 16). `ButtonGroup/Separator` was a reusable rectangle that couldn't become an instance: replaced by a new component (Separator/vertical + `bg-input` → `$input`, `self-stretch` → fill height in groups), its 2 instances repointed and the old rectangle (`RIiKM`) deleted. SidebarSeparator waits for Sidebar phase 2 |
+| Skeleton | `h6afsk` / `al7TT` | `Skeleton` (line), `Skeleton/circle`, `Skeleton/block`, `Skeleton/pulse`, `Skeleton/demo`, `Skeleton/card` | none | `rounded-md` (`radius/lg`) `$accent`; size and radius come from `className` in code, so variants are instances: line `h-4 w-[250px]`, circle `size-12 rounded-full`, block `h-[125px] w-[250px] rounded-xl` (14 hardcoded). `animate-pulse` drawn as its low point (opacity 0.5). Demos: skeleton-demo (`space-x-4`, lines `space-y-2`, second line 200) and skeleton-card (`space-y-3`). Only Sidebar uses Skeleton (SidebarMenuSkeleton, phase 2), so no existing component needed updating |
+| Select | `kFqVs` / `Pi3PM` | `Select/Trigger/Base` + `Select/Trigger/{placeholder,filled,focus,disabled,invalid,invalid-focus,sm}`, `Select/Item/{default,focus,selected,selected-focus,disabled}`, `Select/Label`, `Select/Separator`, `Select/ScrollUpButton`, `Select/ScrollDownButton`, `Select/Content` (+`/groups`, `/scrollable`); new `Field/vertical/select` (`kcvg8`) | none (reuses Input's `input`, `input-bg`, `ring`, `ring-50`, `destructive`, `ring-destructive`) | Trigger two-layer like Input: `rounded-md border-input $input-bg shadow-xs px-3 py-2 gap-2 h-9` (sm `h-8`), `justify-between`, chevron 16 muted at 50%; placeholder `$muted-foreground`, value `$foreground`; 180 wide (select-demo `w-[180px]`). Content: `rounded-md border $popover shadow-md` (same 2 shadows as DropdownMenu/Content), viewport `p-1` drawn as `[4,0]` padding + `px-1` groups so separators span edge to edge (`-mx-1`), width = trigger width. Item `py-1.5 pl-2 pr-8 gap-2 rounded-sm` (`radius/md`) 14, focus `$accent` / `$accent-foreground`, selected = 16 px check (`$muted-foreground`) in a 14 px box absolute at `right-2` (x fixed for the 180 content), disabled 0.5. Label `px-2 py-1.5` 12 muted. Separator `my-1` = Separator/horizontal instance. Scroll buttons `py-1` with 16 px chevrons. Open scenes: item-aligned (selected item over the trigger value) and popper (`translate-y-1`). Related update: `Field/vertical/select` (field-select demo, trigger `w-fit`) added to the Field frame and its dark preview; all frames right of Field shifted 368 px to keep spacing. No ui component renders Select, so nothing else to swap |
 
 Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled opacity `0.5`, font size, weight and line height (no typography primitives exist), and width/height (pen.dev can't bind them to variables).
 
@@ -86,7 +89,7 @@ Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled 
 - [ ] Badge: link hovers (`[a&]:hover` primary/90, secondary/90, destructive/90, outline/ghost accent, link underline). Waiting on the Tier 0 hover variables.
 - [ ] Button: rebind `Button/destructive/*` text and icon from hardcoded `#FFFFFF` to `$destructive-foreground`.
 - [ ] Badge: consider renaming `button-destructive-bg` to `destructive-bg` now that Badge shares it.
-- [ ] Field, Button Group, Scroll Area, Input Group: replace drawn separator lines (`Field/Separator`, `ButtonGroup/Separator`, Scroll Area tag separators, Input Group textarea toolbar) with Separator instances once Separator is built.
+- [x] Field, Button Group, Scroll Area, Input Group: replace drawn separator lines (`Field/Separator`, `ButtonGroup/Separator`, Scroll Area tag separators, Input Group textarea toolbar) with Separator instances once Separator is built. Done with Separator.
 - [ ] Field: `FieldError` list mode (several errors as a bulleted `ul`) not drawn; only the single-message version exists.
 - [x] Kbd: in-tooltip styling (`[[data-slot=tooltip-content]_&]`). Done in Tooltip with the approved `kbd-tooltip-bg`.
 - [ ] Tabs: equal-width triggers (`flex-1` inside a `w-fit` list) are not the default. Instances are `fit_content`; set the trigger, Ring, Body and Content to `fill_container` in a fixed-width list to get them.
@@ -95,9 +98,9 @@ Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled 
 - [ ] Sheet: reuse `$overlay` and `Dialog/Overlay` (same `bg-black/50`). Alert Dialog and Drawer already do.
 - [ ] Radius: `rounded-lg` (10 px, Dialog) and `rounded-xl` (14 px, Card) have no primitive. Consider adding `radius/2.5` / `radius/3.5` or a shadcn-scale radius set.
 - [ ] Avatar: new-york-v4 `Avatar` root has `overflow-hidden rounded-full`, which in the browser clips `AvatarBadge` (absolute bottom-right) to the circle. The design shows the badge unclipped, matching the radix base (no `overflow-hidden`) and the shared example. Check the running app and either drop `overflow-hidden` from the root in code or clip the badge in design.
-- [ ] Sidebar phase 2 (after review): SidebarInput (Input instance), SidebarSeparator, SidebarGroupAction, SidebarMenuAction, SidebarMenuSkeleton (needs Skeleton), SidebarTrigger + Rail, SidebarInset, variants floating / inset, side right, offcanvas, mobile Sheet.
+- [ ] Sidebar phase 2 (after review): SidebarInput (Input instance), SidebarSeparator (Separator now built), SidebarGroupAction, SidebarMenuAction, SidebarMenuSkeleton (Skeleton now built), SidebarTrigger + Rail, SidebarInset, variants floating / inset, side right, offcanvas, mobile Sheet.
 - [ ] Calendar: day hover is `$accent` in both modes; ghost `dark:hover:bg-accent/50` waits on the Button hover tokens. Not drawn: custom day content (`[&>span]:text-xs opacity-70`, e.g. prices), today + selected combination, `buttonVariant` other than ghost.
-- [ ] Native Select: `dark:hover:bg-input/50` not drawn; add it together with the Input hover (`input-50`) in the Tier 0 hover task.
+- [ ] Native Select, Select trigger: `dark:hover:bg-input/50` not drawn; add it together with the Input hover (`input-50`) in the Tier 0 hover task.
 - [ ] Chart: only the bar chart is drawn as a container example (line, area, pie, radar, radial charts not drawn); tooltip `formatter` / custom-content demos not drawn.
 - [ ] Underline: pen.dev drops the `underline` text property (tested on a plain text node), so `hover:underline` can't be drawn (Accordion trigger hover, Badge / Button link). Options: draw a 1 px line under the label inside the component, or wait for pen.dev support.
 - [x] Menubar: reuses the `DropdownMenu/*` parts and `$menu-item-destructive-focus-bg`. Done.
@@ -140,7 +143,7 @@ Each prompt below follows this pattern. Paste it as written.
 - [x] Switch
   > Recreate `switch.tsx` following the rules in `designs/components-checklist.md`. Include off, on, focus and disabled states, and every size.
 
-- [ ] Select
+- [x] Select
   > Recreate `select.tsx` following the rules in `designs/components-checklist.md`. Include the trigger (placeholder, filled, focus, disabled, invalid), the open content with items, a selected item, a group label and a separator.
 
 - [x] Field
@@ -149,7 +152,7 @@ Each prompt below follows this pattern. Paste it as written.
 - [x] Badge
   > Recreate `badge.tsx` following the rules in `designs/components-checklist.md`. Include every variant.
 
-- [ ] Separator
+- [x] Separator
   > Recreate `separator.tsx` following the rules in `designs/components-checklist.md`. Include horizontal and vertical.
 
 - [x] Kbd
@@ -173,7 +176,7 @@ Each prompt below follows this pattern. Paste it as written.
 - [x] Avatar
   > Recreate `avatar.tsx` following the rules in `designs/components-checklist.md`. Include image, fallback with initials, every size, and an avatar group if defined.
 
-- [ ] Skeleton
+- [x] Skeleton
   > Recreate `skeleton.tsx` following the rules in `designs/components-checklist.md`. Include line, circle and card-shaped examples.
 
 - [x] Spinner
