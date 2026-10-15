@@ -44863,7 +44863,12 @@
                       "type": "ref",
                       "reusable": true,
                       "ref": "CGhQ3",
-                      "name": "Accordion/Trigger/hover"
+                      "name": "Accordion/Trigger/hover",
+                      "descendants": {
+                        "QSOP7": {
+                          "lineHeight": 1.43
+                        }
+                      }
                     }
                   ]
                 },
@@ -60845,6 +60850,883 @@
                       ]
                     }
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iZjo9",
+          "name": "Section DrawerContent",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "J7ECLL",
+              "name": "Section title",
+              "fill": "$foreground",
+              "content": "DrawerContent  ·  bottom (rounded-t-lg border-t, handle mt-4 h-2 w-[100px]) · top (rounded-b-lg border-b) · right / left (w-3/4 sm:max-w-sm, border-l / border-r, full height, footer mt-auto)",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "QcAtj",
+              "name": "Items",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "orJVp",
+                  "name": "Cell bottom",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V0QAa",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "bottom",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YTfqB",
+                      "name": "Drawer/Content/bottom",
+                      "reusable": true,
+                      "width": 560,
+                      "fill": "$background",
+                      "cornerRadius": [
+                        10,
+                        10,
+                        0,
+                        0
+                      ],
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "padding": [
+                        "$spacing/4",
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "KEOFC",
+                          "type": "ref",
+                          "ref": "ebMUB",
+                          "name": "Handle"
+                        },
+                        {
+                          "id": "m4jo1N",
+                          "type": "ref",
+                          "ref": "UYoWE",
+                          "name": "Header",
+                          "width": "fill_container"
+                        },
+                        {
+                          "id": "W9rOo",
+                          "type": "ref",
+                          "ref": "p3tUKu",
+                          "name": "Footer",
+                          "width": "fill_container"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h9Vuso",
+                  "name": "Cell top",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qvbKd",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "top",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "plJQe",
+                      "name": "Drawer/Content/top",
+                      "reusable": true,
+                      "width": 560,
+                      "fill": "$background",
+                      "cornerRadius": [
+                        0,
+                        0,
+                        10,
+                        10
+                      ],
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "id": "FYu5u",
+                          "type": "ref",
+                          "ref": "UYoWE",
+                          "name": "Header",
+                          "width": "fill_container"
+                        },
+                        {
+                          "id": "ILYh3",
+                          "type": "ref",
+                          "ref": "p3tUKu",
+                          "name": "Footer",
+                          "width": "fill_container"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Mi3Mb",
+                  "name": "Cell right",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fZvUE",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "right",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QSz5v",
+                      "name": "Drawer/Content/right",
+                      "reusable": true,
+                      "width": 384,
+                      "height": 480,
+                      "fill": "$background",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "left": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "id": "X9eQW",
+                          "type": "ref",
+                          "ref": "UYoWE",
+                          "name": "Header",
+                          "width": "fill_container"
+                        },
+                        {
+                          "id": "FuCxf",
+                          "type": "ref",
+                          "ref": "p3tUKu",
+                          "name": "Footer",
+                          "width": "fill_container"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "K2Jdo",
+                  "name": "Cell left",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gim6R",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "left",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DQewU",
+                      "name": "Drawer/Content/left",
+                      "reusable": true,
+                      "width": 384,
+                      "height": 480,
+                      "fill": "$background",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "right": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "id": "CYSWr",
+                          "type": "ref",
+                          "ref": "UYoWE",
+                          "name": "Header",
+                          "width": "fill_container"
+                        },
+                        {
+                          "id": "TlMsp",
+                          "type": "ref",
+                          "ref": "p3tUKu",
+                          "name": "Footer",
+                          "width": "fill_container"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zcede",
+                  "name": "Cell drawer-demo (bottom, inner mx-auto max-w-sm)",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C16E0",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "drawer-demo (bottom, inner mx-auto max-w-sm)",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hNws4",
+                      "name": "Drawer/demo",
+                      "reusable": true,
+                      "width": 560,
+                      "fill": "$background",
+                      "cornerRadius": [
+                        10,
+                        10,
+                        0,
+                        0
+                      ],
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "padding": [
+                        "$spacing/4",
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "vbwqD",
+                          "type": "ref",
+                          "ref": "ebMUB",
+                          "name": "Handle"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "R3k9GG",
+                          "name": "Inner",
+                          "width": 384,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "id": "PcTwF",
+                              "type": "ref",
+                              "ref": "UYoWE",
+                              "name": "Header",
+                              "width": "fill_container"
+                            },
+                            {
+                              "id": "ggWoQ",
+                              "type": "ref",
+                              "ref": "futtD",
+                              "name": "Body",
+                              "width": "fill_container"
+                            },
+                            {
+                              "id": "PsfWj",
+                              "type": "ref",
+                              "ref": "p3tUKu",
+                              "name": "Footer",
+                              "width": "fill_container"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "F0fbBh",
+          "name": "Section Drawer open",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "s4D1RC",
+              "name": "Section title",
+              "fill": "$foreground",
+              "content": "Drawer open  ·  trigger page + DrawerOverlay (bg-black/50 = $overlay) + DrawerContent bottom (inset-x-0 bottom-0)",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "fQr1t",
+              "name": "Scene",
+              "clip": true,
+              "width": 960,
+              "height": 640,
+              "fill": "$background",
+              "stroke": "$border",
+              "strokeWidth": 1,
+              "strokeAlignment": "outer",
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZAGWm",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Page",
+                  "width": 960,
+                  "height": 640,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "WUTTV",
+                      "type": "ref",
+                      "ref": "Zt2m3",
+                      "name": "Trigger",
+                      "descendants": {
+                        "NPDJC": {
+                          "content": "Open Drawer"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "GdKpZ",
+                  "type": "ref",
+                  "ref": "XPmHC",
+                  "name": "Overlay",
+                  "x": 0,
+                  "y": 0,
+                  "width": 960,
+                  "height": 640
+                },
+                {
+                  "id": "qO9ob",
+                  "type": "ref",
+                  "ref": "hNws4",
+                  "name": "Drawer",
+                  "x": 0,
+                  "y": 186,
+                  "width": 960
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "I6YLYi",
+      "x": 59033,
+      "y": 1890,
+      "name": "Drawer — Dark preview",
+      "theme": {
+        "Theme": "dark"
+      },
+      "fill": "$background",
+      "layout": "vertical",
+      "gap": 48,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "hyDmB",
+          "name": "Header",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "type": "text",
+              "id": "A2UMvN",
+              "name": "Title",
+              "fill": "$foreground",
+              "content": "Drawer",
+              "fontFamily": "Geist",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "dwCH6",
+              "name": "Source",
+              "fill": "$muted-foreground",
+              "content": "registry/new-york-v4/ui/drawer.tsx  ·  vaul  ·  DrawerOverlay, DrawerContent (direction bottom | top | left | right, handle on bottom), DrawerHeader, DrawerFooter, DrawerTitle, DrawerDescription",
+              "fontFamily": "Geist Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NiVbt",
+          "name": "Section Parts",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "kq5nc",
+              "name": "Section title",
+              "fill": "$foreground",
+              "content": "Parts  ·  handle (bottom only) · title · description · header (md: text-left gap-1.5 · mobile bottom/top: text-center gap-0.5) · footer (mt-auto flex-col gap-2 p-4) · drawer-demo body",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "Tz7wR",
+              "name": "Items",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GLt1g",
+                  "name": "Cell handle",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mPzEK",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "handle",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "dC9fk",
+                      "type": "ref",
+                      "ref": "ebMUB"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "g43kwy",
+                  "name": "Cell title",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mxrch",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "title",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "KuwD5",
+                      "type": "ref",
+                      "ref": "NZ8sT"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e0pMD",
+                  "name": "Cell description",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zxxAC",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "description",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "I57S5M",
+                      "type": "ref",
+                      "ref": "LhU1B"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kcryf",
+                  "name": "Cell header",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eqP0s",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "header",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "I9uifh",
+                      "type": "ref",
+                      "ref": "UYoWE"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aWj5b",
+                  "name": "Cell header mobile (centered)",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jNHaU",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "header mobile (centered)",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "E9vib",
+                      "type": "ref",
+                      "ref": "eeKYf"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZsN4P",
+                  "name": "Cell footer",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RO6LK",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "footer",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "Pg59a",
+                      "type": "ref",
+                      "ref": "p3tUKu"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nuxdz",
+                  "name": "Cell drawer-demo body",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V3Gze",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "drawer-demo body",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "nYGQ7",
+                      "type": "ref",
+                      "ref": "futtD"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KKUR5",
+          "name": "Section DrawerContent",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "CicKg",
+              "name": "Section title",
+              "fill": "$foreground",
+              "content": "DrawerContent  ·  bottom (rounded-t-lg border-t, handle mt-4 h-2 w-[100px]) · top (rounded-b-lg border-b) · right / left (w-3/4 sm:max-w-sm, border-l / border-r, full height, footer mt-auto)",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "E5Iayu",
+              "name": "Items",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LAqqa",
+                  "name": "Cell bottom",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NAgK6",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "bottom",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "pSyRw",
+                      "type": "ref",
+                      "ref": "YTfqB"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WXvcN",
+                  "name": "Cell top",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cBzFE",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "top",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "q9LqBp",
+                      "type": "ref",
+                      "ref": "plJQe"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Np1mB",
+                  "name": "Cell right",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GTHDA",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "right",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "lMebN",
+                      "type": "ref",
+                      "ref": "QSz5v"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S4xhx",
+                  "name": "Cell left",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IjnpK",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "left",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "CNtgy",
+                      "type": "ref",
+                      "ref": "DQewU"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ckYbY",
+                  "name": "Cell drawer-demo (bottom, inner mx-auto max-w-sm)",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TUfIZ",
+                      "name": "Caption",
+                      "fill": "$muted-foreground",
+                      "content": "drawer-demo (bottom, inner mx-auto max-w-sm)",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "B0k03",
+                      "type": "ref",
+                      "ref": "hNws4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Z7upR",
+          "name": "Section Drawer open",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "lGr4W",
+              "name": "Section title",
+              "fill": "$foreground",
+              "content": "Drawer open  ·  trigger page + DrawerOverlay (bg-black/50 = $overlay) + DrawerContent bottom (inset-x-0 bottom-0)",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "JkyuM",
+              "name": "Scene",
+              "clip": true,
+              "width": 960,
+              "height": 640,
+              "fill": "$background",
+              "stroke": "$border",
+              "strokeWidth": 1,
+              "strokeAlignment": "outer",
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wQFf4",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Page",
+                  "width": 960,
+                  "height": 640,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "HnKGd",
+                      "type": "ref",
+                      "ref": "Zt2m3",
+                      "name": "Trigger",
+                      "descendants": {
+                        "NPDJC": {
+                          "content": "Open Drawer"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "RKMrp",
+                  "type": "ref",
+                  "ref": "XPmHC",
+                  "name": "Overlay",
+                  "x": 0,
+                  "y": 0,
+                  "width": 960,
+                  "height": 640
+                },
+                {
+                  "id": "g8v4C",
+                  "type": "ref",
+                  "ref": "hNws4",
+                  "name": "Drawer",
+                  "x": 0,
+                  "y": 186,
+                  "width": 960
                 }
               ]
             }

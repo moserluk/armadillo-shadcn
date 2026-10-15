@@ -28,7 +28,7 @@ Product: desktop app
 
 Components finished in `design/armadillo.pen`. Frames sit in one row from left to right; each dark preview sits under its light frame.
 
-**Done: 42 / 52** (Tier 0: 3/3 · Tier 1: 15/18 · Tier 2: 17/22 · Tier 3: 7/9; "Unknown origin" and "Skip" not counted). Next in Tier 1: Select, Separator, Skeleton.
+**Done: 44 / 52** (Tier 0: 3/3 · Tier 1: 15/18 · Tier 2: 17/22 · Tier 3: 9/9; "Unknown origin" and "Skip" not counted). Next in Tier 1: Select, Separator, Skeleton.
 
 | Component | Light / dark frame | Components | Variables added | Notes |
 |---|---|---|---|---|
@@ -76,6 +76,8 @@ Components finished in `design/armadillo.pen`. Frames sit in one row from left t
 | Native Select | `Le4Ho` / `GRfRD` | `NativeSelect/Base` + `NativeSelect/{placeholder,filled,focus,disabled,invalid,invalid-focus,sm}` | none (reuses Input's `input`, `input-bg`, `ring`, `ring-50`, `destructive`, `ring-destructive`) | Two-layer like Input (root = 3 px focus ring, Body = `rounded-md` (`radius/lg`) `border-input` `$input-bg` `shadow-xs`). `h-9 px-3 py-2 pr-9` 14 `$foreground`; sm `h-8 py-1`. Width 133 = widest option ("Select status"; a native select sizes to its longest option, `w-fit` wrapper). Chevron 16 `$muted-foreground` at 50% opacity, absolute `right-3.5`. Placeholder = the `value=""` option, drawn in `$foreground` because `placeholder:` doesn't style a `<select>`. Focus `$ring` + `$ring-50`; invalid `$destructive` border, invalid-focus ring `$ring-destructive`; disabled 0.5 on the wrapper. Options / optgroups are OS-rendered (`bg-[Canvas]`) and not drawn |
 | Chart | `u3wRI` / `NfOgT` | `Chart/Tooltip/{dot,line,dashed,hide-label,single-line,single-dashed,hide-indicator}`, `Chart/Legend/Item`, `Chart/Legend` (+`/top`, `/icons`), `Chart/bar-demo` | `chart-1`…`chart-5` rebound to `neutral/300, 500, 600, 700, 800` (both modes, shadcn `themes.ts` neutral); new `alpha/neutral-200-50`, `alpha/white-5`, `border-50` | Tooltip `min-w-[8rem]` drawn as fixed 128, `rounded-lg` 10 hardcoded, `border-border/50` → `$border-50`, `$background`, `px-2.5 py-1.5 gap-1.5`, `shadow-xl` approximated with 2 shadows `#0000001A` (no spread). Label 12/500, name 12 muted `leading-none`, value Geist Mono 12/500 (`font-mono tabular-nums`). Indicators `rounded-[2px]` = `radius/xs`: dot `size-2.5`, line `w-1` with the row height set explicitly (12, or 30 when the label is nested) instead of `items-stretch`, dashed = three 3 px dashes (no dashed strokes in pen.dev). Single series with a non-dot indicator nests the label (`items-end`). Legend `gap-4`, `pt-3` / `pb-3`, item `gap-1.5`, 8 px swatch, 12 px muted icons. bar-demo (chart-bar-demo-legend data): 480 wide, 200 tall plot (`min-h-[200px]`, not `aspect-video`), 5 `$border-50` grid lines (0–320 domain), bars `radius={4}` = `radius/sm`, band 10% gap + `barGap` 4, February cursor `$muted`, ticks muted with `tickMargin` 10, tooltip instance at the cursor. Swatch row for chart-1…5. In dark mode chart-4/5 (neutral 700/800) have low contrast on `$background`, same as shadcn's neutral theme |
 | Carousel | `CPh5W` / `iIf8V` | `Carousel/{Previous,Next}` (+`/disabled`, `/vertical`), `Carousel/Slide` (+`/sm`, `/vertical`), `Carousel/horizontal` (+`/middle`), `Carousel/multiple`, `Carousel/vertical` | none | Previous / Next = `Button/outline/icon-sm` instances (`size-8 rounded-full`) with lucide `arrow-left` / `arrow-right`; vertical `rotate-90` drawn as `arrow-up` / `arrow-down`; disabled (`!canScrollPrev/Next`) = 0.5. Placed absolutely 48 px outside the root (`-left-12` / `-right-12`, vertical `-top-12` / `-bottom-12`), centered on the other axis. CarouselContent = clipped viewport with the track offset `-ml-4` (horizontal) or `-mt-1` (vertical demo); CarouselItem `pl-4` / `pt-1`. Slides = `p-1` + Card instance (Header/Footer hidden, CardContent `p-6` centered, number 36/600 or 30/600 `$card-foreground`). Demos: carousel-demo (`max-w-xs` 320, square content → 320 × 368, at slide 1 and slide 3), carousel-size (`max-w-sm` 384, `basis-1/3` → 112 × 160 slides), carousel-orientation (viewport 196 tall, items grow to content height 144, so slide 2 is cut off at the bottom, as in code) |
+| Drawer | `dk96X` / `I6YLYi` | `Drawer/Handle`, `Drawer/Title`, `Drawer/Description`, `Drawer/Header` (+`/mobile`), `Drawer/Footer`, `Drawer/Demo Body`, `Drawer/Content/{bottom,top,right,left}`, `Drawer/demo` | none (reuses `overlay` via a `Dialog/Overlay` instance) | Content `$background`; bottom `rounded-t-lg` / top `rounded-b-lg` (10 hardcoded) with a 1 px `$border` top / bottom (per-side stroke); right / left `sm:max-w-sm` (384) with `border-l` / `border-r`, drawn 480 tall, footer pushed down (`mt-auto` → space_between). Handle (bottom only) `mt-4 h-2 w-[100px] rounded-full $muted`. Header `p-4`, desktop `md:gap-1.5 md:text-left`; `/mobile` = `gap-0.5 text-center` (bottom/top below md). Title 16/600 (no size class), Description 14 muted. Footer `p-4 gap-2` with full-width `Button/default` + `Button/outline` instances. drawer-demo: inner `max-w-sm`, goal row with `Button/outline/icon-sm` −/+ (`h-8 w-8 rounded-full`), 350 at 72/700 `tracking-tighter` (−3.6), `CALORIES/DAY` 11.2 muted, 13-bar chart 120 tall (`$foreground` at 0.9, domain 0–400) → 454 tall. Open scene: 960 × 640 page + `Dialog/Overlay` instance + demo drawer at the bottom. Drag / snap points not drawn |
+| Accordion | `Tnb5g` / `s9Bhj` | `Accordion/Trigger/{closed,open,hover,focus,disabled}`, `Accordion/Content`, `Accordion/Item/{closed,open,last}`, `Accordion/demo` | none | Built by a parallel designer agent, reviewed 2026-10-15. Trigger `py-4 gap-4 rounded-md` (`radius/lg`) 14/500 `$foreground`, `items-start`, chevron 16 `$muted-foreground` with `translate-y-0.5` (2 px top padding); open = chevron `flipY` (`rotate-180`). Focus = 3 px `$ring-50` (`border-ring` has no border to color). Disabled 0.5. Item `border-b $border` via `spacing/px` padding + bottom stroke, `last:border-b-0`. Content `pb-4` 14 text, demo paragraphs `gap-4`. 384 wide. Hover (`hover:underline`) is drawn identical to closed: pen.dev drops the `underline` text property (even on plain text nodes), see Open follow-ups |
 
 Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled opacity `0.5`, font size, weight and line height (no typography primitives exist), and width/height (pen.dev can't bind them to variables).
 
@@ -90,14 +92,14 @@ Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled 
 - [ ] Tabs: equal-width triggers (`flex-1` inside a `w-fit` list) are not the default. Instances are `fit_content`; set the trigger, Ring, Body and Content to `fill_container` in a fixed-width list to get them.
 - [ ] Tabs: no hover state for the active trigger (same visuals as active) and no disabled-active combination.
 - [ ] Tabs: `line` horizontal triggers overflow their 36 px Surface/List by 1 px (trigger is 34 px = 29 body + 3 gap + 2 indicator, placed at y 3). The indicator renders 1 px below the list; it isn't visibly clipped. Fix by trimming the gap to 2 px or letting the list height fit content.
-- [ ] Sheet, Drawer: reuse `$overlay` and `Dialog/Overlay` (same `bg-black/50`). Alert Dialog already does.
+- [ ] Sheet: reuse `$overlay` and `Dialog/Overlay` (same `bg-black/50`). Alert Dialog and Drawer already do.
 - [ ] Radius: `rounded-lg` (10 px, Dialog) and `rounded-xl` (14 px, Card) have no primitive. Consider adding `radius/2.5` / `radius/3.5` or a shadcn-scale radius set.
 - [ ] Avatar: new-york-v4 `Avatar` root has `overflow-hidden rounded-full`, which in the browser clips `AvatarBadge` (absolute bottom-right) to the circle. The design shows the badge unclipped, matching the radix base (no `overflow-hidden`) and the shared example. Check the running app and either drop `overflow-hidden` from the root in code or clip the badge in design.
 - [ ] Sidebar phase 2 (after review): SidebarInput (Input instance), SidebarSeparator, SidebarGroupAction, SidebarMenuAction, SidebarMenuSkeleton (needs Skeleton), SidebarTrigger + Rail, SidebarInset, variants floating / inset, side right, offcanvas, mobile Sheet.
 - [ ] Calendar: day hover is `$accent` in both modes; ghost `dark:hover:bg-accent/50` waits on the Button hover tokens. Not drawn: custom day content (`[&>span]:text-xs opacity-70`, e.g. prices), today + selected combination, `buttonVariant` other than ghost.
 - [ ] Native Select: `dark:hover:bg-input/50` not drawn; add it together with the Input hover (`input-50`) in the Tier 0 hover task.
 - [ ] Chart: only the bar chart is drawn as a container example (line, area, pie, radar, radial charts not drawn); tooltip `formatter` / custom-content demos not drawn.
-- [ ] Accordion: built by a parallel designer agent in `Tnb5g` / `s9Bhj`; review the frames, then tick it and fill in its Design progress row.
+- [ ] Underline: pen.dev drops the `underline` text property (tested on a plain text node), so `hover:underline` can't be drawn (Accordion trigger hover, Badge / Button link). Options: draw a 1 px line under the label inside the component, or wait for pen.dev support.
 - [x] Menubar: reuses the `DropdownMenu/*` parts and `$menu-item-destructive-focus-bg`. Done.
 - [x] Combobox: built after Input Group from `ui/combobox.tsx`.
 - [ ] Context Menu: `ContextMenuTrigger` demo area uses `border-dashed`; pen.dev strokes can't be dashed, so it's drawn solid.
@@ -251,7 +253,7 @@ Each prompt below follows this pattern. Paste it as written.
 
 ## Tier 3: less common for a desktop app
 
-- [ ] Accordion
+- [x] Accordion
   > Recreate `accordion.tsx` following the rules in `designs/components-checklist.md`. Include closed, open, hover and focus.
 
 - [x] Calendar
@@ -275,7 +277,7 @@ Each prompt below follows this pattern. Paste it as written.
 - [x] Carousel
   > Recreate `carousel.tsx` following the rules in `designs/components-checklist.md`. Include the previous and next buttons as Button instances, horizontal and vertical.
 
-- [ ] Drawer
+- [x] Drawer
   > Recreate `drawer.tsx` following the rules in `designs/components-checklist.md`. Include the handle, header and footer. (Mostly a mobile pattern, so low priority on desktop.)
 
 ### Unknown origin: check first
