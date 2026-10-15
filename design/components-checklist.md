@@ -28,7 +28,7 @@ Product: desktop app
 
 Components finished in `design/armadillo.pen`. Frames sit in one row from left to right; each dark preview sits under its light frame.
 
-**Done: 37 / 52** (Tier 0: 3/3 · Tier 1: 15/18 · Tier 2: 17/22 · Tier 3: 2/9; "Unknown origin" and "Skip" not counted). Next in Tier 1: Select, Separator, Skeleton.
+**Done: 40 / 52** (Tier 0: 3/3 · Tier 1: 15/18 · Tier 2: 17/22 · Tier 3: 5/9; "Unknown origin" and "Skip" not counted). Next in Tier 1: Select, Separator, Skeleton.
 
 | Component | Light / dark frame | Components | Variables added | Notes |
 |---|---|---|---|---|
@@ -71,6 +71,9 @@ Components finished in `design/armadillo.pen`. Frames sit in one row from left t
 | Pagination | `kfQrU` / `hXRfO` | `Pagination/Link/{default,hover,active}`, `Pagination/Previous`, `Pagination/Next`, `Pagination/Ellipsis`, `Pagination/{demo,first,last}` | none | Built entirely from Button instances: Link = `Button/ghost/icon` (36) with the label shown and icon hidden, active = `Button/outline/icon` (`isActive`), hover = `$accent` override (Button hover still pending in Tier 0). Previous / Next = `Button/ghost/default` with `gap-1 px-2.5` and chevron; Next swaps the icon and label slots to put the chevron after the text. Ellipsis `size-9` with 16 px `ellipsis`. Buttons are `rounded-full` (library rule), so active page is a circle. `PaginationContent gap-1` |
 | Navigation Menu | `ETKDn` / `gJKVK` | `NavigationMenu/Trigger/{default,hover,focus,open,disabled,link}`, `NavigationMenu/Link/{default,hover,active}`, `NavigationMenu/List`, `NavigationMenu/Content/{home,components}` | none (reuses `accent-50`, `muted-50`) | Trigger = `navigationMenuTriggerStyle` `h-9 px-4 py-2 rounded-md bg-background` 14/500, chevron 12 (`ml-1 top-px`); hover/focus `$accent`, open `$accent-50` with chevron rotated (drawn as chevron-up), focus 3 px `$ring-50` + 1 px `$ring` outline, disabled 0.5. Link `p-2 gap-1 rounded-sm` (radius/md), title 14/500 lh 1, description 14 muted `leading-snug` (`line-clamp-2` shown by truncating the Tabs text). Content (viewport={false}): `mt-1.5 rounded-md border bg-popover shadow p-2 pr-2.5`. Demo: Home open with gradient feature tile (`from-muted/50 to-muted` → `$muted-50` → `$muted`, `p-6`, row-span-3) + 3 links; Components 2-column panel (600). Indicator / viewport mode not drawn |
 | Accordion (built by a parallel designer agent, not reviewed) | `Tnb5g` / `s9Bhj` | see frame | none expected (agent instructed not to create variables) | Built in parallel by a spawned designer agent from `accordion.tsx`; this session did not verify it. Review, then tick and replace this row with the details |
+| Calendar | `Is0aP` / `MZqkl` | `Calendar/Day/{default,hover,focus,today,selected,range-start,range-middle,range-middle-first,range-middle-last,range-end,outside,disabled}`, `Calendar/Weekday`, `Calendar/WeekNumber`, `Calendar/Caption/label`, `Calendar/Dropdown/{default,focus}`, `Calendar/Nav/{previous,next}`, `Calendar`, `Calendar/dropdown`, `Calendar/week-numbers`, `Calendar/range` | none | `--cell-size` 32, root `p-3 $background`, month `gap-4`, weeks `mt-2` (gap 8); 248 wide (280 with week numbers, 488 for 2 months). Day = td cell holding a `Button/ghost/icon-sm` instance (label shown, 14 normal, `leading-none`), so it stays `rounded-full` (library rule) except where the code sets `rounded-md` (range start/end → `radius/lg`) or `rounded-none` (range middle; first/last cell of a week gets `rounded-l-md` / `rounded-r-md`). Today = td `rounded-md $accent`; selected = `$primary`; range start/end td `$accent` with left/right `radius/lg`, button `$primary`; outside = `$muted-foreground`; disabled = muted + 0.5. Hover `$accent` (same Button-hover gap as Pagination). Focus = 1 px `$ring` on the button + 3 px `$ring-50` outer on the cell. Weekday / WeekNumber 12.8 px (`0.8rem`) muted. Nav = absolute `inset-x-0` drawn in-row (prev + caption + next, 32 px spacer per month side in 2-month view); aria-disabled 0.5. Dropdown root `rounded-md border-input shadow-xs` (border via `spacing/px` padding), label `h-8 pl-2 pr-1 gap-1`, 14 px muted chevron; 34 px tall in a 32 px row, as in code. Demo month October 2026: `Calendar` = today 15, selected 20, outside days, days before today disabled; `Calendar/range` = Oct 26 – Nov 6 |
+| Input OTP | `mYrUq` / `ywC0L` | `InputOTP/Slot/{empty,filled,active,active-filled,invalid,invalid-active}`, `InputOTP/Separator`, `InputOTP/Group`, `InputOTP` (+`/typing`, `/complete`, `/invalid`, `/disabled`, `/single-group`, `/three-groups`) | none (reuses `input-bg`, `ring-destructive`) | Two-layer slot like Input (root = 3 px `$ring-50` / `$ring-destructive` focus ring, Body = fill/border). Slot `h-9 w-9` (36), 14 `$foreground`, `$input-bg` (`dark:bg-input/30`), `shadow-xs`, `border-y border-r $input` (per-side strokeWidth); the group instance adds `first:border-l` + `first:rounded-l-md` / `last:rounded-r-md` (`radius/lg`). Active = `$ring` border + ring; empty active shows the fake caret (`h-4 w-px $foreground`, absolute centered, blink not drawn). Invalid = `$destructive` border, invalid-active ring `$ring-destructive`. Container `gap-2`, disabled = 0.5 on the whole InputOTP. Separator = 16 px lucide `minus`. Active slot's `z-10` can't be drawn: the next slot paints over the right edge of its ring (slots are transparent in light mode, so it stays visible) |
+| Native Select | `Le4Ho` / `GRfRD` | `NativeSelect/Base` + `NativeSelect/{placeholder,filled,focus,disabled,invalid,invalid-focus,sm}` | none (reuses Input's `input`, `input-bg`, `ring`, `ring-50`, `destructive`, `ring-destructive`) | Two-layer like Input (root = 3 px focus ring, Body = `rounded-md` (`radius/lg`) `border-input` `$input-bg` `shadow-xs`). `h-9 px-3 py-2 pr-9` 14 `$foreground`; sm `h-8 py-1`. Width 133 = widest option ("Select status"; a native select sizes to its longest option, `w-fit` wrapper). Chevron 16 `$muted-foreground` at 50% opacity, absolute `right-3.5`. Placeholder = the `value=""` option, drawn in `$foreground` because `placeholder:` doesn't style a `<select>`. Focus `$ring` + `$ring-50`; invalid `$destructive` border, invalid-focus ring `$ring-destructive`; disabled 0.5 on the wrapper. Options / optgroups are OS-rendered (`bg-[Canvas]`) and not drawn |
 
 Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled opacity `0.5`, font size, weight and line height (no typography primitives exist), and width/height (pen.dev can't bind them to variables).
 
@@ -89,6 +92,8 @@ Still hardcoded in every component: the `shadow-xs` color `#0000000D`, disabled 
 - [ ] Radius: `rounded-lg` (10 px, Dialog) and `rounded-xl` (14 px, Card) have no primitive. Consider adding `radius/2.5` / `radius/3.5` or a shadcn-scale radius set.
 - [ ] Avatar: new-york-v4 `Avatar` root has `overflow-hidden rounded-full`, which in the browser clips `AvatarBadge` (absolute bottom-right) to the circle. The design shows the badge unclipped, matching the radix base (no `overflow-hidden`) and the shared example. Check the running app and either drop `overflow-hidden` from the root in code or clip the badge in design.
 - [ ] Sidebar phase 2 (after review): SidebarInput (Input instance), SidebarSeparator, SidebarGroupAction, SidebarMenuAction, SidebarMenuSkeleton (needs Skeleton), SidebarTrigger + Rail, SidebarInset, variants floating / inset, side right, offcanvas, mobile Sheet.
+- [ ] Calendar: day hover is `$accent` in both modes; ghost `dark:hover:bg-accent/50` waits on the Button hover tokens. Not drawn: custom day content (`[&>span]:text-xs opacity-70`, e.g. prices), today + selected combination, `buttonVariant` other than ghost.
+- [ ] Native Select: `dark:hover:bg-input/50` not drawn; add it together with the Input hover (`input-50`) in the Tier 0 hover task.
 - [ ] Accordion: built by a parallel designer agent in `Tnb5g` / `s9Bhj`; review the frames, then tick it and fill in its Design progress row.
 - [x] Menubar: reuses the `DropdownMenu/*` parts and `$menu-item-destructive-focus-bg`. Done.
 - [x] Combobox: built after Input Group from `ui/combobox.tsx`.
@@ -246,7 +251,7 @@ Each prompt below follows this pattern. Paste it as written.
 - [ ] Accordion
   > Recreate `accordion.tsx` following the rules in `designs/components-checklist.md`. Include closed, open, hover and focus.
 
-- [ ] Calendar
+- [x] Calendar
   > Recreate `calendar.tsx` following the rules in `designs/components-checklist.md`. Include one month with today, selected day, range selection, outside days and disabled days.
 
 - [x] Pagination
@@ -255,10 +260,10 @@ Each prompt below follows this pattern. Paste it as written.
 - [x] Navigation Menu
   > Recreate `navigation-menu.tsx` following the rules in `designs/components-checklist.md`. Include triggers (default, open) and an open content panel with links.
 
-- [ ] Input OTP
+- [x] Input OTP
   > Recreate `input-otp.tsx` following the rules in `designs/components-checklist.md`. Include empty, filled, active slot, separator and invalid.
 
-- [ ] Native Select
+- [x] Native Select
   > Recreate `native-select.tsx` following the rules in `designs/components-checklist.md`. Reuse Input's variables. Include placeholder, filled, focus, disabled and invalid.
 
 - [ ] Chart
